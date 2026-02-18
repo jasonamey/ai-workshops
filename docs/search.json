@@ -228,21 +228,21 @@
     "href": "session-1-what-is-AI.html#sensationalism-and-social-media",
     "title": "Session 1: What is AI?",
     "section": "Sensationalism and Social Media",
-    "text": "Sensationalism and Social Media\nPublic conversations about AI are often shaped by extreme claims from prominent technology leaders and social media discussions. Headlines forecasting the replacement of entire professions coexist with forceful rejections of the technology as unethical or exploitative.\n\n\n\nSlide 2 - Bill Gates\n\n\n← Prev | Next →"
+    "text": "Sensationalism and Social Media\nPublic conversations about AI are often shaped by extreme claims from prominent technology leaders and social media discussions. \n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#context-citizen-instructor-librarian",
     "href": "session-1-what-is-AI.html#context-citizen-instructor-librarian",
     "title": "Session 1: What is AI?",
     "section": "Context – Citizen, Instructor, Librarian",
-    "text": "Context – Citizen, Instructor, Librarian\nA crucial component of college education is the mastery of context - examining diverse perspectives and evaluating whether a viewpoint is objectively correct or an expression of the holder’s unique background. The workshop presenter occupies three overlapping roles (citizen, instructor, librarian), each of which may hold different and sometimes conflicting views about AI.\n\n\n\nSlide 3 - Citizen Teacher Librarian\n\n\n← Prev | Next →"
+    "text": "Context – Citizen, Instructor, Librarian\nA crucial component of college education is the mastery of context - examining diverse perspectives and evaluating whether a viewpoint is objectively correct or an expression of the holder’s unique background.\n\n\n\nSlide 3 - Citizen Teacher Librarian\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#the-purpose-of-college-education",
     "href": "session-1-what-is-AI.html#the-purpose-of-college-education",
     "title": "Session 1: What is AI?",
     "section": "The Purpose of College Education",
-    "text": "The Purpose of College Education\nHigher education has traditionally been understood as a space for liberal arts education emphasizing broad intellectual development and critical thinking. At the same time, college is increasingly viewed as a pathway to employment, creating a longstanding tension between intellectual formation and job training that AI has made even more pronounced.\n\n\n\nSlide 4 - News Media Purpose of College\n\n\n← Prev | Next →"
+    "text": "The Purpose of College Education\nHigher education has traditionally been understood as a space for emphasizing intellectual development and critical thinking. At the same time, college is increasingly viewed as a pathway to employment. Discussion of AI is making this tension even more pronounced.\n\n\n\nSlide 4 - News Media Purpose of College\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#ai-and-the-liberal-arts-tradition",
@@ -256,7 +256,7 @@
     "href": "session-1-what-is-AI.html#baruch-colleges-ai-policy",
     "title": "Session 1: What is AI?",
     "section": "Baruch College’s AI Policy",
-    "text": "Baruch College’s AI Policy\nBaruch College’s policies on AI reflect that there is no single, universally agreed-upon stance on the technology. The use of AI in coursework is determined by each course instructor, with approaches ranging from “Strictly Prohibited” to “Integrated Use for Application” - acknowledging that different disciplines may reasonably reach different conclusions about AI’s role in the classroom.\n\n\n\nSlide 6 - Baruch AI Policy\n\n\n← Prev | Next →"
+    "text": "Baruch College’s AI Policy\nBaruch College’s policies on AI reflect that there is no single, universally agreed-upon stance on the technology.\n\n\n\nSlide 6 - Baruch AI Policy\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#what-is-ai",
@@ -270,14 +270,14 @@
     "href": "session-1-what-is-AI.html#what-is-data",
     "title": "Session 1: What is AI?",
     "section": "What is “Data”?",
-    "text": "What is “Data”?\nJust as “data” has many meanings, “AI” is often treated as a single technology when it actually refers to many different systems and practices. Its meaning shifts depending on who is speaking and why. Understanding AI, like understanding data, requires attention to context.\n\n\n\nSlide 8 - What is Data\n\n\n← Prev | Next →"
+    "text": "What is “Data”?\nJust as “data” has many meanings, “AI” is often treated as a single technology when it actually refers to many different systems and practices.\n\n\n\nSlide 8 - What is Data\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#the-ai-nesting-circles",
     "href": "session-1-what-is-AI.html#the-ai-nesting-circles",
     "title": "Session 1: What is AI?",
     "section": "The AI Nesting Circles",
-    "text": "The AI Nesting Circles\nAI is commonly visualized as a set of nested circles, showing that “Artificial Intelligence” is not one single technology but a broad field with layers of specialization. As we move from the outer circle to the inner one, the technology becomes more specific - from general AI concepts to machine learning, deep learning, and generative AI.\n\n\n\nSlide 9 - AI Nesting Circles\n\n\n← Prev | Next →"
+    "text": "The AI Nesting Circles\nAI is commonly visualized as a set of nested circles, showing that “Artificial Intelligence” is not one single technology but a broad field with layers of specialization. \n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#artificial-intelligence-the-outer-circle",
@@ -291,21 +291,21 @@
     "href": "session-1-what-is-AI.html#machine-learning",
     "title": "Session 1: What is AI?",
     "section": "Machine Learning",
-    "text": "Machine Learning\nMachine learning is a subset of AI in which systems learn patterns from data rather than following explicitly programmed rules. Instead of being told exactly what to do, machine learning models are trained on examples and improve their performance through exposure to more data.\n\n\n\nSlide 11 - Nesting Circle ML\n\n\n← Prev | Next →"
+    "text": "Machine Learning\nMachine learning is a subset of AI in which systems learn patterns from data rather than following explicitly programmed rules. \n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#deep-learning-and-neural-networks",
     "href": "session-1-what-is-AI.html#deep-learning-and-neural-networks",
     "title": "Session 1: What is AI?",
     "section": "Deep Learning and Neural Networks",
-    "text": "Deep Learning and Neural Networks\nDeep learning emerges as a response to the limitations of traditional machine learning when problems become extremely complex. At this scale, the challenge is no longer just selecting variables and fitting a model, but learning how information should be represented in the first place - using layered neural network architectures.\n\n\n\nSlide 12 - Nesting Circle Deep Learning\n\n\n← Prev | Next →"
+    "text": "Deep Learning and Neural Networks\nDeep learning emerges as a response to the limitations of traditional machine learning when problems become extremely complex.\n\n\n\nSlide 12 - Nesting Circle Deep Learning\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#from-simple-models-to-complex-ones",
     "href": "session-1-what-is-AI.html#from-simple-models-to-complex-ones",
     "title": "Session 1: What is AI?",
     "section": "From Simple Models to Complex Ones",
-    "text": "From Simple Models to Complex Ones\nFor decades, computing has excelled at solving models of low mathematical complexity, like predicting GPA from hours studied using a single transparent line. But real-world problems rarely depend on a single variable - when inputs grow into the thousands or millions, more powerful techniques become necessary to capture the complexity of phenomena like language and behavior.\n\n\n\nSlide 13 - Study vs GPA\n\n\n← Prev | Next →"
+    "text": "From Simple Models to Complex Ones\nFor decades, computing has excelled at solving models of low mathematical complexity, like predicting GPA from hours studied using a single transparent line. But real-world problems rarely depend on a single variable, more powerful techniques become necessary to capture the complexity of phenomena like language and behavior.\n\n\n\nSlide 13 - Study vs GPA\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#neural-networks-and-hidden-variables",
@@ -319,14 +319,14 @@
     "href": "session-1-what-is-AI.html#generative-ai",
     "title": "Session 1: What is AI?",
     "section": "Generative AI",
-    "text": "Generative AI\nGenerative AI refers to systems designed not just to analyze or predict outcomes, but to produce new content such as text, images, audio, or code. These models generate responses by predicting what is likely to come next in a given context - they do not retrieve stored answers or “understand” meaning, making them both powerful and risky.\n\n\n\nSlide 15 - Nesting Circle Gen AI\n\n\n← Prev | Next →"
+    "text": "Generative AI\nGenerative AI refers to systems designed not just to analyze or predict outcomes, but to produce new content such as text, images, audio, or code. These models generate responses by predicting what is likely to come next in a given context - they do not retrieve stored answers or “understand” meaning.\n\n\n\nSlide 15 - Nesting Circle Gen AI\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#examples-of-generative-ai",
     "href": "session-1-what-is-AI.html#examples-of-generative-ai",
     "title": "Session 1: What is AI?",
     "section": "Examples of Generative AI",
-    "text": "Examples of Generative AI\nThis workshop focuses specifically on generative AI tools that produce written language - systems designed to generate text-based outputs such as paragraphs, emails, summaries, and full documents. These text-generating tools are among the most widely used forms of generative AI in academic life and raise important questions about reliability, authority, and responsible use.\n\n\n\nSlide 16 - Gen AI Illustration\n\n\n← Prev | Next →"
+    "text": "Examples of Generative AI\nThis workshop focuses specifically on generative AI tools that produce written language. These text-generating tools raise important questions about reliability, authority, and responsible use.\n\n\n\nSlide 16 - Gen AI Illustration\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#ai-as-a-prediction-machine",
@@ -354,7 +354,7 @@
     "href": "session-1-what-is-AI.html#predicting-words-and-language",
     "title": "Session 1: What is AI?",
     "section": "Predicting Words and Language",
-    "text": "Predicting Words and Language\nLike Mr. Burns’ room of monkeys typing on typewriters in The Simpsons, language models do not understand meaning or intention - they produce sequences of symbols. What separates an LLM from random generation is not creativity or insight, but statistical discipline: at every step, the model predicts which word is most likely to come next, keeping output coherent without any underlying understanding.\n\n\n\nSlide 20 - LLM Logos\n\n\n← Prev | Next →"
+    "text": "Predicting Words and Language\nLike Mr. Burns’ room of monkeys typing on typewriters in The Simpsons, language models do not understand meaning or intention - they produce sequences of symbols. What separates an LLM from random generation is statistical discipline - at every step, the model predicts which word is most likely to come next, keeping output coherent without any underlying understanding.\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#from-prediction-machines-to-large-language-models",
@@ -368,13 +368,13 @@
     "href": "index.html",
     "title": "AI Literacy & LLM Workshop Series",
     "section": "",
-    "text": "Welcome to the master repository for the AI literacy workshops. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\nAn exploration into the mechanics of LLMs, the transformer architecture, and the concept of mathematical automata.\n\nSession 2"
+    "text": "Welcome to the master repository for the AI literacy workshops. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2"
   },
   {
     "objectID": "index.html#workshop-overview",
     "href": "index.html#workshop-overview",
     "title": "AI Literacy & LLM Workshop Series",
     "section": "",
-    "text": "Welcome to the master repository for the AI literacy workshops. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\nAn exploration into the mechanics of LLMs, the transformer architecture, and the concept of mathematical automata.\n\nSession 2"
+    "text": "Welcome to the master repository for the AI literacy workshops. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2"
   }
 ]

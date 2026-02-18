@@ -6,6 +6,6 @@ website:
   title: "AI Workshops"
   navbar:
     left:
-      - master.qmd
+      - index.qmd
       - session-1-what-is-AI.qmd
       - session-2-LLMs.qmd
