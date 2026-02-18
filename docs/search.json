@@ -207,14 +207,14 @@
     "href": "session-2-LLMs.html#bias-and-the-limits-of-training-data",
     "title": "Session 2: Large Language Models",
     "section": "Bias and the Limits of Training Data",
-    "text": "Bias and the Limits of Training Data\nLanguage serves as a repository for human culture and collective bias, and AI systems trained on digitized text absorb the associations present in that data - mathematical proximity encoding historical patterns of representation as statistical fact. This means biases around gender, race, and culture are not incidental errors but structural features baked into the model’s understanding of language, with real-world consequences for how these systems treat and represent people.\n\n\n\nSlide 30 - Bias\n\n\n← Prev | Next →"
+    "text": "Bias and the Limits of Training Data\nLanguage serves as a repository for human culture and collective bias, and AI systems trained on digitized text absorb the associations present in that data. This means biases around gender, race, and culture are not incidental but often baked into the model’s representation of language.\n\n\n\nSlide 30 - Bias\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-2-LLMs.html#even-the-models-warn-you-about-their-limitations",
     "href": "session-2-LLMs.html#even-the-models-warn-you-about-their-limitations",
     "title": "Session 2: Large Language Models",
     "section": "Even the Models Warn You About Their Limitations",
-    "text": "Even the Models Warn You About Their Limitations\nThe most prominent frontier LLMs all include explicit warnings not to blindly accept their outputs - an admission that these systems can produce authoritative-sounding answers that are incomplete or simply wrong. As recent research suggests, hallucinations may be an unavoidable feature of statistical language modeling, making it essential to develop responsible workflows for using AI in research and scholarship - the focus of the next workshop.\n\n\n\nSlide 31 - Hallucinations\n\n\n← Prev"
+    "text": "Even the Models Warn You About Their Limitations\nThe most prominent frontier LLMs all include explicit warnings not to blindly accept their outputs. Hallucinations may be an unavoidable feature of statistical language modeling, making it essential to develop responsible workflows for using AI in research and scholarship - the focus of the next workshop.\n\n\n\nSlide 31 - Hallucinations\n\n\n← Prev"
   },
   {
     "objectID": "session-1-what-is-AI.html#ai-in-the-public-eye",
@@ -347,34 +347,41 @@
     "href": "session-1-what-is-AI.html#ai-across-domains",
     "title": "Session 1: What is AI?",
     "section": "AI Across Domains",
-    "text": "AI Across Domains\nPrediction-based AI models now power computer vision, recommendation engines, fraud detection, self-driving cars, and medical diagnostic tools. However, this workshop focuses on AI systems that operate on language - systems that read, summarize, generate, and respond to text - because they most directly shape how students and researchers write, study, and evaluate information.\n← Prev | Next →"
+    "text": "AI Across Domains\nPrediction-based AI models now power computer vision, recommendation engines, fraud detection, self-driving cars, and medical diagnostic tools. However, this workshop focuses on AI systems that operate on language - systems that read, summarize, generate, and respond to text - because they most directly shape how students and researchers write, study, and evaluate information.\n\n\n\nSlide 19 - AI Across Domains\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#openai-strategic-framework",
+    "href": "session-1-what-is-AI.html#openai-strategic-framework",
+    "title": "Session 1: What is AI?",
+    "section": "OpenAI Strategic Framework",
+    "text": "OpenAI Strategic Framework\nThis white paper from OpenAI allows us to analyze AI’s impact on campus through specific lenses of “Content Creation”, “Research” and “Ideation.”\n\n\n\nSlide 20 - Open AI Use Cases\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#predicting-words-and-language",
     "href": "session-1-what-is-AI.html#predicting-words-and-language",
     "title": "Session 1: What is AI?",
     "section": "Predicting Words and Language",
-    "text": "Predicting Words and Language\nLike Mr. Burns’ room of monkeys typing on typewriters in The Simpsons, language models do not understand meaning or intention - they produce sequences of symbols. What separates an LLM from random generation is statistical discipline - at every step, the model predicts which word is most likely to come next, keeping output coherent without any underlying understanding.\n\n\n← Prev | Next →"
+    "text": "Predicting Words and Language\nLike Mr. Burns’ room of monkeys typing on typewriters in The Simpsons, language models do not understand meaning or intention - they produce sequences of symbols. What separates an LLM from random generation is statistical guidance - at every step, the model predicts which word is most likely to come next, keeping output coherent without any underlying understanding.\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#from-prediction-machines-to-large-language-models",
     "href": "session-1-what-is-AI.html#from-prediction-machines-to-large-language-models",
     "title": "Session 1: What is AI?",
     "section": "From Prediction Machines to Large Language Models",
-    "text": "From Prediction Machines to Large Language Models\nLarge Language Models (LLMs) are deep learning models trained on vast amounts of text, designed to predict and generate human-like language. LLMs have become consequential on college campuses because academic life is fundamentally text-based – and when students can generate polished paragraphs instantly, it changes how writing is produced, knowledge is evaluated, and learning is assessed.\n\n\n\nSlide 21 - Open AI Use Cases\n\n\n← Prev"
+    "text": "From Prediction Machines to Large Language Models\nLarge Language Models (LLMs) are deep learning models trained on vast amounts of text, designed to predict and generate human-like language. LLMs have become consequential on college campuses because academic life is fundamentally text-based - and when students can generate polished paragraphs instantly, it changes how writing is produced, knowledge is evaluated, and learning is assessed.\n ← Prev"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "AI Literacy & LLM Workshop Series",
     "section": "",
-    "text": "Welcome to the master repository for the AI literacy workshops. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2"
+    "text": "Welcome to the AI literacy workshop. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2"
   },
   {
     "objectID": "index.html#workshop-overview",
     "href": "index.html#workshop-overview",
     "title": "AI Literacy & LLM Workshop Series",
     "section": "",
-    "text": "Welcome to the master repository for the AI literacy workshops. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2"
+    "text": "Welcome to the AI literacy workshop. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2"
   }
 ]

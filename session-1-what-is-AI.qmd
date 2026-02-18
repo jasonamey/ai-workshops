@@ -152,7 +152,7 @@ Generative AI refers to systems designed not just to analyze or predict outcomes
 
 ---
 
-## [Examples of Generative AI]{#slide-16}
+<!-- ## [Examples of Generative AI]{#slide-16}
 
 This workshop focuses specifically on generative AI tools that produce written language. These text-generating tools raise important questions about reliability, authority, and responsible use.
 
@@ -190,11 +190,18 @@ Prediction-based AI models now power computer vision, recommendation engines, fr
 
 ---
 
+![Slide 21 - Open AI Use Cases](images/session-1/slide-21-open-ai-use-cases.jpg)
+
+
+[&larr; Prev](#slide-21)
+
+---
+
+
 ## [Predicting Words and Language]{#slide-20}
 
-Like Mr. Burns' room of monkeys typing on typewriters in *The Simpsons*, language models do not understand meaning or intention - they produce sequences of symbols. What separates an LLM from random generation is statistical discipline - at every step, the model predicts which word is most likely to come next, keeping output coherent without any underlying understanding.
+Like Mr. Burns' room of monkeys typing on typewriters in *The Simpsons*, language models do not understand meaning or intention - they produce sequences of symbols. What separates an LLM from random generation is statistical guidance - at every step, the model predicts which word is most likely to come next, keeping output coherent without any underlying understanding.
 
-<!-- ![Slide 20 - LLM Logos](images/session-1/slide-20-LLM-logos.jpg) -->
 
 {{< video https://www.youtube.com/watch?v=loMEF18Ir4s width="560" height="315" >}}
 
@@ -204,10 +211,87 @@ Like Mr. Burns' room of monkeys typing on typewriters in *The Simpsons*, languag
 
 ## [From Prediction Machines to Large Language Models]{#slide-21}
 
-Large Language Models (LLMs) are deep learning models trained on vast amounts of text, designed to predict and generate human-like language. LLMs have become consequential on college campuses because academic life is fundamentally text-based -- and when students can generate polished paragraphs instantly, it changes how writing is produced, knowledge is evaluated, and learning is assessed.
+Large Language Models (LLMs) are deep learning models trained on vast amounts of text, designed to predict and generate human-like language. LLMs have become consequential on college campuses because academic life is fundamentally text-based - and when students can generate polished paragraphs instantly, it changes how writing is produced, knowledge is evaluated, and learning is assessed.
 
-![Slide 21 - Open AI Use Cases](images/session-1/slide-21-open-ai-use-cases.jpg)
-
+![Slide 20 - LLM Logos](images/session-1/slide-20-LLM-logos.jpg) 
 [&larr; Prev](#slide-20)
 
 ---
+
+
+![Slide 21 - Open AI Use Cases](images/session-1/slide-21-open-ai-use-cases.jpg)
+
+[&larr; Prev](#slide-21)
+
+--- -->
+
+## [Examples of Generative AI]{#slide-16}
+
+This workshop focuses specifically on generative AI tools that produce written language. These text-generating tools raise important questions about reliability, authority, and responsible use.
+
+![Slide 16 - Gen AI Illustration](images/session-1/slide-16-gen-ai-illustration.jpg)
+
+[&larr; Prev](#slide-15) | [Next &rarr;](#slide-17)
+
+---
+
+## [AI as a Prediction Machine]{#slide-17}
+
+AI is best understood as a "prediction machine" - its outputs are not the result of understanding or reasoning, but of statistical prediction based on patterns learned from data. A system trained only on images of dogs and cats will be forced to label a pig as one or the other, revealing the boundaries of its training rather than independent reasoning.
+
+![Slide 17 - Prediction Dog Cat](images/session-1/slide-17-prediction-dog-cat.jpg){width=55%}
+
+[&larr; Prev](#slide-16) | [Next &rarr;](#slide-18)
+
+---
+
+## ["Hallucinations" and Training Boundaries]{#slide-18}
+
+When an AI system encounters input outside its training categories, it still produces a confident prediction - this is what is often called a **hallucination.** The AI is not making things up intentionally - it is doing exactly what it was designed to do. Expanding the training data (adding pigs and horses) increases the system's range but does not grant general knowledge or awareness.
+
+![Slide 18 - Prediction Dog Cat Pig Horse](images/session-1/slide-18-prediction-dog-cat-pig-horse.jpg){width=55%}
+
+[&larr; Prev](#slide-17) | [Next &rarr;](#slide-19)
+
+---
+
+## [AI Across Domains]{#slide-19}
+
+Prediction-based AI models now power computer vision, recommendation engines, fraud detection, self-driving cars, and medical diagnostic tools. However, this workshop focuses on AI systems that operate on language - systems that read, summarize, generate, and respond to text - because they most directly shape how students and researchers write, study, and evaluate information.
+
+![Slide 19 - AI Across Domains](images/session-1/slide-19-ai-domains.jpg)
+
+[&larr; Prev](#slide-18) | [Next &rarr;](#slide-20)
+
+---
+
+## [OpenAI Strategic Framework]{#slide-20}
+
+This white paper from OpenAI allows us to analyze AI's impact on campus through specific lenses of "Content Creation", "Research" and "Ideation."
+
+![Slide 20 - Open AI Use Cases](images/session-1/slide-20-open-ai-use-cases.jpg){width=70%} 
+
+[&larr; Prev](#slide-19) | [Next &rarr;](#slide-21)
+
+---
+
+## [Predicting Words and Language]{#slide-21}
+
+Like Mr. Burns' room of monkeys typing on typewriters in *The Simpsons*, language models do not understand meaning or intention - they produce sequences of symbols. What separates an LLM from random generation is statistical guidance - at every step, the model predicts which word is most likely to come next, keeping output coherent without any underlying understanding.
+
+{{< video https://www.youtube.com/watch?v=loMEF18Ir4s width="560" height="315" >}}
+
+
+[&larr; Prev](#slide-20) | [Next &rarr;](#slide-22)
+
+---
+
+## [From Prediction Machines to Large Language Models]{#slide-22}
+
+Large Language Models (LLMs) are deep learning models trained on vast amounts of text, designed to predict and generate human-like language. LLMs have become consequential on college campuses because academic life is fundamentally text-based - and when students can generate polished paragraphs instantly, it changes how writing is produced, knowledge is evaluated, and learning is assessed.
+
+![Slide 21 - LLM Logos](images/session-1/slide-22-LLM-logos.jpg)
+[&larr; Prev](#slide-21) 
+
+---
+

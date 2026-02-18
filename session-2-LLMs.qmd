@@ -297,7 +297,7 @@ Beyond paywalls, some of the most important scholarship - peer-reviewed journals
 
 ## [Bias and the Limits of Training Data]{#slide-30}
 
-Language serves as a repository for human culture and collective bias, and AI systems trained on digitized text absorb the associations present in that data - mathematical proximity encoding historical patterns of representation as statistical fact. This means biases around gender, race, and culture are not incidental errors but structural features baked into the model's understanding of language, with real-world consequences for how these systems treat and represent people.
+Language serves as a repository for human culture and collective bias, and AI systems trained on digitized text absorb the associations present in that data. This means biases around gender, race, and culture are not incidental but often baked into the model's representation of language.
 
 ![Slide 30 - Bias](images/session-2/slide-30-bias.jpg)
 
@@ -307,7 +307,7 @@ Language serves as a repository for human culture and collective bias, and AI sy
 
 ## [Even the Models Warn You About Their Limitations]{#slide-31}
 
-The most prominent frontier LLMs all include explicit warnings not to blindly accept their outputs - an admission that these systems can produce authoritative-sounding answers that are incomplete or simply wrong. As recent research suggests, hallucinations may be an unavoidable feature of statistical language modeling, making it essential to develop responsible workflows for using AI in research and scholarship - the focus of the next workshop.
+The most prominent frontier LLMs all include explicit warnings not to blindly accept their outputs. Hallucinations may be an unavoidable feature of statistical language modeling, making it essential to develop responsible workflows for using AI in research and scholarship - the focus of the next workshop.
 
 ![Slide 31 - Hallucinations](images/session-2/slide-31-hallucinations.jpg)
 

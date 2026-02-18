@@ -9,7 +9,7 @@ format:
 ---
 
 ## Workshop Overview
-Welcome to the master repository for the AI literacy workshops. This guide provides access to the core sessions and materials.
+Welcome to the AI literacy workshop. This guide provides access to the core sessions and materials.
 
 ---
 
