@@ -15,9 +15,9 @@ AI is a transformational technology and one of the most heated topics in public 
 
 ---
 
-## [Sensationalism and Social Media]{#slide-2}
+## [AI as a Polarizing Conversation Topic]{#slide-2}
 
-Public conversations about AI are often shaped by extreme claims from prominent technology leaders and social media discussions. 
+Public conversations about AI are often shaped by heated claims from prominent technology leaders and social media discussions. 
 ![Slide 2 - Bill Gates](images/session-1/slide-2-bill-gates.jpg)
 
 [&larr; Prev](#slide-1) | [Next &rarr;](#slide-3)
@@ -26,7 +26,7 @@ Public conversations about AI are often shaped by extreme claims from prominent 
 
 ## [Context -- Citizen, Instructor, Librarian]{#slide-3}
 
-A crucial component of college education is the mastery of context - examining diverse perspectives and evaluating whether a viewpoint is objectively correct or an expression of the holder's unique background.
+A crucial component of college education is the mastery of context - understanding diverse perspectives while evaluating viewpoints.
 
 ![Slide 3 - Citizen Teacher Librarian](images/session-1/slide-3-citizen-teacher-librarian.jpg)
 
@@ -34,9 +34,9 @@ A crucial component of college education is the mastery of context - examining d
 
 ---
 
-## [The Purpose of College Education]{#slide-4}
+## ["The Purpose of College Education"]{#slide-4}
 
-Higher education has traditionally been understood as a space for emphasizing intellectual development and critical thinking. At the same time, college is increasingly viewed as a pathway to employment. Discussion of AI is making this tension even more pronounced.
+Higher education has traditionally been understood as a space for emphasizing intellectual development and critical thinking. At the same time, college is increasingly viewed as a pathway to employment. Discussion of AI can manifest tension between these two views.
 
 ![Slide 4 - News Media Purpose of College](images/session-1/slide-4-news-media-purpose-of-college.jpg)
 
@@ -48,7 +48,7 @@ Higher education has traditionally been understood as a space for emphasizing in
 
 Can AI be integrated in ways that support a traditional liberal arts education? 
 
-![Slide 5 - News Media AI and Education](images/session-1/slide-5-news-media-ai-and-education.jpg)
+![Slide 5 - News Media AI and Education](images/session-1/slide-5-news-media-ai-and-education.jpg){width=80%}
 
 [&larr; Prev](#slide-4) | [Next &rarr;](#slide-6)
 
@@ -74,7 +74,7 @@ Understanding AI begins with clarifying terms that seem familiar but carry diffe
 
 ---
 
-## [What is "Data"?]{#slide-8}
+## ["What is Data?" and the Challenge of Understanding Technology]{#slide-8}
 
 Just as "data" has many meanings, "AI" is often treated as a single technology when it actually refers to many different systems and practices. 
 
@@ -172,9 +172,9 @@ AI is best understood as a "prediction machine" - its outputs are not the result
 
 ---
 
-## [Hallucinations and Training Boundaries]{#slide-18}
+## ["Hallucinations" and Training Boundaries]{#slide-18}
 
-When an AI system encounters input outside its training categories, it still produces a confident prediction - this is what is often called a "hallucination." The AI is not making things up intentionally; it is doing exactly what it was designed to do. Expanding the training data (adding pigs and horses) increases the system's range but does not grant general knowledge or awareness.
+When an AI system encounters input outside its training categories, it still produces a confident prediction - this is what is often called a **hallucination.** The AI is not making things up intentionally - it is doing exactly what it was designed to do. Expanding the training data (adding pigs and horses) increases the system's range but does not grant general knowledge or awareness.
 
 ![Slide 18 - Prediction Dog Cat Pig Horse](images/session-1/slide-18-prediction-dog-cat-pig-horse.jpg){width=55%}
 

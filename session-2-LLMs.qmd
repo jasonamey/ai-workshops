@@ -49,7 +49,7 @@ A foundational truth of computing is that every piece of information a computer 
 
 Language models map words into a mathematical space using coordinates, similar to the X/Y axis graphing done in high school math - but in dimensions far beyond our simple two-dimensional understanding. This numerical representation of language is what allows models to compute statistical patterns and make predictions about what word is likely to come next.
 
-![Slide 5 - Basic Graphing](images/session-2/slide-5-basic-graphing.jpg)
+![Slide 5 - Basic Graphing](images/session-2/slide-5-basic-graphing.jpg){width=70%}
 
 [&larr; Prev](#slide-4) | [Next &rarr;](#slide-6)
 
@@ -75,7 +75,7 @@ Word embeddings extend beyond individual words to sentences and paragraphs, allo
 
 ---
 
-## [The King--Queen Illustration]{#slide-8}
+## [The King-Queen Illustration]{#slide-8}
 
 Math educator Grant Sanderson (3Blue1Brown) illustrates a remarkable property of embedding spaces: the mathematical "step" from *man* to *woman* mirrors the step from *king* to *queen*, expressed as E(queen) ≈ E(king) + E(woman) − E(man). This shows that from statistical patterns alone, models can learn stable mathematical transformations that correspond to concepts we recognize as meaningful.
 
@@ -95,7 +95,7 @@ The Transformer architecture, introduced in 2017, solved a critical limitation o
 
 ---
 
-## [The Trophy--Suitcase Problem]{#slide-10}
+## [The Trophy-Suitcase Problem]{#slide-10}
 
 The sentence "The trophy doesn't fit in the brown suitcase because it is too small" illustrates why self-attention matters: correctly identifying what "it" refers to requires connecting words that are far apart in the sentence. Self-attention solves this by allowing every word to directly compare and link with any other word, regardless of distance, creating a web of relationships across the entire sentence.
 
@@ -105,7 +105,7 @@ The sentence "The trophy doesn't fit in the brown suitcase because it is too sma
 
 ---
 
-## [The GPU: Hardware That Made It Possible]{#slide-11}
+## [The GPU]{#slide-11}
 
 The Transformer architecture became practical because of advances in GPU (graphics processing unit) hardware - chips originally designed for video game graphics that excel at performing many calculations simultaneously. Unlike traditional CPUs, GPUs can handle the massively parallel computations required by self-attention at the scale and speed that modern AI demands.
 
@@ -117,7 +117,7 @@ The Transformer architecture became practical because of advances in GPU (graphi
 
 ## [Nvidia's Rise and the AI Hardware Boom]{#slide-12}
 
-Nvidia's dramatic stock growth offers a striking financial indicator of just how central GPU hardware has become to the modern AI ecosystem. As demand for AI computation has surged, Nvidia---the leading manufacturer of GPU chips used in large-scale deep learning - has experienced one of the most dramatic Wall Street runs of any major tech company.
+Nvidia's dramatic stock growth offers a striking financial indicator of just how central GPU hardware has become to the modern AI ecosystem. As demand for AI computation has surged, Nvidia - the leading manufacturer of GPU chips used in large-scale deep learning - has experienced one of the most dramatic Wall Street runs of any major tech company.
 
 ![Slide 12 - Nvidia Growth](images/session-2/slide-12-nvidia-growth.jpg)
 

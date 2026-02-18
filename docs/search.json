@@ -49,11 +49,11 @@
     "text": "Embeddings Extended to Sentences and Paragraphs\nWord embeddings extend beyond individual words to sentences and paragraphs, allowing models to capture richer and more complex linguistic relationships across longer stretches of language. Once words are placed in mathematical space, consistent patterns of difference between words appear as measurable “directions,” giving structure to language itself.\n\n\n\nSlide 7 - Bodega NYC\n\n\n← Prev | Next →"
   },
   {
-    "objectID": "session-2-LLMs.html#the-kingqueen-illustration",
-    "href": "session-2-LLMs.html#the-kingqueen-illustration",
+    "objectID": "session-2-LLMs.html#the-king-queen-illustration",
+    "href": "session-2-LLMs.html#the-king-queen-illustration",
     "title": "Session 2: Large Language Models",
-    "section": "The King–Queen Illustration",
-    "text": "The King–Queen Illustration\nMath educator Grant Sanderson (3Blue1Brown) illustrates a remarkable property of embedding spaces: the mathematical “step” from man to woman mirrors the step from king to queen, expressed as E(queen) ≈ E(king) + E(woman) − E(man). This shows that from statistical patterns alone, models can learn stable mathematical transformations that correspond to concepts we recognize as meaningful.\n\n\n\nSlide 8 - Queen King\n\n\n← Prev | Next →"
+    "section": "The King-Queen Illustration",
+    "text": "The King-Queen Illustration\nMath educator Grant Sanderson (3Blue1Brown) illustrates a remarkable property of embedding spaces: the mathematical “step” from man to woman mirrors the step from king to queen, expressed as E(queen) ≈ E(king) + E(woman) − E(man). This shows that from statistical patterns alone, models can learn stable mathematical transformations that correspond to concepts we recognize as meaningful.\n\n\n\nSlide 8 - Queen King\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-2-LLMs.html#self-attention-and-the-transformer-architecture",
@@ -63,25 +63,25 @@
     "text": "Self-Attention and the Transformer Architecture\nThe Transformer architecture, introduced in 2017, solved a critical limitation of earlier sequential language models by introducing “self-attention” - a mechanism that allows each word to simultaneously consider all other words in the sentence at once. This replaced slow, step-by-step processing with a web of parallel connections, dramatically improving both speed and contextual understanding.\n\n\n\nSlide 9 - Sequential vs Parallel\n\n\n← Prev | Next →"
   },
   {
-    "objectID": "session-2-LLMs.html#the-trophysuitcase-problem",
-    "href": "session-2-LLMs.html#the-trophysuitcase-problem",
+    "objectID": "session-2-LLMs.html#the-trophy-suitcase-problem",
+    "href": "session-2-LLMs.html#the-trophy-suitcase-problem",
     "title": "Session 2: Large Language Models",
-    "section": "The Trophy–Suitcase Problem",
-    "text": "The Trophy–Suitcase Problem\nThe sentence “The trophy doesn’t fit in the brown suitcase because it is too small” illustrates why self-attention matters: correctly identifying what “it” refers to requires connecting words that are far apart in the sentence. Self-attention solves this by allowing every word to directly compare and link with any other word, regardless of distance, creating a web of relationships across the entire sentence.\n\n\n\nSlide 10 - Trophy Doesn’t Fit\n\n\n← Prev | Next →"
+    "section": "The Trophy-Suitcase Problem",
+    "text": "The Trophy-Suitcase Problem\nThe sentence “The trophy doesn’t fit in the brown suitcase because it is too small” illustrates why self-attention matters: correctly identifying what “it” refers to requires connecting words that are far apart in the sentence. Self-attention solves this by allowing every word to directly compare and link with any other word, regardless of distance, creating a web of relationships across the entire sentence.\n\n\n\nSlide 10 - Trophy Doesn’t Fit\n\n\n← Prev | Next →"
   },
   {
-    "objectID": "session-2-LLMs.html#the-gpu-hardware-that-made-it-possible",
-    "href": "session-2-LLMs.html#the-gpu-hardware-that-made-it-possible",
+    "objectID": "session-2-LLMs.html#the-gpu",
+    "href": "session-2-LLMs.html#the-gpu",
     "title": "Session 2: Large Language Models",
-    "section": "The GPU: Hardware That Made It Possible",
-    "text": "The GPU: Hardware That Made It Possible\nThe Transformer architecture became practical because of advances in GPU (graphics processing unit) hardware - chips originally designed for video game graphics that excel at performing many calculations simultaneously. Unlike traditional CPUs, GPUs can handle the massively parallel computations required by self-attention at the scale and speed that modern AI demands.\n\n\n\nSlide 11 - GPU\n\n\n← Prev | Next →"
+    "section": "The GPU",
+    "text": "The GPU\nThe Transformer architecture became practical because of advances in GPU (graphics processing unit) hardware - chips originally designed for video game graphics that excel at performing many calculations simultaneously. Unlike traditional CPUs, GPUs can handle the massively parallel computations required by self-attention at the scale and speed that modern AI demands.\n\n\n\nSlide 11 - GPU\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-2-LLMs.html#nvidias-rise-and-the-ai-hardware-boom",
     "href": "session-2-LLMs.html#nvidias-rise-and-the-ai-hardware-boom",
     "title": "Session 2: Large Language Models",
     "section": "Nvidia’s Rise and the AI Hardware Boom",
-    "text": "Nvidia’s Rise and the AI Hardware Boom\nNvidia’s dramatic stock growth offers a striking financial indicator of just how central GPU hardware has become to the modern AI ecosystem. As demand for AI computation has surged, Nvidia—the leading manufacturer of GPU chips used in large-scale deep learning - has experienced one of the most dramatic Wall Street runs of any major tech company.\n\n\n\nSlide 12 - Nvidia Growth\n\n\n← Prev | Next →"
+    "text": "Nvidia’s Rise and the AI Hardware Boom\nNvidia’s dramatic stock growth offers a striking financial indicator of just how central GPU hardware has become to the modern AI ecosystem. As demand for AI computation has surged, Nvidia - the leading manufacturer of GPU chips used in large-scale deep learning - has experienced one of the most dramatic Wall Street runs of any major tech company.\n\n\n\nSlide 12 - Nvidia Growth\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-2-LLMs.html#putting-it-together-words-as-numbers-and-the-transformer",
@@ -224,25 +224,25 @@
     "text": "AI in the Public Eye\nAI is a transformational technology and one of the most heated topics in public life. People encounter it through wildly diverging claims – utopian promises on one side, existential warnings on the other.\n\n\n\nSlide 1 - Pew Polls\n\n\nNext →"
   },
   {
-    "objectID": "session-1-what-is-AI.html#sensationalism-and-social-media",
-    "href": "session-1-what-is-AI.html#sensationalism-and-social-media",
+    "objectID": "session-1-what-is-AI.html#ai-as-a-polarizing-conversation-topic",
+    "href": "session-1-what-is-AI.html#ai-as-a-polarizing-conversation-topic",
     "title": "Session 1: What is AI?",
-    "section": "Sensationalism and Social Media",
-    "text": "Sensationalism and Social Media\nPublic conversations about AI are often shaped by extreme claims from prominent technology leaders and social media discussions. \n← Prev | Next →"
+    "section": "AI as a Polarizing Conversation Topic",
+    "text": "AI as a Polarizing Conversation Topic\nPublic conversations about AI are often shaped by heated claims from prominent technology leaders and social media discussions. \n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#context-citizen-instructor-librarian",
     "href": "session-1-what-is-AI.html#context-citizen-instructor-librarian",
     "title": "Session 1: What is AI?",
     "section": "Context – Citizen, Instructor, Librarian",
-    "text": "Context – Citizen, Instructor, Librarian\nA crucial component of college education is the mastery of context - examining diverse perspectives and evaluating whether a viewpoint is objectively correct or an expression of the holder’s unique background.\n\n\n\nSlide 3 - Citizen Teacher Librarian\n\n\n← Prev | Next →"
+    "text": "Context – Citizen, Instructor, Librarian\nA crucial component of college education is the mastery of context - understanding diverse perspectives while evaluating viewpoints.\n\n\n\nSlide 3 - Citizen Teacher Librarian\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#the-purpose-of-college-education",
     "href": "session-1-what-is-AI.html#the-purpose-of-college-education",
     "title": "Session 1: What is AI?",
-    "section": "The Purpose of College Education",
-    "text": "The Purpose of College Education\nHigher education has traditionally been understood as a space for emphasizing intellectual development and critical thinking. At the same time, college is increasingly viewed as a pathway to employment. Discussion of AI is making this tension even more pronounced.\n\n\n\nSlide 4 - News Media Purpose of College\n\n\n← Prev | Next →"
+    "section": "“The Purpose of College Education”",
+    "text": "“The Purpose of College Education”\nHigher education has traditionally been understood as a space for emphasizing intellectual development and critical thinking. At the same time, college is increasingly viewed as a pathway to employment. Discussion of AI can manifest tension between these two views.\n\n\n\nSlide 4 - News Media Purpose of College\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#ai-and-the-liberal-arts-tradition",
@@ -266,11 +266,11 @@
     "text": "What is “AI”?\nUnderstanding AI begins with clarifying terms that seem familiar but carry different meanings in different contexts.\n\n\n\nSlide 7 - What is AI\n\n\n← Prev | Next →"
   },
   {
-    "objectID": "session-1-what-is-AI.html#what-is-data",
-    "href": "session-1-what-is-AI.html#what-is-data",
+    "objectID": "session-1-what-is-AI.html#what-is-data-and-the-challenge-of-understanding-technology",
+    "href": "session-1-what-is-AI.html#what-is-data-and-the-challenge-of-understanding-technology",
     "title": "Session 1: What is AI?",
-    "section": "What is “Data”?",
-    "text": "What is “Data”?\nJust as “data” has many meanings, “AI” is often treated as a single technology when it actually refers to many different systems and practices.\n\n\n\nSlide 8 - What is Data\n\n\n← Prev | Next →"
+    "section": "“What is Data?” and the Challenge of Understanding Technology",
+    "text": "“What is Data?” and the Challenge of Understanding Technology\nJust as “data” has many meanings, “AI” is often treated as a single technology when it actually refers to many different systems and practices.\n\n\n\nSlide 8 - What is Data\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#the-ai-nesting-circles",
@@ -339,8 +339,8 @@
     "objectID": "session-1-what-is-AI.html#hallucinations-and-training-boundaries",
     "href": "session-1-what-is-AI.html#hallucinations-and-training-boundaries",
     "title": "Session 1: What is AI?",
-    "section": "Hallucinations and Training Boundaries",
-    "text": "Hallucinations and Training Boundaries\nWhen an AI system encounters input outside its training categories, it still produces a confident prediction - this is what is often called a “hallucination.” The AI is not making things up intentionally; it is doing exactly what it was designed to do. Expanding the training data (adding pigs and horses) increases the system’s range but does not grant general knowledge or awareness.\n\n\n\nSlide 18 - Prediction Dog Cat Pig Horse\n\n\n← Prev | Next →"
+    "section": "“Hallucinations” and Training Boundaries",
+    "text": "“Hallucinations” and Training Boundaries\nWhen an AI system encounters input outside its training categories, it still produces a confident prediction - this is what is often called a hallucination. The AI is not making things up intentionally - it is doing exactly what it was designed to do. Expanding the training data (adding pigs and horses) increases the system’s range but does not grant general knowledge or awareness.\n\n\n\nSlide 18 - Prediction Dog Cat Pig Horse\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-1-what-is-AI.html#ai-across-domains",
