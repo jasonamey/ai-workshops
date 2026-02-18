@@ -1,0 +1,11 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "AI Workshops"
+  navbar:
+    left:
+      - master.qmd
+      - session-1-what-is-AI.qmd
+      - session-2-LLMs.qmd

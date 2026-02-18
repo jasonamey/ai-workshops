@@ -1,0 +1,316 @@
+---
+title: "Session 2: Large Language Models"
+format: html
+---
+
+---
+
+## [How Do LLMs Predict Text?]{#slide-1}
+
+Large language models predict text the same way a human reader instinctively completes "It was the best of times, it was the ___": by learning statistical regularities from massive amounts of training data. This is possible because computers represent language numerically, allowing patterns to be learned and predictions to be calculated mathematically.
+
+![Slide 1 - Best of Times](images/session-2/slide-1-best-of-times.jpg)
+
+[Next &rarr;](#slide-2)
+
+---
+
+## [Language Models Are Not Minds]{#slide-2}
+
+As emphasized in this New Yorker article, language models are not sentient minds but mathematical systems that generate text by selecting the most statistically probable next word. They simulate understanding by reflecting patterns learned from enormous amounts of human writing, without possessing genuine comprehension.
+
+![Slide 2 - New Yorker Article](images/session-2/slide-2-new-yorker-article.jpg)
+
+[&larr; Prev](#slide-1) | [Next &rarr;](#slide-3)
+
+---
+
+## [Visualizing Probabilistic Text Generation]{#slide-3}
+
+This visualization shows LLM text generation in action: at each step, the model evaluates many possible next words, assigns probabilities, selects one, and repeats the process word by word. What appears to us as a coherent thought is actually the result of many sequential probability decisions, with fluent language emerging from mathematics, not intention or awareness.
+
+![Slide 3 - Tokens as Sentence](images/session-2/slide-3-tokens-as-sentence.jpg)
+
+[&larr; Prev](#slide-2) | [Next &rarr;](#slide-4)
+
+---
+
+## [Everything a Computer Processes Is a Number]{#slide-4}
+
+A foundational truth of computing is that every piece of information a computer processes - color, sound, image, motion, and language - must first be represented as a number. Whether editing a photo, streaming video, or processing text, the underlying process is always the same: numbers representing numbers representing the world.
+
+![Slide 4 - Computers as Numbers](images/session-2/slide-4-computers-as-numbers.jpg)
+
+[&larr; Prev](#slide-3) | [Next &rarr;](#slide-5)
+
+---
+
+## [Words, Sentences, and Paragraphs as Numbers]{#slide-5}
+
+Language models map words into a mathematical space using coordinates, similar to the X/Y axis graphing done in high school math - but in dimensions far beyond our simple two-dimensional understanding. This numerical representation of language is what allows models to compute statistical patterns and make predictions about what word is likely to come next.
+
+![Slide 5 - Basic Graphing](images/session-2/slide-5-basic-graphing.jpg)
+
+[&larr; Prev](#slide-4) | [Next &rarr;](#slide-6)
+
+---
+
+## [Word Embeddings: Distance as Meaning]{#slide-6}
+
+When words are converted into numbers and plotted in a mathematical space, their distances from one another reflect semantic relationships - "dog" and "puppy" cluster together, while "airplane" lands far away. Distance in this space becomes a stand-in for similarity, allowing models to detect relationships among words purely through geometry.
+
+![Slide 6 - Dog 3D](images/session-2/slide-6-dog-3D.jpg)
+
+[&larr; Prev](#slide-5) | [Next &rarr;](#slide-7)
+
+---
+
+## [Embeddings Extended to Sentences and Paragraphs]{#slide-7}
+
+Word embeddings extend beyond individual words to sentences and paragraphs, allowing models to capture richer and more complex linguistic relationships across longer stretches of language. Once words are placed in mathematical space, consistent patterns of difference between words appear as measurable "directions," giving structure to language itself.
+
+![Slide 7 - Bodega NYC](images/session-2/slide-7-bodega-nyc.jpg)
+
+[&larr; Prev](#slide-6) | [Next &rarr;](#slide-8)
+
+---
+
+## [The King--Queen Illustration]{#slide-8}
+
+Math educator Grant Sanderson (3Blue1Brown) illustrates a remarkable property of embedding spaces: the mathematical "step" from *man* to *woman* mirrors the step from *king* to *queen*, expressed as E(queen) ≈ E(king) + E(woman) − E(man). This shows that from statistical patterns alone, models can learn stable mathematical transformations that correspond to concepts we recognize as meaningful.
+
+![Slide 8 - Queen King](images/session-2/slide-8-queen-king.jpg)
+
+[&larr; Prev](#slide-7) | [Next &rarr;](#slide-9)
+
+---
+
+## [Self-Attention and the Transformer Architecture]{#slide-9}
+
+The Transformer architecture, introduced in 2017, solved a critical limitation of earlier sequential language models by introducing "self-attention" - a mechanism that allows each word to simultaneously consider all other words in the sentence at once. This replaced slow, step-by-step processing with a web of parallel connections, dramatically improving both speed and contextual understanding.
+
+![Slide 9 - Sequential vs Parallel](images/session-2/slide-9-sequential-vs-parallel.jpg)
+
+[&larr; Prev](#slide-8) | [Next &rarr;](#slide-10)
+
+---
+
+## [The Trophy--Suitcase Problem]{#slide-10}
+
+The sentence "The trophy doesn't fit in the brown suitcase because it is too small" illustrates why self-attention matters: correctly identifying what "it" refers to requires connecting words that are far apart in the sentence. Self-attention solves this by allowing every word to directly compare and link with any other word, regardless of distance, creating a web of relationships across the entire sentence.
+
+![Slide 10 - Trophy Doesn't Fit](images/session-2/slide-10-trophy-doesnt-fit.jpg)
+
+[&larr; Prev](#slide-9) | [Next &rarr;](#slide-11)
+
+---
+
+## [The GPU: Hardware That Made It Possible]{#slide-11}
+
+The Transformer architecture became practical because of advances in GPU (graphics processing unit) hardware - chips originally designed for video game graphics that excel at performing many calculations simultaneously. Unlike traditional CPUs, GPUs can handle the massively parallel computations required by self-attention at the scale and speed that modern AI demands.
+
+![Slide 11 - GPU](images/session-2/slide-11-GPU.jpg)
+
+[&larr; Prev](#slide-10) | [Next &rarr;](#slide-12)
+
+---
+
+## [Nvidia's Rise and the AI Hardware Boom]{#slide-12}
+
+Nvidia's dramatic stock growth offers a striking financial indicator of just how central GPU hardware has become to the modern AI ecosystem. As demand for AI computation has surged, Nvidia---the leading manufacturer of GPU chips used in large-scale deep learning - has experienced one of the most dramatic Wall Street runs of any major tech company.
+
+![Slide 12 - Nvidia Growth](images/session-2/slide-12-nvidia-growth.jpg)
+
+[&larr; Prev](#slide-11) | [Next &rarr;](#slide-13)
+
+---
+
+## [Putting It Together: Words as Numbers and the Transformer]{#slide-13}
+
+Embeddings turn words into numbers placed in a mathematical space where distance reflects similarity, while self-attention allows the model to interpret words in context by building a web of relationships across the full sentence. Together, these two ingredients raise an essential question: how does the model learn these structures in the first place - and the answer is training.
+
+![Slide 13 - How Are Words Numerically Represented](images/session-2/slide-13-how-are-words-numerically-repped.jpg)
+
+[&larr; Prev](#slide-12) | [Next &rarr;](#slide-14)
+
+---
+
+## [Training Large Language Models]{#slide-14}
+
+Training is the long, expensive process by which a language model is exposed to enormous amounts of text and repeatedly practices one task: guessing what comes next in a sequence, then adjusting itself based on whether the guess was correct. This happens not once or a handful of times, but billions and billions of times, making the model extremely adept at predicting statistically plausible language.
+
+![Slide 14 - Wired Article](images/session-2/slide-14-wired-article.jpg)
+
+[&larr; Prev](#slide-13) | [Next &rarr;](#slide-15)
+
+---
+
+## [The Corpus: What the Model Trains On]{#slide-15}
+
+The vast collection of text an LLM trains on is called a corpus, typically drawn from books, Wikipedia, news articles, websites, and other publicly available writing. A model can only learn from what it has been exposed to, meaning the strengths and weaknesses of any LLM are deeply tied to what its training corpus includes, excludes, and overrepresents.
+
+![Slide 15 - Training](images/session-2/slide-15-training.jpg)
+
+[&larr; Prev](#slide-14) | [Next &rarr;](#slide-16)
+
+---
+
+## [Common Public Data Sources for LLM Training]{#slide-16}
+
+Most large language models are trained on a combination of publicly available text: web pages, books, forums, open-access scientific literature, news, Wikipedia, code repositories, and video transcripts. Different models use different mixtures, but the shared goal is broad coverage across writing styles, topics, and forms of human communication.
+
+![Slide 16 - Training Content](images/session-2/slide-16-training-content.jpg)
+
+[&larr; Prev](#slide-15) | [Next &rarr;](#slide-17)
+
+---
+
+## [Why Training Takes Enormous Computing Power]{#slide-17}
+
+Training a large language model requires an almost unimaginable amount of computation - equivalent to performing one billion calculations per second for 100 million years. This is why training is only feasible using enormous clusters of specialized GPU hardware running many operations in parallel rather than one at a time.
+
+![Slide 17 - Computation](images/session-2/slide-17-computation.jpg)
+
+[&larr; Prev](#slide-16) | [Next &rarr;](#slide-18)
+
+---
+
+## [Why Only a Few Companies Can Train Frontier LLMs]{#slide-18}
+
+Building a frontier LLM is not just a software and algorithm problem - it is an engineering and capital problem requiring high-end GPU clusters, massive storage, fast networking, and teams of highly skilled professionals. As a result, only a handful of major companies have the resources to train the most advanced models from scratch, and their choices about data, design, and policy shape the AI tools much of society uses today.
+
+![Slide 18 - Big Tech](images/session-2/slide-18-big-tech.jpg)
+
+[&larr; Prev](#slide-17) | [Next &rarr;](#slide-19)
+
+---
+
+## [The Frontier Models]{#slide-19}
+
+Frontier models - including ChatGPT (OpenAI), Gemini (Google), and Claude (Anthropic) - represent the current state of the art in AI, capable of generating fluent text, writing code, analyzing documents, and performing complex reasoning. Their exceptional capabilities stem not just from better algorithms, but from scale: more data, more computing power, and larger model architectures.
+
+![Slide 19 - Frontier Models](images/session-2/slide-19-fronteir-models.jpg)
+
+[&larr; Prev](#slide-18) | [Next &rarr;](#slide-20)
+
+---
+
+## [AI Embedded in Everyday Academic Tools]{#slide-20}
+
+Google Gemini is integrated directly into Google Workspace tools - Gmail, Docs, Sheets, and Drive - bringing frontier AI capabilities into the platforms students and faculty already use for academic work. When accessed through institutional accounts, Gemini operates within enterprise privacy frameworks, helping protect academic data while functioning as an embedded assistant rather than a separate tool.
+
+![Slide 20 - Copilot](images/session-2/slide-20-copilot.jpg)
+
+[&larr; Prev](#slide-19) | [Next &rarr;](#slide-21)
+
+---
+
+## [How Do We Judge or Compare Language Models?]{#slide-21}
+
+Because multiple competing language models exist, benchmarking provides a standardized way to evaluate and compare them across tasks such as reasoning, writing quality, math, coding, reading comprehension, and factual accuracy. These benchmarks are a snapshot in time - as models grow more capable, they eventually top out on older tests, forcing the industry to continually develop harder ones.
+
+![Slide 21 - Benchmarks](images/session-2/slide-21-benchmarks.jpg)
+
+[&larr; Prev](#slide-20) | [Next &rarr;](#slide-22)
+
+---
+
+## [Tokens: The Basic Unit of Language Models]{#slide-22}
+
+Language models do not process text as full words or sentences - they break input into smaller units called tokens, which may be whole words, parts of words, or individual characters. Tokens are the fundamental unit of measurement for model billing and capacity, and they determine the size of the model's context window: the number of tokens it can hold in active working memory at one time.
+
+![Slide 22 - Tokens](images/session-2/slide-22-tokens.jpg)
+
+[&larr; Prev](#slide-21) | [Next &rarr;](#slide-23)
+
+---
+
+## [The Context Window]{#slide-23}
+
+A model's context window is the total number of tokens it can hold in active working memory while generating a response, encompassing the current prompt, prior conversation, and any provided documents. When this limit is reached, the model does not slow down - it forgets, dropping older information to make room for newer tokens, making efficient use of the context window critical to output quality.
+
+![Slide 23 - Context Window Out](images/session-2/slide-23-context-window-out.jpg)
+
+[&larr; Prev](#slide-22) | [Next &rarr;](#slide-24)
+
+---
+
+## [Hallucinations and "Confident Wrongness"]{#slide-24}
+
+One of the most important limitations of LLMs is their tendency to produce answers that sound authoritative even when they are factually incorrect - a phenomenon called "hallucination." This occurs not because the model is malfunctioning, but because it is optimized to predict statistically plausible language, not to guarantee factual correctness.
+
+![Slide 24 - Hallucination](images/session-2/slide-24-hallucination.jpg)
+
+[&larr; Prev](#slide-23) | [Next &rarr;](#slide-25)
+
+---
+
+## [The Hidden Web: What Models Can't See]{#slide-25}
+
+Most people assume AI models have "read the entire internet," but search engines index only roughly 10--15% of the web, with the remainder - the Hidden Web - remaining inaccessible. AI models are heavily trained on the openly accessible portion of the web, giving them far less exposure to the specialized, paywalled, or institutionally protected knowledge that makes up much of academic scholarship.
+
+![Slide 25 - Hidden Web](images/session-2/slide-25-hidden-web.jpg)
+
+[&larr; Prev](#slide-24) | [Next &rarr;](#slide-26)
+
+---
+
+## [Dynamically Generated Web Content]{#slide-26}
+
+Much web information is inaccessible to AI training because it exists behind dynamic search interfaces - content generated only in response to a user query, without a stable URL that a crawler can index. Examples include court records, government databases, library catalogs, retail inventories, and transit schedules: information that technically exists online but requires interaction to surface.
+
+![Slide 26 - Dynamic Content](images/session-2/slide-26-dynamic-content.jpg)
+
+[&larr; Prev](#slide-25) | [Next &rarr;](#slide-27)
+
+---
+
+## [Unique File Types: Knowledge in Hard-to-Learn Forms]{#slide-27}
+
+Even when information is technically online, it may exist in formats difficult for language models to ingest at scale - PDFs, PowerPoint decks, Word documents, spreadsheets, and white papers that are not consistently structured or cleanly indexable. Digitized primary sources such as photographs, oral histories, manuscripts, and archival collections housed in library and museum platforms face similar invisibility to large-scale AI training pipelines.
+
+![Slide 27 - File Types](images/session-2/slide-27-file-types.jpg)
+
+[&larr; Prev](#slide-26) | [Next &rarr;](#slide-28)
+
+---
+
+## [Paywalled Journalism and High-Quality Web Content]{#slide-28}
+
+Many of the most credible, carefully edited, and professionally fact-checked sources on the web - major newspapers, investigative journalism outlets, and specialized trade publications - are paywalled and therefore absent from most AI training data. When students ask LLMs questions requiring high-quality reporting, models may fill gaps with weaker substitutes, producing confident-sounding answers built from lower-credibility sources.
+
+![Slide 28 - Paywalls](images/session-2/slide-28-paywalls.jpg)
+
+[&larr; Prev](#slide-27) | [Next &rarr;](#slide-29)
+
+---
+
+## [Library Databases: Essential Scholarship Beyond the Open Web]{#slide-29}
+
+Beyond paywalls, some of the most important scholarship - peer-reviewed journals, legal research platforms, business datasets, and citation indexes - exists only in specialized library databases not part of the open web that AI models train on. This gap means the research forming the backbone of academic work may never have been seen by a language model, making library access to curated scholarly resources critically important.
+
+![Slide 29 - Databases](images/session-2/slide-29-databases.jpg)
+
+[&larr; Prev](#slide-28) | [Next &rarr;](#slide-30)
+
+---
+
+## [Bias and the Limits of Training Data]{#slide-30}
+
+Language serves as a repository for human culture and collective bias, and AI systems trained on digitized text absorb the associations present in that data - mathematical proximity encoding historical patterns of representation as statistical fact. This means biases around gender, race, and culture are not incidental errors but structural features baked into the model's understanding of language, with real-world consequences for how these systems treat and represent people.
+
+![Slide 30 - Bias](images/session-2/slide-30-bias.jpg)
+
+[&larr; Prev](#slide-29) | [Next &rarr;](#slide-31)
+
+---
+
+## [Even the Models Warn You About Their Limitations]{#slide-31}
+
+The most prominent frontier LLMs all include explicit warnings not to blindly accept their outputs - an admission that these systems can produce authoritative-sounding answers that are incomplete or simply wrong. As recent research suggests, hallucinations may be an unavoidable feature of statistical language modeling, making it essential to develop responsible workflows for using AI in research and scholarship - the focus of the next workshop.
+
+![Slide 31 - Hallucinations](images/session-2/slide-31-hallucinations.jpg)
+
+[&larr; Prev](#slide-30)
+
+---

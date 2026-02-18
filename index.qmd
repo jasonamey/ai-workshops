@@ -1,0 +1,29 @@
+---
+title: "AI Literacy & LLM Workshop Series"
+author: "Jason Amey"
+date: "2026-02-18"
+format: 
+  html:
+    toc: true
+    theme: cosmo
+---
+
+## Workshop Overview
+Welcome to the master repository for the AI literacy workshops. This guide provides access to the core sessions and materials.
+
+---
+
+### Session 1: What is AI?
+
+* [**Session 1**](session-1-what-is-AI.html)
+
+
+---
+
+### Session 2: Large Language Models (LLMs)
+An exploration into the mechanics of LLMs, the transformer architecture, and the concept of mathematical automata.
+
+* [**Session 2**](session-2-LLMs.html)
+
+
+---

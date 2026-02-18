@@ -1,0 +1,380 @@
+[
+  {
+    "objectID": "session-2-LLMs.html#how-do-llms-predict-text",
+    "href": "session-2-LLMs.html#how-do-llms-predict-text",
+    "title": "Session 2: Large Language Models",
+    "section": "How Do LLMs Predict Text?",
+    "text": "How Do LLMs Predict Text?\nLarge language models predict text the same way a human reader instinctively completes “It was the best of times, it was the ___“: by learning statistical regularities from massive amounts of training data. This is possible because computers represent language numerically, allowing patterns to be learned and predictions to be calculated mathematically.\n\n\n\nSlide 1 - Best of Times\n\n\nNext →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#language-models-are-not-minds",
+    "href": "session-2-LLMs.html#language-models-are-not-minds",
+    "title": "Session 2: Large Language Models",
+    "section": "Language Models Are Not Minds",
+    "text": "Language Models Are Not Minds\nAs emphasized in this New Yorker article, language models are not sentient minds but mathematical systems that generate text by selecting the most statistically probable next word. They simulate understanding by reflecting patterns learned from enormous amounts of human writing, without possessing genuine comprehension.\n\n\n\nSlide 2 - New Yorker Article\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#visualizing-probabilistic-text-generation",
+    "href": "session-2-LLMs.html#visualizing-probabilistic-text-generation",
+    "title": "Session 2: Large Language Models",
+    "section": "Visualizing Probabilistic Text Generation",
+    "text": "Visualizing Probabilistic Text Generation\nThis visualization shows LLM text generation in action: at each step, the model evaluates many possible next words, assigns probabilities, selects one, and repeats the process word by word. What appears to us as a coherent thought is actually the result of many sequential probability decisions, with fluent language emerging from mathematics, not intention or awareness.\n\n\n\nSlide 3 - Tokens as Sentence\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#everything-a-computer-processes-is-a-number",
+    "href": "session-2-LLMs.html#everything-a-computer-processes-is-a-number",
+    "title": "Session 2: Large Language Models",
+    "section": "Everything a Computer Processes Is a Number",
+    "text": "Everything a Computer Processes Is a Number\nA foundational truth of computing is that every piece of information a computer processes - color, sound, image, motion, and language - must first be represented as a number. Whether editing a photo, streaming video, or processing text, the underlying process is always the same: numbers representing numbers representing the world.\n\n\n\nSlide 4 - Computers as Numbers\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#words-sentences-and-paragraphs-as-numbers",
+    "href": "session-2-LLMs.html#words-sentences-and-paragraphs-as-numbers",
+    "title": "Session 2: Large Language Models",
+    "section": "Words, Sentences, and Paragraphs as Numbers",
+    "text": "Words, Sentences, and Paragraphs as Numbers\nLanguage models map words into a mathematical space using coordinates, similar to the X/Y axis graphing done in high school math - but in dimensions far beyond our simple two-dimensional understanding. This numerical representation of language is what allows models to compute statistical patterns and make predictions about what word is likely to come next.\n\n\n\nSlide 5 - Basic Graphing\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#word-embeddings-distance-as-meaning",
+    "href": "session-2-LLMs.html#word-embeddings-distance-as-meaning",
+    "title": "Session 2: Large Language Models",
+    "section": "Word Embeddings: Distance as Meaning",
+    "text": "Word Embeddings: Distance as Meaning\nWhen words are converted into numbers and plotted in a mathematical space, their distances from one another reflect semantic relationships - “dog” and “puppy” cluster together, while “airplane” lands far away. Distance in this space becomes a stand-in for similarity, allowing models to detect relationships among words purely through geometry.\n\n\n\nSlide 6 - Dog 3D\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#embeddings-extended-to-sentences-and-paragraphs",
+    "href": "session-2-LLMs.html#embeddings-extended-to-sentences-and-paragraphs",
+    "title": "Session 2: Large Language Models",
+    "section": "Embeddings Extended to Sentences and Paragraphs",
+    "text": "Embeddings Extended to Sentences and Paragraphs\nWord embeddings extend beyond individual words to sentences and paragraphs, allowing models to capture richer and more complex linguistic relationships across longer stretches of language. Once words are placed in mathematical space, consistent patterns of difference between words appear as measurable “directions,” giving structure to language itself.\n\n\n\nSlide 7 - Bodega NYC\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#the-kingqueen-illustration",
+    "href": "session-2-LLMs.html#the-kingqueen-illustration",
+    "title": "Session 2: Large Language Models",
+    "section": "The King–Queen Illustration",
+    "text": "The King–Queen Illustration\nMath educator Grant Sanderson (3Blue1Brown) illustrates a remarkable property of embedding spaces: the mathematical “step” from man to woman mirrors the step from king to queen, expressed as E(queen) ≈ E(king) + E(woman) − E(man). This shows that from statistical patterns alone, models can learn stable mathematical transformations that correspond to concepts we recognize as meaningful.\n\n\n\nSlide 8 - Queen King\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#self-attention-and-the-transformer-architecture",
+    "href": "session-2-LLMs.html#self-attention-and-the-transformer-architecture",
+    "title": "Session 2: Large Language Models",
+    "section": "Self-Attention and the Transformer Architecture",
+    "text": "Self-Attention and the Transformer Architecture\nThe Transformer architecture, introduced in 2017, solved a critical limitation of earlier sequential language models by introducing “self-attention” - a mechanism that allows each word to simultaneously consider all other words in the sentence at once. This replaced slow, step-by-step processing with a web of parallel connections, dramatically improving both speed and contextual understanding.\n\n\n\nSlide 9 - Sequential vs Parallel\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#the-trophysuitcase-problem",
+    "href": "session-2-LLMs.html#the-trophysuitcase-problem",
+    "title": "Session 2: Large Language Models",
+    "section": "The Trophy–Suitcase Problem",
+    "text": "The Trophy–Suitcase Problem\nThe sentence “The trophy doesn’t fit in the brown suitcase because it is too small” illustrates why self-attention matters: correctly identifying what “it” refers to requires connecting words that are far apart in the sentence. Self-attention solves this by allowing every word to directly compare and link with any other word, regardless of distance, creating a web of relationships across the entire sentence.\n\n\n\nSlide 10 - Trophy Doesn’t Fit\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#the-gpu-hardware-that-made-it-possible",
+    "href": "session-2-LLMs.html#the-gpu-hardware-that-made-it-possible",
+    "title": "Session 2: Large Language Models",
+    "section": "The GPU: Hardware That Made It Possible",
+    "text": "The GPU: Hardware That Made It Possible\nThe Transformer architecture became practical because of advances in GPU (graphics processing unit) hardware - chips originally designed for video game graphics that excel at performing many calculations simultaneously. Unlike traditional CPUs, GPUs can handle the massively parallel computations required by self-attention at the scale and speed that modern AI demands.\n\n\n\nSlide 11 - GPU\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#nvidias-rise-and-the-ai-hardware-boom",
+    "href": "session-2-LLMs.html#nvidias-rise-and-the-ai-hardware-boom",
+    "title": "Session 2: Large Language Models",
+    "section": "Nvidia’s Rise and the AI Hardware Boom",
+    "text": "Nvidia’s Rise and the AI Hardware Boom\nNvidia’s dramatic stock growth offers a striking financial indicator of just how central GPU hardware has become to the modern AI ecosystem. As demand for AI computation has surged, Nvidia—the leading manufacturer of GPU chips used in large-scale deep learning - has experienced one of the most dramatic Wall Street runs of any major tech company.\n\n\n\nSlide 12 - Nvidia Growth\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#putting-it-together-words-as-numbers-and-the-transformer",
+    "href": "session-2-LLMs.html#putting-it-together-words-as-numbers-and-the-transformer",
+    "title": "Session 2: Large Language Models",
+    "section": "Putting It Together: Words as Numbers and the Transformer",
+    "text": "Putting It Together: Words as Numbers and the Transformer\nEmbeddings turn words into numbers placed in a mathematical space where distance reflects similarity, while self-attention allows the model to interpret words in context by building a web of relationships across the full sentence. Together, these two ingredients raise an essential question: how does the model learn these structures in the first place - and the answer is training.\n\n\n\nSlide 13 - How Are Words Numerically Represented\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#training-large-language-models",
+    "href": "session-2-LLMs.html#training-large-language-models",
+    "title": "Session 2: Large Language Models",
+    "section": "Training Large Language Models",
+    "text": "Training Large Language Models\nTraining is the long, expensive process by which a language model is exposed to enormous amounts of text and repeatedly practices one task: guessing what comes next in a sequence, then adjusting itself based on whether the guess was correct. This happens not once or a handful of times, but billions and billions of times, making the model extremely adept at predicting statistically plausible language.\n\n\n\nSlide 14 - Wired Article\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#the-corpus-what-the-model-trains-on",
+    "href": "session-2-LLMs.html#the-corpus-what-the-model-trains-on",
+    "title": "Session 2: Large Language Models",
+    "section": "The Corpus: What the Model Trains On",
+    "text": "The Corpus: What the Model Trains On\nThe vast collection of text an LLM trains on is called a corpus, typically drawn from books, Wikipedia, news articles, websites, and other publicly available writing. A model can only learn from what it has been exposed to, meaning the strengths and weaknesses of any LLM are deeply tied to what its training corpus includes, excludes, and overrepresents.\n\n\n\nSlide 15 - Training\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#common-public-data-sources-for-llm-training",
+    "href": "session-2-LLMs.html#common-public-data-sources-for-llm-training",
+    "title": "Session 2: Large Language Models",
+    "section": "Common Public Data Sources for LLM Training",
+    "text": "Common Public Data Sources for LLM Training\nMost large language models are trained on a combination of publicly available text: web pages, books, forums, open-access scientific literature, news, Wikipedia, code repositories, and video transcripts. Different models use different mixtures, but the shared goal is broad coverage across writing styles, topics, and forms of human communication.\n\n\n\nSlide 16 - Training Content\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#why-training-takes-enormous-computing-power",
+    "href": "session-2-LLMs.html#why-training-takes-enormous-computing-power",
+    "title": "Session 2: Large Language Models",
+    "section": "Why Training Takes Enormous Computing Power",
+    "text": "Why Training Takes Enormous Computing Power\nTraining a large language model requires an almost unimaginable amount of computation - equivalent to performing one billion calculations per second for 100 million years. This is why training is only feasible using enormous clusters of specialized GPU hardware running many operations in parallel rather than one at a time.\n\n\n\nSlide 17 - Computation\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#why-only-a-few-companies-can-train-frontier-llms",
+    "href": "session-2-LLMs.html#why-only-a-few-companies-can-train-frontier-llms",
+    "title": "Session 2: Large Language Models",
+    "section": "Why Only a Few Companies Can Train Frontier LLMs",
+    "text": "Why Only a Few Companies Can Train Frontier LLMs\nBuilding a frontier LLM is not just a software and algorithm problem - it is an engineering and capital problem requiring high-end GPU clusters, massive storage, fast networking, and teams of highly skilled professionals. As a result, only a handful of major companies have the resources to train the most advanced models from scratch, and their choices about data, design, and policy shape the AI tools much of society uses today.\n\n\n\nSlide 18 - Big Tech\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#the-frontier-models",
+    "href": "session-2-LLMs.html#the-frontier-models",
+    "title": "Session 2: Large Language Models",
+    "section": "The Frontier Models",
+    "text": "The Frontier Models\nFrontier models - including ChatGPT (OpenAI), Gemini (Google), and Claude (Anthropic) - represent the current state of the art in AI, capable of generating fluent text, writing code, analyzing documents, and performing complex reasoning. Their exceptional capabilities stem not just from better algorithms, but from scale: more data, more computing power, and larger model architectures.\n\n\n\nSlide 19 - Frontier Models\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#ai-embedded-in-everyday-academic-tools",
+    "href": "session-2-LLMs.html#ai-embedded-in-everyday-academic-tools",
+    "title": "Session 2: Large Language Models",
+    "section": "AI Embedded in Everyday Academic Tools",
+    "text": "AI Embedded in Everyday Academic Tools\nGoogle Gemini is integrated directly into Google Workspace tools - Gmail, Docs, Sheets, and Drive - bringing frontier AI capabilities into the platforms students and faculty already use for academic work. When accessed through institutional accounts, Gemini operates within enterprise privacy frameworks, helping protect academic data while functioning as an embedded assistant rather than a separate tool.\n\n\n\nSlide 20 - Copilot\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#how-do-we-judge-or-compare-language-models",
+    "href": "session-2-LLMs.html#how-do-we-judge-or-compare-language-models",
+    "title": "Session 2: Large Language Models",
+    "section": "How Do We Judge or Compare Language Models?",
+    "text": "How Do We Judge or Compare Language Models?\nBecause multiple competing language models exist, benchmarking provides a standardized way to evaluate and compare them across tasks such as reasoning, writing quality, math, coding, reading comprehension, and factual accuracy. These benchmarks are a snapshot in time - as models grow more capable, they eventually top out on older tests, forcing the industry to continually develop harder ones.\n\n\n\nSlide 21 - Benchmarks\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#tokens-the-basic-unit-of-language-models",
+    "href": "session-2-LLMs.html#tokens-the-basic-unit-of-language-models",
+    "title": "Session 2: Large Language Models",
+    "section": "Tokens: The Basic Unit of Language Models",
+    "text": "Tokens: The Basic Unit of Language Models\nLanguage models do not process text as full words or sentences - they break input into smaller units called tokens, which may be whole words, parts of words, or individual characters. Tokens are the fundamental unit of measurement for model billing and capacity, and they determine the size of the model’s context window: the number of tokens it can hold in active working memory at one time.\n\n\n\nSlide 22 - Tokens\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#the-context-window",
+    "href": "session-2-LLMs.html#the-context-window",
+    "title": "Session 2: Large Language Models",
+    "section": "The Context Window",
+    "text": "The Context Window\nA model’s context window is the total number of tokens it can hold in active working memory while generating a response, encompassing the current prompt, prior conversation, and any provided documents. When this limit is reached, the model does not slow down - it forgets, dropping older information to make room for newer tokens, making efficient use of the context window critical to output quality.\n\n\n\nSlide 23 - Context Window Out\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#hallucinations-and-confident-wrongness",
+    "href": "session-2-LLMs.html#hallucinations-and-confident-wrongness",
+    "title": "Session 2: Large Language Models",
+    "section": "Hallucinations and “Confident Wrongness”",
+    "text": "Hallucinations and “Confident Wrongness”\nOne of the most important limitations of LLMs is their tendency to produce answers that sound authoritative even when they are factually incorrect - a phenomenon called “hallucination.” This occurs not because the model is malfunctioning, but because it is optimized to predict statistically plausible language, not to guarantee factual correctness.\n\n\n\nSlide 24 - Hallucination\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#the-hidden-web-what-models-cant-see",
+    "href": "session-2-LLMs.html#the-hidden-web-what-models-cant-see",
+    "title": "Session 2: Large Language Models",
+    "section": "The Hidden Web: What Models Can’t See",
+    "text": "The Hidden Web: What Models Can’t See\nMost people assume AI models have “read the entire internet,” but search engines index only roughly 10–15% of the web, with the remainder - the Hidden Web - remaining inaccessible. AI models are heavily trained on the openly accessible portion of the web, giving them far less exposure to the specialized, paywalled, or institutionally protected knowledge that makes up much of academic scholarship.\n\n\n\nSlide 25 - Hidden Web\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#dynamically-generated-web-content",
+    "href": "session-2-LLMs.html#dynamically-generated-web-content",
+    "title": "Session 2: Large Language Models",
+    "section": "Dynamically Generated Web Content",
+    "text": "Dynamically Generated Web Content\nMuch web information is inaccessible to AI training because it exists behind dynamic search interfaces - content generated only in response to a user query, without a stable URL that a crawler can index. Examples include court records, government databases, library catalogs, retail inventories, and transit schedules: information that technically exists online but requires interaction to surface.\n\n\n\nSlide 26 - Dynamic Content\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#unique-file-types-knowledge-in-hard-to-learn-forms",
+    "href": "session-2-LLMs.html#unique-file-types-knowledge-in-hard-to-learn-forms",
+    "title": "Session 2: Large Language Models",
+    "section": "Unique File Types: Knowledge in Hard-to-Learn Forms",
+    "text": "Unique File Types: Knowledge in Hard-to-Learn Forms\nEven when information is technically online, it may exist in formats difficult for language models to ingest at scale - PDFs, PowerPoint decks, Word documents, spreadsheets, and white papers that are not consistently structured or cleanly indexable. Digitized primary sources such as photographs, oral histories, manuscripts, and archival collections housed in library and museum platforms face similar invisibility to large-scale AI training pipelines.\n\n\n\nSlide 27 - File Types\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#paywalled-journalism-and-high-quality-web-content",
+    "href": "session-2-LLMs.html#paywalled-journalism-and-high-quality-web-content",
+    "title": "Session 2: Large Language Models",
+    "section": "Paywalled Journalism and High-Quality Web Content",
+    "text": "Paywalled Journalism and High-Quality Web Content\nMany of the most credible, carefully edited, and professionally fact-checked sources on the web - major newspapers, investigative journalism outlets, and specialized trade publications - are paywalled and therefore absent from most AI training data. When students ask LLMs questions requiring high-quality reporting, models may fill gaps with weaker substitutes, producing confident-sounding answers built from lower-credibility sources.\n\n\n\nSlide 28 - Paywalls\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#library-databases-essential-scholarship-beyond-the-open-web",
+    "href": "session-2-LLMs.html#library-databases-essential-scholarship-beyond-the-open-web",
+    "title": "Session 2: Large Language Models",
+    "section": "Library Databases: Essential Scholarship Beyond the Open Web",
+    "text": "Library Databases: Essential Scholarship Beyond the Open Web\nBeyond paywalls, some of the most important scholarship - peer-reviewed journals, legal research platforms, business datasets, and citation indexes - exists only in specialized library databases not part of the open web that AI models train on. This gap means the research forming the backbone of academic work may never have been seen by a language model, making library access to curated scholarly resources critically important.\n\n\n\nSlide 29 - Databases\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#bias-and-the-limits-of-training-data",
+    "href": "session-2-LLMs.html#bias-and-the-limits-of-training-data",
+    "title": "Session 2: Large Language Models",
+    "section": "Bias and the Limits of Training Data",
+    "text": "Bias and the Limits of Training Data\nLanguage serves as a repository for human culture and collective bias, and AI systems trained on digitized text absorb the associations present in that data - mathematical proximity encoding historical patterns of representation as statistical fact. This means biases around gender, race, and culture are not incidental errors but structural features baked into the model’s understanding of language, with real-world consequences for how these systems treat and represent people.\n\n\n\nSlide 30 - Bias\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-2-LLMs.html#even-the-models-warn-you-about-their-limitations",
+    "href": "session-2-LLMs.html#even-the-models-warn-you-about-their-limitations",
+    "title": "Session 2: Large Language Models",
+    "section": "Even the Models Warn You About Their Limitations",
+    "text": "Even the Models Warn You About Their Limitations\nThe most prominent frontier LLMs all include explicit warnings not to blindly accept their outputs - an admission that these systems can produce authoritative-sounding answers that are incomplete or simply wrong. As recent research suggests, hallucinations may be an unavoidable feature of statistical language modeling, making it essential to develop responsible workflows for using AI in research and scholarship - the focus of the next workshop.\n\n\n\nSlide 31 - Hallucinations\n\n\n← Prev"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#ai-in-the-public-eye",
+    "href": "session-1-what-is-AI.html#ai-in-the-public-eye",
+    "title": "Session 1: What is AI?",
+    "section": "AI in the Public Eye",
+    "text": "AI in the Public Eye\nAI is a transformational technology and one of the most heated topics in public life. People encounter it through wildly diverging claims – utopian promises on one side, existential warnings on the other.\n\n\n\nSlide 1 - Pew Polls\n\n\nNext →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#sensationalism-and-social-media",
+    "href": "session-1-what-is-AI.html#sensationalism-and-social-media",
+    "title": "Session 1: What is AI?",
+    "section": "Sensationalism and Social Media",
+    "text": "Sensationalism and Social Media\nPublic conversations about AI are often shaped by extreme claims from prominent technology leaders and social media discussions. Headlines forecasting the replacement of entire professions coexist with forceful rejections of the technology as unethical or exploitative.\n\n\n\nSlide 2 - Bill Gates\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#context-citizen-instructor-librarian",
+    "href": "session-1-what-is-AI.html#context-citizen-instructor-librarian",
+    "title": "Session 1: What is AI?",
+    "section": "Context – Citizen, Instructor, Librarian",
+    "text": "Context – Citizen, Instructor, Librarian\nA crucial component of college education is the mastery of context - examining diverse perspectives and evaluating whether a viewpoint is objectively correct or an expression of the holder’s unique background. The workshop presenter occupies three overlapping roles (citizen, instructor, librarian), each of which may hold different and sometimes conflicting views about AI.\n\n\n\nSlide 3 - Citizen Teacher Librarian\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#the-purpose-of-college-education",
+    "href": "session-1-what-is-AI.html#the-purpose-of-college-education",
+    "title": "Session 1: What is AI?",
+    "section": "The Purpose of College Education",
+    "text": "The Purpose of College Education\nHigher education has traditionally been understood as a space for liberal arts education emphasizing broad intellectual development and critical thinking. At the same time, college is increasingly viewed as a pathway to employment, creating a longstanding tension between intellectual formation and job training that AI has made even more pronounced.\n\n\n\nSlide 4 - News Media Purpose of College\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#ai-and-the-liberal-arts-tradition",
+    "href": "session-1-what-is-AI.html#ai-and-the-liberal-arts-tradition",
+    "title": "Session 1: What is AI?",
+    "section": "AI and the Liberal Arts Tradition",
+    "text": "AI and the Liberal Arts Tradition\nCan AI be integrated in ways that support a traditional liberal arts education?\n\n\n\nSlide 5 - News Media AI and Education\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#baruch-colleges-ai-policy",
+    "href": "session-1-what-is-AI.html#baruch-colleges-ai-policy",
+    "title": "Session 1: What is AI?",
+    "section": "Baruch College’s AI Policy",
+    "text": "Baruch College’s AI Policy\nBaruch College’s policies on AI reflect that there is no single, universally agreed-upon stance on the technology. The use of AI in coursework is determined by each course instructor, with approaches ranging from “Strictly Prohibited” to “Integrated Use for Application” - acknowledging that different disciplines may reasonably reach different conclusions about AI’s role in the classroom.\n\n\n\nSlide 6 - Baruch AI Policy\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#what-is-ai",
+    "href": "session-1-what-is-AI.html#what-is-ai",
+    "title": "Session 1: What is AI?",
+    "section": "What is “AI”?",
+    "text": "What is “AI”?\nUnderstanding AI begins with clarifying terms that seem familiar but carry different meanings in different contexts.\n\n\n\nSlide 7 - What is AI\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#what-is-data",
+    "href": "session-1-what-is-AI.html#what-is-data",
+    "title": "Session 1: What is AI?",
+    "section": "What is “Data”?",
+    "text": "What is “Data”?\nJust as “data” has many meanings, “AI” is often treated as a single technology when it actually refers to many different systems and practices. Its meaning shifts depending on who is speaking and why. Understanding AI, like understanding data, requires attention to context.\n\n\n\nSlide 8 - What is Data\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#the-ai-nesting-circles",
+    "href": "session-1-what-is-AI.html#the-ai-nesting-circles",
+    "title": "Session 1: What is AI?",
+    "section": "The AI Nesting Circles",
+    "text": "The AI Nesting Circles\nAI is commonly visualized as a set of nested circles, showing that “Artificial Intelligence” is not one single technology but a broad field with layers of specialization. As we move from the outer circle to the inner one, the technology becomes more specific - from general AI concepts to machine learning, deep learning, and generative AI.\n\n\n\nSlide 9 - AI Nesting Circles\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#artificial-intelligence-the-outer-circle",
+    "href": "session-1-what-is-AI.html#artificial-intelligence-the-outer-circle",
+    "title": "Session 1: What is AI?",
+    "section": "Artificial Intelligence – The Outer Circle",
+    "text": "Artificial Intelligence – The Outer Circle\nAt its broadest level, “Artificial Intelligence” refers to any approach that enables computers to perform tasks that would normally require human intelligence. AI is not a single technology but an umbrella term encompassing many different techniques developed over decades.\n\n\n\nSlide 10 - Nesting Circle AI\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#machine-learning",
+    "href": "session-1-what-is-AI.html#machine-learning",
+    "title": "Session 1: What is AI?",
+    "section": "Machine Learning",
+    "text": "Machine Learning\nMachine learning is a subset of AI in which systems learn patterns from data rather than following explicitly programmed rules. Instead of being told exactly what to do, machine learning models are trained on examples and improve their performance through exposure to more data.\n\n\n\nSlide 11 - Nesting Circle ML\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#deep-learning-and-neural-networks",
+    "href": "session-1-what-is-AI.html#deep-learning-and-neural-networks",
+    "title": "Session 1: What is AI?",
+    "section": "Deep Learning and Neural Networks",
+    "text": "Deep Learning and Neural Networks\nDeep learning emerges as a response to the limitations of traditional machine learning when problems become extremely complex. At this scale, the challenge is no longer just selecting variables and fitting a model, but learning how information should be represented in the first place - using layered neural network architectures.\n\n\n\nSlide 12 - Nesting Circle Deep Learning\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#from-simple-models-to-complex-ones",
+    "href": "session-1-what-is-AI.html#from-simple-models-to-complex-ones",
+    "title": "Session 1: What is AI?",
+    "section": "From Simple Models to Complex Ones",
+    "text": "From Simple Models to Complex Ones\nFor decades, computing has excelled at solving models of low mathematical complexity, like predicting GPA from hours studied using a single transparent line. But real-world problems rarely depend on a single variable - when inputs grow into the thousands or millions, more powerful techniques become necessary to capture the complexity of phenomena like language and behavior.\n\n\n\nSlide 13 - Study vs GPA\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#neural-networks-and-hidden-variables",
+    "href": "session-1-what-is-AI.html#neural-networks-and-hidden-variables",
+    "title": "Session 1: What is AI?",
+    "section": "Neural Networks and Hidden Variables",
+    "text": "Neural Networks and Hidden Variables\nDeep learning models use layered networks of interconnected units where each layer transforms input data in increasingly abstract ways. Unlike transparent linear models, these systems discover “hidden” variables and relationships too subtle for human perception - trading interpretability for massive expressive power. Modern language models like GPT-3 contain approximately 175 billion parameters!\n\n\n\nSlide 14 - Neural Network Illustration\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#generative-ai",
+    "href": "session-1-what-is-AI.html#generative-ai",
+    "title": "Session 1: What is AI?",
+    "section": "Generative AI",
+    "text": "Generative AI\nGenerative AI refers to systems designed not just to analyze or predict outcomes, but to produce new content such as text, images, audio, or code. These models generate responses by predicting what is likely to come next in a given context - they do not retrieve stored answers or “understand” meaning, making them both powerful and risky.\n\n\n\nSlide 15 - Nesting Circle Gen AI\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#examples-of-generative-ai",
+    "href": "session-1-what-is-AI.html#examples-of-generative-ai",
+    "title": "Session 1: What is AI?",
+    "section": "Examples of Generative AI",
+    "text": "Examples of Generative AI\nThis workshop focuses specifically on generative AI tools that produce written language - systems designed to generate text-based outputs such as paragraphs, emails, summaries, and full documents. These text-generating tools are among the most widely used forms of generative AI in academic life and raise important questions about reliability, authority, and responsible use.\n\n\n\nSlide 16 - Gen AI Illustration\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#ai-as-a-prediction-machine",
+    "href": "session-1-what-is-AI.html#ai-as-a-prediction-machine",
+    "title": "Session 1: What is AI?",
+    "section": "AI as a Prediction Machine",
+    "text": "AI as a Prediction Machine\nAI is best understood as a “prediction machine” - its outputs are not the result of understanding or reasoning, but of statistical prediction based on patterns learned from data. A system trained only on images of dogs and cats will be forced to label a pig as one or the other, revealing the boundaries of its training rather than independent reasoning.\n\n\n\nSlide 17 - Prediction Dog Cat\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#hallucinations-and-training-boundaries",
+    "href": "session-1-what-is-AI.html#hallucinations-and-training-boundaries",
+    "title": "Session 1: What is AI?",
+    "section": "Hallucinations and Training Boundaries",
+    "text": "Hallucinations and Training Boundaries\nWhen an AI system encounters input outside its training categories, it still produces a confident prediction - this is what is often called a “hallucination.” The AI is not making things up intentionally; it is doing exactly what it was designed to do. Expanding the training data (adding pigs and horses) increases the system’s range but does not grant general knowledge or awareness.\n\n\n\nSlide 18 - Prediction Dog Cat Pig Horse\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#ai-across-domains",
+    "href": "session-1-what-is-AI.html#ai-across-domains",
+    "title": "Session 1: What is AI?",
+    "section": "AI Across Domains",
+    "text": "AI Across Domains\nPrediction-based AI models now power computer vision, recommendation engines, fraud detection, self-driving cars, and medical diagnostic tools. However, this workshop focuses on AI systems that operate on language - systems that read, summarize, generate, and respond to text - because they most directly shape how students and researchers write, study, and evaluate information.\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#predicting-words-and-language",
+    "href": "session-1-what-is-AI.html#predicting-words-and-language",
+    "title": "Session 1: What is AI?",
+    "section": "Predicting Words and Language",
+    "text": "Predicting Words and Language\nLike Mr. Burns’ room of monkeys typing on typewriters in The Simpsons, language models do not understand meaning or intention - they produce sequences of symbols. What separates an LLM from random generation is not creativity or insight, but statistical discipline: at every step, the model predicts which word is most likely to come next, keeping output coherent without any underlying understanding.\n\n\n\nSlide 20 - LLM Logos\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#from-prediction-machines-to-large-language-models",
+    "href": "session-1-what-is-AI.html#from-prediction-machines-to-large-language-models",
+    "title": "Session 1: What is AI?",
+    "section": "From Prediction Machines to Large Language Models",
+    "text": "From Prediction Machines to Large Language Models\nLarge Language Models (LLMs) are deep learning models trained on vast amounts of text, designed to predict and generate human-like language. LLMs have become consequential on college campuses because academic life is fundamentally text-based – and when students can generate polished paragraphs instantly, it changes how writing is produced, knowledge is evaluated, and learning is assessed.\n\n\n\nSlide 21 - Open AI Use Cases\n\n\n← Prev"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI Literacy & LLM Workshop Series",
+    "section": "",
+    "text": "Welcome to the master repository for the AI literacy workshops. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\nAn exploration into the mechanics of LLMs, the transformer architecture, and the concept of mathematical automata.\n\nSession 2"
+  },
+  {
+    "objectID": "index.html#workshop-overview",
+    "href": "index.html#workshop-overview",
+    "title": "AI Literacy & LLM Workshop Series",
+    "section": "",
+    "text": "Welcome to the master repository for the AI literacy workshops. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\nAn exploration into the mechanics of LLMs, the transformer architecture, and the concept of mathematical automata.\n\nSession 2"
+  }
+]

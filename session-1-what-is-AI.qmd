@@ -1,0 +1,214 @@
+---
+title: "Session 1: What is AI?"
+format: html
+---
+
+---
+
+## [AI in the Public Eye]{#slide-1}
+
+AI is a transformational technology and one of the most heated topics in public life. People encounter it through wildly diverging claims -- utopian promises on one side, existential warnings on the other. 
+
+![Slide 1 - Pew Polls](images/session-1/slide-1-pew-polls.jpg)
+
+[Next &rarr;](#slide-2)
+
+---
+
+## [Sensationalism and Social Media]{#slide-2}
+
+Public conversations about AI are often shaped by extreme claims from prominent technology leaders and social media discussions. Headlines forecasting the replacement of entire professions coexist with forceful rejections of the technology as unethical or exploitative.
+
+![Slide 2 - Bill Gates](images/session-1/slide-2-bill-gates.jpg)
+
+[&larr; Prev](#slide-1) | [Next &rarr;](#slide-3)
+
+---
+
+## [Context -- Citizen, Instructor, Librarian]{#slide-3}
+
+A crucial component of college education is the mastery of context - examining diverse perspectives and evaluating whether a viewpoint is objectively correct or an expression of the holder's unique background. The workshop presenter occupies three overlapping roles (citizen, instructor, librarian), each of which may hold different and sometimes conflicting views about AI.
+
+![Slide 3 - Citizen Teacher Librarian](images/session-1/slide-3-citizen-teacher-librarian.jpg)
+
+[&larr; Prev](#slide-2) | [Next &rarr;](#slide-4)
+
+---
+
+## [The Purpose of College Education]{#slide-4}
+
+Higher education has traditionally been understood as a space for liberal arts education emphasizing broad intellectual development and critical thinking. At the same time, college is increasingly viewed as a pathway to employment, creating a longstanding tension between intellectual formation and job training that AI has made even more pronounced.
+
+![Slide 4 - News Media Purpose of College](images/session-1/slide-4-news-media-purpose-of-college.jpg)
+
+[&larr; Prev](#slide-3) | [Next &rarr;](#slide-5)
+
+---
+
+## [AI and the Liberal Arts Tradition]{#slide-5}
+
+Can AI be integrated in ways that support a traditional liberal arts education? 
+
+![Slide 5 - News Media AI and Education](images/session-1/slide-5-news-media-ai-and-education.jpg)
+
+[&larr; Prev](#slide-4) | [Next &rarr;](#slide-6)
+
+---
+
+## [Baruch College's AI Policy]{#slide-6}
+
+Baruch College's policies on AI reflect that there is no single, universally agreed-upon stance on the technology. The use of AI in coursework is determined by each course instructor, with approaches ranging from "Strictly Prohibited" to "Integrated Use for Application" - acknowledging that different disciplines may reasonably reach different conclusions about AI's role in the classroom.
+
+![Slide 6 - Baruch AI Policy](images/session-1/slide-6-baruch-AI-policy.jpg)
+
+[&larr; Prev](#slide-5) | [Next &rarr;](#slide-7)
+
+---
+
+## [What is "AI"?]{#slide-7}
+
+Understanding AI begins with clarifying terms that seem familiar but carry different meanings in different contexts. 
+
+![Slide 7 - What is AI](images/session-1/slide-7-what-is-AI.jpg)
+
+[&larr; Prev](#slide-6) | [Next &rarr;](#slide-8)
+
+---
+
+## [What is "Data"?]{#slide-8}
+
+Just as "data" has many meanings, "AI" is often treated as a single technology when it actually refers to many different systems and practices. Its meaning shifts depending on who is speaking and why. Understanding AI, like understanding data, requires attention to context.
+
+![Slide 8 - What is Data](images/session-1/slide-8-what-is-data.jpg)
+
+[&larr; Prev](#slide-7) | [Next &rarr;](#slide-9)
+
+---
+
+## [The AI Nesting Circles]{#slide-9}
+
+AI is commonly visualized as a set of nested circles, showing that "Artificial Intelligence" is not one single technology but a broad field with layers of specialization. As we move from the outer circle to the inner one, the technology becomes more specific - from general AI concepts to machine learning, deep learning, and generative AI.
+
+![Slide 9 - AI Nesting Circles](images/session-1/slide-9-AI-nesting-circles.jpg)
+
+[&larr; Prev](#slide-8) | [Next &rarr;](#slide-10)
+
+---
+
+## [Artificial Intelligence -- The Outer Circle]{#slide-10}
+
+At its broadest level, "Artificial Intelligence" refers to any approach that enables computers to perform tasks that would normally require human intelligence. AI is not a single technology but an umbrella term encompassing many different techniques developed over decades.
+
+![Slide 10 - Nesting Circle AI](images/session-1/slide-10-nesting-circle-AI.jpg)
+
+[&larr; Prev](#slide-9) | [Next &rarr;](#slide-11)
+
+---
+
+## [Machine Learning]{#slide-11}
+
+Machine learning is a subset of AI in which systems learn patterns from data rather than following explicitly programmed rules. Instead of being told exactly what to do, machine learning models are trained on examples and improve their performance through exposure to more data.
+
+![Slide 11 - Nesting Circle ML](images/session-1/slide-11-nesting-circle-ML.jpg)
+
+[&larr; Prev](#slide-10) | [Next &rarr;](#slide-12)
+
+---
+
+## [Deep Learning and Neural Networks]{#slide-12}
+
+Deep learning emerges as a response to the limitations of traditional machine learning when problems become extremely complex. At this scale, the challenge is no longer just selecting variables and fitting a model, but learning how information should be represented in the first place - using layered neural network architectures.
+
+![Slide 12 - Nesting Circle Deep Learning](images/session-1/slide-12-nesting-circle-deep-learning.jpg)
+
+[&larr; Prev](#slide-11) | [Next &rarr;](#slide-13)
+
+---
+
+## [From Simple Models to Complex Ones]{#slide-13}
+
+For decades, computing has excelled at solving models of low mathematical complexity, like predicting GPA from hours studied using a single transparent line. But real-world problems rarely depend on a single variable - when inputs grow into the thousands or millions, more powerful techniques become necessary to capture the complexity of phenomena like language and behavior.
+
+![Slide 13 - Study vs GPA](images/session-1/slide-13-study-vs-GPA.jpg)
+
+[&larr; Prev](#slide-12) | [Next &rarr;](#slide-14)
+
+---
+
+## [Neural Networks and Hidden Variables]{#slide-14}
+
+Deep learning models use layered networks of interconnected units where each layer transforms input data in increasingly abstract ways. Unlike transparent linear models, these systems discover "hidden" variables and relationships too subtle for human perception - trading interpretability for massive expressive power. Modern language models like GPT-3 contain approximately 175 billion parameters!
+
+![Slide 14 - Neural Network Illustration](images/session-1/slide-14-neural-network-illustration.jpg)
+
+[&larr; Prev](#slide-13) | [Next &rarr;](#slide-15)
+
+---
+
+## [Generative AI]{#slide-15}
+
+Generative AI refers to systems designed not just to analyze or predict outcomes, but to produce new content such as text, images, audio, or code. These models generate responses by predicting what is likely to come next in a given context - they do not retrieve stored answers or "understand" meaning, making them both powerful and risky.
+
+![Slide 15 - Nesting Circle Gen AI](images/session-1/slide-15-nesting-cirlce-gen-ai.jpg)
+
+[&larr; Prev](#slide-14) | [Next &rarr;](#slide-16)
+
+---
+
+## [Examples of Generative AI]{#slide-16}
+
+This workshop focuses specifically on generative AI tools that produce written language - systems designed to generate text-based outputs such as paragraphs, emails, summaries, and full documents. These text-generating tools are among the most widely used forms of generative AI in academic life and raise important questions about reliability, authority, and responsible use.
+
+![Slide 16 - Gen AI Illustration](images/session-1/slide-16-gen-ai-illustration.jpg)
+
+[&larr; Prev](#slide-15) | [Next &rarr;](#slide-17)
+
+---
+
+## [AI as a Prediction Machine]{#slide-17}
+
+AI is best understood as a "prediction machine" - its outputs are not the result of understanding or reasoning, but of statistical prediction based on patterns learned from data. A system trained only on images of dogs and cats will be forced to label a pig as one or the other, revealing the boundaries of its training rather than independent reasoning.
+
+![Slide 17 - Prediction Dog Cat](images/session-1/slide-17-prediction-dog-cat.jpg)
+
+[&larr; Prev](#slide-16) | [Next &rarr;](#slide-18)
+
+---
+
+## [Hallucinations and Training Boundaries]{#slide-18}
+
+When an AI system encounters input outside its training categories, it still produces a confident prediction - this is what is often called a "hallucination." The AI is not making things up intentionally; it is doing exactly what it was designed to do. Expanding the training data (adding pigs and horses) increases the system's range but does not grant general knowledge or awareness.
+
+![Slide 18 - Prediction Dog Cat Pig Horse](images/session-1/slide-18-prediction-dog-cat-pig-horse.jpg)
+
+[&larr; Prev](#slide-17) | [Next &rarr;](#slide-19)
+
+---
+
+## [AI Across Domains]{#slide-19}
+
+Prediction-based AI models now power computer vision, recommendation engines, fraud detection, self-driving cars, and medical diagnostic tools. However, this workshop focuses on AI systems that operate on language - systems that read, summarize, generate, and respond to text - because they most directly shape how students and researchers write, study, and evaluate information.
+
+[&larr; Prev](#slide-18) | [Next &rarr;](#slide-20)
+
+---
+
+## [Predicting Words and Language]{#slide-20}
+
+Like Mr. Burns' room of monkeys typing on typewriters in *The Simpsons*, language models do not understand meaning or intention - they produce sequences of symbols. What separates an LLM from random generation is not creativity or insight, but statistical discipline: at every step, the model predicts which word is most likely to come next, keeping output coherent without any underlying understanding.
+
+![Slide 20 - LLM Logos](images/session-1/slide-20-LLM-logos.jpg)
+
+[&larr; Prev](#slide-19) | [Next &rarr;](#slide-21)
+
+---
+
+## [From Prediction Machines to Large Language Models]{#slide-21}
+
+Large Language Models (LLMs) are deep learning models trained on vast amounts of text, designed to predict and generate human-like language. LLMs have become consequential on college campuses because academic life is fundamentally text-based -- and when students can generate polished paragraphs instantly, it changes how writing is produced, knowledge is evaluated, and learning is assessed.
+
+![Slide 21 - Open AI Use Cases](images/session-1/slide-21-open-ai-use-cases.jpg)
+
+[&larr; Prev](#slide-20)
+
+---

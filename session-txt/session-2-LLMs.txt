@@ -1,0 +1,504 @@
+SESSION 2
+Large Language Models
+
+
+1)
+How do LLMs predict text?
+
+How would you complete this sentence? 
+
+It was the best of times, it was the _______
+When you see this sentence, most people instinctively complete it with “worst of times.” What matters is not that you remember Dickens—it’s that your brain has learned patterns in language.
+Large language models work the same way. They don’t understand meaning in a human sense. Instead, they are trained on massive amounts of text and learn statistical regularities—given a sequence of words, they predict what is most likely to come next.
+At a fundamental level, this is possible because computers represent language numerically, allowing patterns to be learned and predictions to be calculated mathematically.
+
+2)
+The New Yorker: “What kind of mind does ChatGPT have?”
+
+This leads to an important point emphasized in this New Yorker article: language models are not sentient minds - they are mathematical systems that generate text by selecting the most probable next word.
+They produce outputs that can feel intelligent because they reflect patterns learned from enormous amounts of human writing. But underneath, the process is probabilistic, not conscious.
+This distinction is essential: language models simulate understanding by predicting language, rather than possessing understanding themselves.
+
+3)
+Visualization of probabilistic text generation
+This visualization shows what that process actually looks like internally. I have links to the code in the corner for this visualization. 
+I asked the GPT-4 API the question “In less than 10 words, what is it like studying at Baruch College”, and return the top-3 words that could’ve been decided upon answering this question. The “blue” tokens in the middle are what was chosen for the answer. The “gray” tokens are what was ultimately ignored. 
+At each step, the model evaluates many possible next words and assigns each a probability. It then selects one and repeats the process, building the sentence word by word.
+What appears to us as a coherent thought is actually the result of many sequential probability decisions - each word chosen because it was statistically likely given the context.
+In other words, fluent language emerges from mathematics and probability, not intention or awareness.
+
+4)
+
+
+To understand how machines can make these predictions, we need to step back and look at something even more basic: how computers represent information in the first place.
+
+An important part of understanding computing technology - and how computers work - is recognizing that everything a computer processes must first be represented as a number. 
+
+That is, computers do not directly interpret the analog world of color, sound, or motion - instead, they translate real-world phenomena into numerical representations so that changes and comparisons can be performed through calculation.
+
+This image above illustrates a classic example: color represented as numbers. 
+
+Each colored square is defined by a numerical code. Although these codes include letters (A–F), they are still numbers (!) - written in what is known as base-16 (hexadecimal)  - rather than the more familiar base-10 system. 
+
+(Hexadecimal numbers are still numbers, but they simply use a different notation that is compact and convenient for computers.)
+
+
+
+If we imagine each individual colored square represented as a number -  a tiny pixel - we can begin to see how digital images are constructed. 
+
+At low resolutions, individual pixels are clearly visible - we see squares or “color boxes.” As resolution increases, those pixels become indistinguishable to the human eye and begin to approximate a smooth, continuous image - much like a printed photograph!
+
+Extending this idea even further: digital video is simply a rapid sequence of images, each composed of millions of pixels, each pixel defined by numbers, and each number manipulated through mathematical operations. 
+
+Through this, you can begin to understand how computers represent analog phenomena. 
+
+Thus, whether we are editing a photo or listening to an mp3 or streaming a video, the underlying process is always the same: numbers representing numbers representing the world.
+
+Words, sentences and paragraphs - the foundations of language - are no different. 
+
+
+5) 
+Words (...sentences and paragraphs) as numbers
+
+In high school math, you no doubt encountered an assignment where you were tasked graphing points and lines with the help of the X (horizontal) and the Y (vertical) axis: 
+
+
+
+Believe it or not, language models do something similar with words (...but in dimensions far, far beyond our simple 2-dimensions from high school): 
+
+
+
+6)
+
+
+These words - “cat,” “dog,” “puppy,” and “airplane” - have all been converted into numbers and plotted in a mathematical space, similar to how we plotted our points (1,1) and (3,4) earlier.
+
+Notice anything about the distances between them?
+
+“Dog” and “puppy” appear very close together, and “cat” is still relatively nearby - while “airplane” sits far away, on the other side of this rendering.
+
+Do those distances intuitively create meaning for you? 
+
+This is one of the key ways language models detect relationships among words: distance becomes a stand-in for similarity. 
+
+Words that appear in similar contexts tend to cluster together, while unrelated words end up farther apart.
+
+
+7)
+
+And this is extended to not just words, but sentences and paragraphs too: 
+
+
+
+
+An impressive mathematical marvel of mapping words into a geometric space like this is that language starts to behave as if it has structure you can measure.
+
+Once words are represented as in mathematical space, the model isn’t just able to say “dog is similar to puppy” - it can begin to capture relationships that unfold across many examples in the training data. In other words, the model can learn that certain patterns of difference between words repeat across language, and those differences can show up as consistent “directions” in space.
+
+
+
+8) 
+
+One of the clearest illustrations of this comes from math educator Grant Sanderson, (YouTube creator “3Blue1Brown”) in a series of online tutorials on LLMs. 
+
+In one of his explanations, Sanderson built a simplified embedding space for educational purposes and plotted a few familiar words - king, queen, man, and woman - as points in a shared coordinate system: 
+
+
+Sanderson, G. [3Blue1Brown]. (2024, April 1). Transformers, the tech behind LLMs | Deep Learning Chapter 5 [Video]. YouTube. https://www.youtube.com/watch?v=wjZofJX0v4M
+
+The visual is striking: notice how the “step” from man to woman (yellow arrow) has roughly the same direction and size as the “step” from king to queen. 
+In other words, the embedding space seems to represent a consistent relationship between these word pairs. This is what the equation at the top is expressing:
+E(queen) ≈ E(king) + E(woman) − E(man)
+This does not mean the model “understands gender” the way a human does. But it does suggest that, purely from patterns in language, the model can learn a stable mathematical transformation that often corresponds to concepts we recognize - like gendered word pairings!
+
+9) 
+
+“Self-Attention” and the Transformer Architecture
+
+Before the transformer architecture and the development of the modern Large Language Model, many language models processed text sequentially - one word at a time, from left to right. 
+
+This means the model built its understanding of a sentence in a step-by-step chain: word 1, influences word 2, word 2 influences word 3, and so on: 
+
+This created two major limitations. 
+
+First, it was slow, because the model couldn’t fully process later words until it had already processed earlier ones. 
+
+Second, it makes it difficult to capture long-range meaning. Words often depend on other words far away in the sentence, but sequential models tend to focus most strongly on what’s nearby, and they can lose track of important context as the sentence gets longer.
+
+What would be ideal is a collection of relationships that looks like this: 
+
+
+
+In 2017, a landmark innovation in deep learning transformed how computers process language: the Transformer architecture. Transformers introduced a new mechanism - “self-attention” - that allows each word to “look back” at all earlier words at once and decide which ones matter most. 
+
+
+
+10) 
+
+Consider this sentence: 
+
+The trophy doesn’t fit in the brown suitcase because it is too small.
+
+To understand this sentence correctly, the model has to determine what “it” refers to. A human reader can infer that “it” refers to the suitcase - the suitcase is too small to hold the trophy.
+
+But prior to 2017, for a sequential model that processes text one word at a time, this kind of long-distance relationship can be difficult to track. 
+
+By the time it reaches the phrase “too small,” the model may incorrectly connect that description to the most recent noun (“the trophy”) rather than the earlier, more relevant noun (“the suitcase”). 
+
+This is a classic example of how meaning in language depends on relationships between words that may be far apart - and why self-attention is so powerful: it allows the model to directly compare and link distant parts of a sentence instead of relying only on nearby context.
+
+
+
+This sentence again:  
+
+
+…illustrates that ideal: similar to all the arrows establishing relationships among all the words, self-attention allows every word to form direct connections with many other words in the sentence, even if they are far apart.
+
+Thus, rather than meaning being built only through a slow, step-by-step chain, self-attention creates a web of connections across the entire sentence, allowing the model to consider the entire context in parallel - improving both speed and contextual understanding.
+
+
+11) 
+
+The computing hardware that makes self-attention possible
+
+While the Transformer architecture was a major conceptual breakthrough, it only became practical because of advances in computer hardware, namely, the GPU:  
+
+
+
+Modern AI relies heavily on the GPU (graphics processing unit), a chip originally designed to accelerate video game graphics by performing many computations at the same time.
+
+To advance innovation in AI, “performing many computations at the same time” turned out to be exactly what deep learning needed. 
+
+Unlike a traditional CPU, which is optimized for executing instructions sequentially - one after another - just like our first “It was the best of times…” illustration:  
+
+…a GPU excels at massively parallel computations  - performing many operations at the same time. Again: 
+
+  
+
+In other words, it wasn’t just the development of transformers and self-attention that changed how language could be modeled; GPUs made it possible to do this computation at the scale and speed required for modern AI.
+
+
+12)
+
+If you want a financial indicator of just how essential this hardware has become to the modern AI boom, look no further than Nvidia (NVDA) - the leading manufacturer of GPU chips used to train large-scale deep learning systems.  
+
+As demand for AI computation has surged, Nvidia’s stock has soared - representing one of the most dramatic Wall Street runs of any major tech company - reflecting how central GPUs have become to the entire modern AI ecosystem: 
+
+
+Patnaik, S., & Reinicke, C. (2024, May 23). Nvidia’s jaw-dropping rise to chip stardom, in charts. Bloomberg. https://www.bloomberg.com/news/articles/2024-05-23/five-charts-showing-nvidia-s-jaw-dropping-rise-to-chip-stardom
+
+
+
+13) 
+
+“Words as Numbers” and the Transformer Architecture 
+So far, we’ve seen two key ingredients behind modern language models.
+Embeddings turn words into numbers and place them in a mathematical space where distance reflects similarity - which is why “dog” ends up near “puppy,” while “airplane” lands far away.
+And self-attention of the transformer architecture helps the model interpret words in context, by building a web of relationships across the full sentence (or paragraph, or document…) - so it can correctly connect “it” to “the suitcase,” not “the trophy.”
+But this raises an important question: how does the model learn these structures in the first place?
+How does it “discover” that “dog”-like words cluster together, or that certain pronouns tend to refer back to specific nouns?
+The answer is “training.”
+
+14)
+
+Training Large Language Models
+So far, we’ve seen that language models work by predicting what comes next: the next token, the next word, the next phrase, or the next sentence. But that raises an obvious question:
+How does a machine learn to make those predictions so well?
+Again: training.
+Training is the long, expensive process where a language model is exposed to enormous amounts of text and repeatedly practices one task: guessing what comes next in a sequence. 
+It makes a prediction, checks whether the prediction was correct, and then slightly adjusts itself so it performs better next time. This happens not once, or a handful of times, but billions and billions and billions of times!
+Over time, the model becomes extremely adept at estimating what language is most likely to look like next - not because it “understands” meaning like a human, but because it has learned statistical patterns in how language tends to unfold.
+
+
+15) 
+
+The “Corpus”: what the model trains on
+
+The huge collection of text that an LLM trains on is often called a corpus (or “training corpus”). In plain terms, the corpus is the model’s reading material - the body of documents that shape what patterns the model learns.
+
+This corpus is usually built from many different sources: books, encyclopedias, Wikipedia-like reference text, news articles, instructional writing, websites, public online writing, and sometimes code repositories. Different models use different mixtures, but the key point is the same:
+A model can only learn from what it has been exposed to.
+That means the strengths and weaknesses of a language model are deeply tied to its training corpus - what it includes, what it excludes, and what kinds of perspectives are overrepresented or missing.
+This is important for understanding a critical limitation of LLMs and we will revisit this soon.
+
+
+
+16)
+
+Common public data sources used to train Large Language Models
+Most large language models are trained on massive collections of publicly available text drawn from many different parts of the internet. These sources are often combined to give models broad coverage across writing styles, topics, and forms of human communication. While the exact datasets vary by developer, common categories of public training data include:
+
+Web pages. General web content is one of the largest sources of training text. This can include blog posts, articles, product descriptions, reviews, and other publicly accessible writing across domains like science, business, retail, and culture.
+Books. Public domain book collections (books published prior to 1930 - such as Project Gutenberg) provide longer-form, carefully edited writing that helps models learn narrative structure, tone, and more formal language.
+Forums and community discussions. Online communities and discussion platforms provide conversational language and question-and-answer formats.
+Open Access Scientific and research literature. For technical or academic language, models may draw on open-access research platforms and repositories such as PubMed Central, Public Library of Science, Directory of Open Access Journals and similar sources.
+News and journalism. News writing helps models learn about current events, public issues, and common reporting conventions. This does not include paywalled news sources. 
+Wikipedia. Wikipedia is frequently used because it is well-organized, widely translated, and covers an enormous range of topics. While it is not a perfect authority source, it provides consistent explanatory writing that supports general knowledge training.
+Code repositories. Many models are trained partly on publicly available code to support programming-related tasks. Common sources include open repositories and public coding platforms such as GitHub and Kaggle notebooks.
+Transcripts from video platforms. Some training data can come from publicly available transcripts of spoken content, such as lectures, interviews, and discussions, which expose models to more informal and conversational language.
+
+17)
+
+Why training takes so much computing power
+
+Training a large language model is not like “reading a library once.” It is more like doing a giant, repeated exercise: predicting the next piece of text over and over and adjusting millions - or billions - of internal parameters each time.
+
+This process requires an almost unimaginable amount of computation. To give a sense of scale: 
+
+If you could perform one billion calculations per second, it would still take about 100,000,000 years to complete the total number of operations involved in training a large language model.
+
+That’s why training is only possible using enormous computer clusters running specialized hardware, especially GPUs - processors designed to do many calculations “in parallel,” not one at a time.
+
+18)
+Why only a few companies can train frontier LLMs
+
+At this point, we can see why large language models feel so impressive: they are built through massive training on enormous corpora, powered by specialized hardware, and refined through repeated optimization.
+But building a frontier LLM is not just a software and algorithm problem - it is an engineering and capital problem.
+Training at this scale requires enormous financial resources: access to high-end GPU clusters, huge storage systems, fast networking, and teams of highly skilled engineers, researchers and computer professionals.
+As a result, only a small number of institutions have the capacity to train the most advanced models from scratch. In practice, this means the “frontier” of AI is led by a handful of major companies - and the choices those companies make about data, design, and policy shape the tools so much of society uses today, in 2026.
+
+
+19)
+
+The “Frontier Models”
+When people talk about “AI” today, they are often referring to a small group of extremely large, cutting-edge language models known as frontier models.
+These systems are trained on enormous datasets and require vast computational resources—sometimes thousands of specialized processors running for weeks or months. As a result, only a handful of organizations currently have the resources to build them.
+Some of the most visible frontier models include:
+ChatGPT (OpenAI)
+
+
+Gemini (Google)
+
+
+Claude (Anthropic)
+
+
+These models represent the current state of the art: they are capable of generating fluent text, writing code, analyzing documents, and performing complex reasoning tasks.
+There are also many other strong models - including open-source systems—but frontier models tend to be the most capable, most expensive to train, and most widely deployed at global scale.
+Their capabilities are not just the result of better algorithms, but of scale: more data, more computing power, and larger model architectures.
+
+20) 
+
+Google Gemini is Google’s AI-powered assistant, integrated into tools like Gmail, Google Docs, Sheets, and Google Drive, providing access to frontier language model capabilities directly within the Google Workspace environment.
+Like Microsoft Copilot, Gemini can help users draft documents, summarize readings, analyze data, and assist with research tasks by generating and refining language based on statistical patterns learned during training.
+When used through institutional Google Workspace accounts, Gemini operates within enterprise privacy and security frameworks, helping ensure that academic work, personal data, and institutional information remain protected.
+This integration allows AI to function not as a separate tool, but as an embedded assistant within the everyday platforms students and faculty already use for academic work.
+
+21)
+How do we judge or compare language models?
+Once we accept that there are multiple competing language models, a natural question emerges:
+How do we decide which model is “better”?
+One approach involves “benchmarking”: using standardized tests to measure performance across tasks.
+Benchmarks often evaluate and score LLMs on criteria like:
+reasoning and problem-solving
+writing quality and summarization
+math and coding ability
+reading comprehension
+factual accuracy and error rates
+
+When we talk about which AI is 'best,' we aren't just guessing; we rely on a rigorous set of standardized tests called benchmarks. Because frontier models are general-purpose, we need a way to quantify their performance across many different 'human' skills at once.
+It's important to understand the nature of these tests: they are a snapshot in time. As models get more capable, they eventually 'top out' on old benchmarks, forcing the industry to create harder ones. 
+
+22)
+
+We’re now going to introduce an important concept for understanding how large language models work: the context window. But before we can understand context windows, we first need to understand the basic unit these models operate on: tokens.
+Language models do not process text as full words or sentences. Instead, they break text into smaller units called tokens. A token might be a whole word, part of a word, or even a single character, depending on what is most statistically useful for the model.
+You saw this earlier in the Baruch example. The model did not generate the entire sentence at once. It generated one token at a time — selecting “Diverse,” then “fast-paced,” then “career-focused” — with each choice based on probabilities conditioned on the tokens that came before it.
+Each of these tokens is converted into a numerical representation, and the model learns mathematical relationships between those numbers. This allows it to compute patterns in language and predict what token is most likely to come next.
+Tokens are also the unit that determines the model’s fundamental limits. Models are billed in tokens, and their capacity is measured in tokens. That means when we talk about how much text a model can read, remember, or reason about at once, we are really talking about how many tokens it can hold in its active working memory.
+That capacity — the number of tokens the model can consider at one time — is what we call the context window.
+
+23)
+This now leads to an important constraint called the context window.
+A model’s context window is the total number of tokens it can hold in its active working memory while generating a response. This includes your current prompt, the previous conversation, and any documents you provide.
+Think of it like a mental workspace. The model can only reason over what fits inside that workspace at one time.
+Because this memory is finite, a 128,000 token context window is a strict boundary. If the input becomes too long or contains too many irrelevant tokens, it fills that workspace and crowds out useful information.
+When the limit is reached, the model doesn’t slow down - it forgets. It drops older information to make room for newer tokens. This is why long conversations or overly dense inputs can cause the model to lose track of earlier details.
+Even as modern models expand these windows, the constraint never disappears. The quality of the model’s output depends not just on what you ask, but on how efficiently you use its limited working memory.
+
+
+
+
+24)
+
+Hallucinations and “Confident Wrongness”
+One of the most important limitations of large language models is their ability to produce answers that sound authoritative - even when those answers are factually incorrect.
+This phenomenon is often called a “hallucination.” But that term can be misleading, because the model is not malfunctioning. In fact, it is doing exactly what it was trained to do.
+A language model’s core function is to predict the most statistically plausible continuation of text, given the prompt it receives.
+A hallucination, then, is best understood as a confident answer generated without reliable grounding in verified information.
+Once you understand that an LLM is fundamentally predicting “what comes next,” this behavior becomes easier to explain.
+The model is not weighing evidence or evaluating truth in the way a human researcher would. It is selecting the sequence of words that is most statistically likely to follow from the prompt, based on patterns it learned during training.
+When the model has strong, well-represented information available - topics that are widely documented and frequently discussed - it can produce answers that are remarkably accurate and useful.
+But when the relevant knowledge is missing, incomplete, or inaccessible, the model may still generate a response that sounds fluent, scholarly, and complete. This is because it is optimized to produce plausible-sounding language, not to guarantee factual correctness.
+This leads to an essential practical lesson for using AI responsibly in academic work:
+The quality of an LLM’s answer depends heavily on whether the relevant knowledge is actually present and accessible in its information environment.
+Understanding this boundary - knowing when the system is likely to be well-grounded, and when it is not - is one of the most important skills in developing true AI literacy.
+
+25)
+
+
+The “Hidden Web” problem: what models can’t see 
+
+When most people think of the internet, they imagine something like Google—a giant, searchable library where everything can be found with a simple query.
+But this is not actually how the web works.
+Google only indexes a relatively small portion of the total information available online. Estimates vary, but a commonly cited range is that search engines access roughly 10 to 15 percent of the web.
+The remaining majority is known as the Hidden Web, sometimes called the Deep Web.
+This includes enormous amounts of information that are not freely crawlable. 
+This creates an important parallel with AI systems.
+Many people assume that AI models have “read the entire internet.” But in reality, models are heavily trained on the portion of the web that is openly accessible - public websites, openly licensed material and large crawlable datasets.
+They have far less direct access to the specialized, paywalled, or institutionally protected knowledge that makes up much of academic scholarship.
+
+26) 
+
+Dynamically generated web content
+
+A good deal of information on the web is blocked from AI training because it sits behind dynamic search interfaces:
+
+
+
+Ever notice how some information you interact with on the web is only generated after you “type something” into a search box? 
+
+In these cases, the content isn’t sitting on a normal webpage with a stable URL that a crawler can easily discover. Instead, it lives inside a database-like system that responds to queries. 
+
+Even when this information is “free” to access as a human, it can be difficult for automated crawlers to index or find - and therefore difficult for an AI system to reliably ingest as training data.
+
+Examples may include: 
+Court records and legal filings, where documents are retrievable only by searching names, case numbers, or dates.
+
+
+Government databases, like business entity lookups, property tax records, building permits, or inspection histories.
+
+
+Library catalogs, book records only surface after keyword searches and are often hidden behind searchable interfaces.
+
+
+Retail inventories on shopping sites, where product availability appears only once you choose a store location, size, or color (etc…).
+
+
+Transit and airline schedules, where results are produced only after you enter routes and dates.
+Even though this information is technically “on the internet,” it’s not always part of the easily crawlable public web. 
+
+This is the kind of content that requires interaction - and that makes it much harder for AI systems to simply “read the web” the way people assume they do.
+
+
+27) 
+
+Unique file types: knowledge exists, but not always in a “learnable” form
+
+Even when information is technically “online,” it may not be available in the kinds of formats that are easy for language models to ingest at scale: 
+
+
+
+A huge amount of valuable knowledge lives inside:
+
+PDFs
+PowerPoint decks
+Word documents
+spreadsheets
+white papers from think tanks and research institutions
+slide presentations from conferences
+
+That information might exist in abundance, but it’s often:
+
+not cleanly indexable
+not consistently structured
+not openly accessible
+or preserved in the way a general web crawl captures
+
+This same problem extends beyond “file formats” into digital cultural heritage itself. 
+
+Many of the most important primary sources on the internet - digitized photographs, oral histories, manuscripts, and archival collections - live inside library and museum platforms that are carefully curated and sometimes access-restricted:
+
+
+
+
+
+These are places where “primary-source evidence” lives online, but not necessarily in the open-web stream that models absorb easily.
+
+Thus, even in cases where the information “exists on the internet,” it may still remain effectively invisible to large-scale AI training pipelines - simply because it isn’t published in a form machines can reliably crawl, parse, and learn from.
+
+28) 
+
+Paywalled journalism and “high-quality web content”
+
+Many of the most credible, carefully edited, professionally fact-checked sources on the modern web are not freely accessible, and thus, not trained on my major language models: 
+
+
+This content lives behind paywalls, inside places like:
+
+subscription news outlets (major newspapers and magazines)
+investigative journalism platforms
+specialized trade journalism and industry coverage
+
+This matters because when students ask an LLM a question that should be answered using high-quality reporting, the model may fill gaps with weaker substitutes:
+
+free summaries or reposts
+opinion pieces that sound like reporting
+blog posts and aggregator sites
+incomplete “preview” text
+confident language built from thin evidence
+
+That’s a common path to confident wrongness - a believable one built from the lowest-credibility version of the story that happens to be freely available.
+
+29) 
+
+Library databases: access to essential scholarship, legal research, and financial knowledge
+
+Separate from paywalls is an even bigger issue.  Some of the most important scholarship and research is not on the open web at all - even if it is digital - it only exists in specialized databases, often only available from libraries or institutions offering access:  
+
+
+Such databases and resources can include:
+
+peer-reviewed journal databases
+legal research platforms
+business and financial datasets
+market research tools
+citation indexes 
+
+These resources are online, but they aren’t open-web searchable in the way many documents indexed by Google are  - and thus, they’re often not part of the large public “text reservoir” that language models learn from.
+
+Much of the research and scholarship that forms the backbone of academic work - journal articles, legal cases, financial filings, empirical studies - may never have been seen by an AI language. 
+
+When students rely on an LLM to answer questions rooted in scholarly literature, the model may be operating without access to the very sources their instructors expect them to use. 
+
+Understanding this gap helps explain both the power and the limits of AI tools in academic research - and why library access to curated scholarly resources remains essential.
+
+
+30)
+
+
+Language serves as the primary vehicle for human culture, yet it simultaneously acts as a repository for our collective biases. When AI systems are trained on "lots and lots of digitized books and news articles," these models do not merely learn grammar; they absorb the ways we associate different groups of people with specific traits or roles. This occurs because human language is naturally associative, and in a semantic vector space, words are positioned based on their mathematical proximity to other terms within the training data. 
+
+Consequently, if a majority of historical texts associate a certain profession or behavior with a specific demographic, the AI mathematically treats that association as a "fact," creating a "black box" where human prejudices are transformed into automated statistical truths.
+
+This technical process has profound real-world consequences regarding systemic oppression, particularly through the lens of sexism and racism. 
+
+For instance, if training data consistently places the word "man" closer to "doctor" and "woman" closer to "nurse," the resulting AI may struggle to recognize or generate unbiased content regarding women in leadership or STEM roles. 
+
+Furthermore, by reducing the world to statistical averages derived from Western-centric data, AI often flattens diverse cultures into harmful stereotypes. This leads to systemic erasure, as "old attitudes" baked into new technology prioritize dominant cultural narratives while marginalizing the voices of minority groups that have been historically underrepresented in digitized archives.
+
+We need to be vigilant about understanding this reality of AI systems. 
+
+
+31)
+
+Even the models warn you about their limitations
+
+It’s worth noticing something important: the prominent, frontier LLMs all warn you not to blindly accept their answers:
+
+
+
+
+
+This is not just legal boilerplate. It’s an admission that these systems can produce answers that sound authoritative even when they are incomplete or simply wrong.
+
+A recent, major paper titled “Why Language Models Hallucinate” argues that hallucinations can emerge from the statistical structure of language modeling itself: systems trained to generate fluent continuations may still “guess” when uncertain, rather than pause and say “I don’t know:”
+Kalai, A. T., Nachum, O., Vempala, S. S., & Zhang, E. (2025). Why language models hallucinate. arXiv preprint arXiv:2509.04664.
+
+Thus, if hallucinations are sometimes an unavoidable feature of language models, then the real academic question becomes: 
+
+How can LLMs still be useful for research and scholarship? 
+
+And what workflows do we need in order to use them responsibly?
+
+This will be the focus of the next workshop. 

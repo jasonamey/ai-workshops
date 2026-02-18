@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Session 1: What is AI? – AI Workshops</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a21a96fda2a35a6034e035564d362780.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">AI Workshops</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">master.qmd</span>
+    </span>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./session-1-what-is-AI.html" aria-current="page"> 
+<span class="menu-text">Session 1: What is AI?</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./session-2-LLMs.html"> 
+<span class="menu-text">Session 2: Large Language Models</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Session 1: What is AI?</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<hr>
+<section id="ai-in-the-public-eye" class="level2">
+<h2 class="anchored" data-anchor-id="ai-in-the-public-eye"><span id="slide-1">AI in the Public Eye</span></h2>
+<p>AI is a transformational technology and one of the most heated topics in public life. People encounter it through wildly diverging claims – utopian promises on one side, existential warnings on the other.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-1-pew-polls.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 1 - Pew Polls</figcaption>
+</figure>
+</div>
+<p><a href="#slide-2">Next →</a></p>
+<hr>
+</section>
+<section id="sensationalism-and-social-media" class="level2">
+<h2 class="anchored" data-anchor-id="sensationalism-and-social-media"><span id="slide-2">Sensationalism and Social Media</span></h2>
+<p>Public conversations about AI are often shaped by extreme claims from prominent technology leaders and social media discussions. Headlines forecasting the replacement of entire professions coexist with forceful rejections of the technology as unethical or exploitative.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-2-bill-gates.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 2 - Bill Gates</figcaption>
+</figure>
+</div>
+<p><a href="#slide-1">← Prev</a> | <a href="#slide-3">Next →</a></p>
+<hr>
+</section>
+<section id="context-citizen-instructor-librarian" class="level2">
+<h2 class="anchored" data-anchor-id="context-citizen-instructor-librarian"><span id="slide-3">Context – Citizen, Instructor, Librarian</span></h2>
+<p>A crucial component of college education is the mastery of context - examining diverse perspectives and evaluating whether a viewpoint is objectively correct or an expression of the holder’s unique background. The workshop presenter occupies three overlapping roles (citizen, instructor, librarian), each of which may hold different and sometimes conflicting views about AI.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-3-citizen-teacher-librarian.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 3 - Citizen Teacher Librarian</figcaption>
+</figure>
+</div>
+<p><a href="#slide-2">← Prev</a> | <a href="#slide-4">Next →</a></p>
+<hr>
+</section>
+<section id="the-purpose-of-college-education" class="level2">
+<h2 class="anchored" data-anchor-id="the-purpose-of-college-education"><span id="slide-4">The Purpose of College Education</span></h2>
+<p>Higher education has traditionally been understood as a space for liberal arts education emphasizing broad intellectual development and critical thinking. At the same time, college is increasingly viewed as a pathway to employment, creating a longstanding tension between intellectual formation and job training that AI has made even more pronounced.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-4-news-media-purpose-of-college.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 4 - News Media Purpose of College</figcaption>
+</figure>
+</div>
+<p><a href="#slide-3">← Prev</a> | <a href="#slide-5">Next →</a></p>
+<hr>
+</section>
+<section id="ai-and-the-liberal-arts-tradition" class="level2">
+<h2 class="anchored" data-anchor-id="ai-and-the-liberal-arts-tradition"><span id="slide-5">AI and the Liberal Arts Tradition</span></h2>
+<p>Can AI be integrated in ways that support a traditional liberal arts education?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-5-news-media-ai-and-education.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 5 - News Media AI and Education</figcaption>
+</figure>
+</div>
+<p><a href="#slide-4">← Prev</a> | <a href="#slide-6">Next →</a></p>
+<hr>
+</section>
+<section id="baruch-colleges-ai-policy" class="level2">
+<h2 class="anchored" data-anchor-id="baruch-colleges-ai-policy"><span id="slide-6">Baruch College’s AI Policy</span></h2>
+<p>Baruch College’s policies on AI reflect that there is no single, universally agreed-upon stance on the technology. The use of AI in coursework is determined by each course instructor, with approaches ranging from “Strictly Prohibited” to “Integrated Use for Application” - acknowledging that different disciplines may reasonably reach different conclusions about AI’s role in the classroom.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-6-baruch-AI-policy.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 6 - Baruch AI Policy</figcaption>
+</figure>
+</div>
+<p><a href="#slide-5">← Prev</a> | <a href="#slide-7">Next →</a></p>
+<hr>
+</section>
+<section id="what-is-ai" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-ai"><span id="slide-7">What is “AI”?</span></h2>
+<p>Understanding AI begins with clarifying terms that seem familiar but carry different meanings in different contexts.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-7-what-is-AI.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 7 - What is AI</figcaption>
+</figure>
+</div>
+<p><a href="#slide-6">← Prev</a> | <a href="#slide-8">Next →</a></p>
+<hr>
+</section>
+<section id="what-is-data" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-data"><span id="slide-8">What is “Data”?</span></h2>
+<p>Just as “data” has many meanings, “AI” is often treated as a single technology when it actually refers to many different systems and practices. Its meaning shifts depending on who is speaking and why. Understanding AI, like understanding data, requires attention to context.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-8-what-is-data.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 8 - What is Data</figcaption>
+</figure>
+</div>
+<p><a href="#slide-7">← Prev</a> | <a href="#slide-9">Next →</a></p>
+<hr>
+</section>
+<section id="the-ai-nesting-circles" class="level2">
+<h2 class="anchored" data-anchor-id="the-ai-nesting-circles"><span id="slide-9">The AI Nesting Circles</span></h2>
+<p>AI is commonly visualized as a set of nested circles, showing that “Artificial Intelligence” is not one single technology but a broad field with layers of specialization. As we move from the outer circle to the inner one, the technology becomes more specific - from general AI concepts to machine learning, deep learning, and generative AI.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-9-AI-nesting-circles.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 9 - AI Nesting Circles</figcaption>
+</figure>
+</div>
+<p><a href="#slide-8">← Prev</a> | <a href="#slide-10">Next →</a></p>
+<hr>
+</section>
+<section id="artificial-intelligence-the-outer-circle" class="level2">
+<h2 class="anchored" data-anchor-id="artificial-intelligence-the-outer-circle"><span id="slide-10">Artificial Intelligence – The Outer Circle</span></h2>
+<p>At its broadest level, “Artificial Intelligence” refers to any approach that enables computers to perform tasks that would normally require human intelligence. AI is not a single technology but an umbrella term encompassing many different techniques developed over decades.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-10-nesting-circle-AI.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 10 - Nesting Circle AI</figcaption>
+</figure>
+</div>
+<p><a href="#slide-9">← Prev</a> | <a href="#slide-11">Next →</a></p>
+<hr>
+</section>
+<section id="machine-learning" class="level2">
+<h2 class="anchored" data-anchor-id="machine-learning"><span id="slide-11">Machine Learning</span></h2>
+<p>Machine learning is a subset of AI in which systems learn patterns from data rather than following explicitly programmed rules. Instead of being told exactly what to do, machine learning models are trained on examples and improve their performance through exposure to more data.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-11-nesting-circle-ML.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 11 - Nesting Circle ML</figcaption>
+</figure>
+</div>
+<p><a href="#slide-10">← Prev</a> | <a href="#slide-12">Next →</a></p>
+<hr>
+</section>
+<section id="deep-learning-and-neural-networks" class="level2">
+<h2 class="anchored" data-anchor-id="deep-learning-and-neural-networks"><span id="slide-12">Deep Learning and Neural Networks</span></h2>
+<p>Deep learning emerges as a response to the limitations of traditional machine learning when problems become extremely complex. At this scale, the challenge is no longer just selecting variables and fitting a model, but learning how information should be represented in the first place - using layered neural network architectures.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-12-nesting-circle-deep-learning.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 12 - Nesting Circle Deep Learning</figcaption>
+</figure>
+</div>
+<p><a href="#slide-11">← Prev</a> | <a href="#slide-13">Next →</a></p>
+<hr>
+</section>
+<section id="from-simple-models-to-complex-ones" class="level2">
+<h2 class="anchored" data-anchor-id="from-simple-models-to-complex-ones"><span id="slide-13">From Simple Models to Complex Ones</span></h2>
+<p>For decades, computing has excelled at solving models of low mathematical complexity, like predicting GPA from hours studied using a single transparent line. But real-world problems rarely depend on a single variable - when inputs grow into the thousands or millions, more powerful techniques become necessary to capture the complexity of phenomena like language and behavior.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-13-study-vs-GPA.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 13 - Study vs GPA</figcaption>
+</figure>
+</div>
+<p><a href="#slide-12">← Prev</a> | <a href="#slide-14">Next →</a></p>
+<hr>
+</section>
+<section id="neural-networks-and-hidden-variables" class="level2">
+<h2 class="anchored" data-anchor-id="neural-networks-and-hidden-variables"><span id="slide-14">Neural Networks and Hidden Variables</span></h2>
+<p>Deep learning models use layered networks of interconnected units where each layer transforms input data in increasingly abstract ways. Unlike transparent linear models, these systems discover “hidden” variables and relationships too subtle for human perception - trading interpretability for massive expressive power. Modern language models like GPT-3 contain approximately 175 billion parameters!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-14-neural-network-illustration.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 14 - Neural Network Illustration</figcaption>
+</figure>
+</div>
+<p><a href="#slide-13">← Prev</a> | <a href="#slide-15">Next →</a></p>
+<hr>
+</section>
+<section id="generative-ai" class="level2">
+<h2 class="anchored" data-anchor-id="generative-ai"><span id="slide-15">Generative AI</span></h2>
+<p>Generative AI refers to systems designed not just to analyze or predict outcomes, but to produce new content such as text, images, audio, or code. These models generate responses by predicting what is likely to come next in a given context - they do not retrieve stored answers or “understand” meaning, making them both powerful and risky.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-15-nesting-cirlce-gen-ai.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 15 - Nesting Circle Gen AI</figcaption>
+</figure>
+</div>
+<p><a href="#slide-14">← Prev</a> | <a href="#slide-16">Next →</a></p>
+<hr>
+</section>
+<section id="examples-of-generative-ai" class="level2">
+<h2 class="anchored" data-anchor-id="examples-of-generative-ai"><span id="slide-16">Examples of Generative AI</span></h2>
+<p>This workshop focuses specifically on generative AI tools that produce written language - systems designed to generate text-based outputs such as paragraphs, emails, summaries, and full documents. These text-generating tools are among the most widely used forms of generative AI in academic life and raise important questions about reliability, authority, and responsible use.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-16-gen-ai-illustration.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 16 - Gen AI Illustration</figcaption>
+</figure>
+</div>
+<p><a href="#slide-15">← Prev</a> | <a href="#slide-17">Next →</a></p>
+<hr>
+</section>
+<section id="ai-as-a-prediction-machine" class="level2">
+<h2 class="anchored" data-anchor-id="ai-as-a-prediction-machine"><span id="slide-17">AI as a Prediction Machine</span></h2>
+<p>AI is best understood as a “prediction machine” - its outputs are not the result of understanding or reasoning, but of statistical prediction based on patterns learned from data. A system trained only on images of dogs and cats will be forced to label a pig as one or the other, revealing the boundaries of its training rather than independent reasoning.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-17-prediction-dog-cat.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 17 - Prediction Dog Cat</figcaption>
+</figure>
+</div>
+<p><a href="#slide-16">← Prev</a> | <a href="#slide-18">Next →</a></p>
+<hr>
+</section>
+<section id="hallucinations-and-training-boundaries" class="level2">
+<h2 class="anchored" data-anchor-id="hallucinations-and-training-boundaries"><span id="slide-18">Hallucinations and Training Boundaries</span></h2>
+<p>When an AI system encounters input outside its training categories, it still produces a confident prediction - this is what is often called a “hallucination.” The AI is not making things up intentionally; it is doing exactly what it was designed to do. Expanding the training data (adding pigs and horses) increases the system’s range but does not grant general knowledge or awareness.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-18-prediction-dog-cat-pig-horse.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 18 - Prediction Dog Cat Pig Horse</figcaption>
+</figure>
+</div>
+<p><a href="#slide-17">← Prev</a> | <a href="#slide-19">Next →</a></p>
+<hr>
+</section>
+<section id="ai-across-domains" class="level2">
+<h2 class="anchored" data-anchor-id="ai-across-domains"><span id="slide-19">AI Across Domains</span></h2>
+<p>Prediction-based AI models now power computer vision, recommendation engines, fraud detection, self-driving cars, and medical diagnostic tools. However, this workshop focuses on AI systems that operate on language - systems that read, summarize, generate, and respond to text - because they most directly shape how students and researchers write, study, and evaluate information.</p>
+<p><a href="#slide-18">← Prev</a> | <a href="#slide-20">Next →</a></p>
+<hr>
+</section>
+<section id="predicting-words-and-language" class="level2">
+<h2 class="anchored" data-anchor-id="predicting-words-and-language"><span id="slide-20">Predicting Words and Language</span></h2>
+<p>Like Mr.&nbsp;Burns’ room of monkeys typing on typewriters in <em>The Simpsons</em>, language models do not understand meaning or intention - they produce sequences of symbols. What separates an LLM from random generation is not creativity or insight, but statistical discipline: at every step, the model predicts which word is most likely to come next, keeping output coherent without any underlying understanding.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-20-LLM-logos.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 20 - LLM Logos</figcaption>
+</figure>
+</div>
+<p><a href="#slide-19">← Prev</a> | <a href="#slide-21">Next →</a></p>
+<hr>
+</section>
+<section id="from-prediction-machines-to-large-language-models" class="level2">
+<h2 class="anchored" data-anchor-id="from-prediction-machines-to-large-language-models"><span id="slide-21">From Prediction Machines to Large Language Models</span></h2>
+<p>Large Language Models (LLMs) are deep learning models trained on vast amounts of text, designed to predict and generate human-like language. LLMs have become consequential on college campuses because academic life is fundamentally text-based – and when students can generate polished paragraphs instantly, it changes how writing is produced, knowledge is evaluated, and learning is assessed.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-1/slide-21-open-ai-use-cases.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 21 - Open AI Use Cases</figcaption>
+</figure>
+</div>
+<p><a href="#slide-20">← Prev</a></p>
+<hr>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

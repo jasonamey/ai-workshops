@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Session 2: Large Language Models – AI Workshops</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a21a96fda2a35a6034e035564d362780.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">AI Workshops</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">master.qmd</span>
+    </span>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./session-1-what-is-AI.html"> 
+<span class="menu-text">Session 1: What is AI?</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./session-2-LLMs.html" aria-current="page"> 
+<span class="menu-text">Session 2: Large Language Models</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Session 2: Large Language Models</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<hr>
+<section id="how-do-llms-predict-text" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-llms-predict-text"><span id="slide-1">How Do LLMs Predict Text?</span></h2>
+<p>Large language models predict text the same way a human reader instinctively completes “It was the best of times, it was the ___“: by learning statistical regularities from massive amounts of training data. This is possible because computers represent language numerically, allowing patterns to be learned and predictions to be calculated mathematically.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-1-best-of-times.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 1 - Best of Times</figcaption>
+</figure>
+</div>
+<p><a href="#slide-2">Next →</a></p>
+<hr>
+</section>
+<section id="language-models-are-not-minds" class="level2">
+<h2 class="anchored" data-anchor-id="language-models-are-not-minds"><span id="slide-2">Language Models Are Not Minds</span></h2>
+<p>As emphasized in this New Yorker article, language models are not sentient minds but mathematical systems that generate text by selecting the most statistically probable next word. They simulate understanding by reflecting patterns learned from enormous amounts of human writing, without possessing genuine comprehension.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-2-new-yorker-article.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 2 - New Yorker Article</figcaption>
+</figure>
+</div>
+<p><a href="#slide-1">← Prev</a> | <a href="#slide-3">Next →</a></p>
+<hr>
+</section>
+<section id="visualizing-probabilistic-text-generation" class="level2">
+<h2 class="anchored" data-anchor-id="visualizing-probabilistic-text-generation"><span id="slide-3">Visualizing Probabilistic Text Generation</span></h2>
+<p>This visualization shows LLM text generation in action: at each step, the model evaluates many possible next words, assigns probabilities, selects one, and repeats the process word by word. What appears to us as a coherent thought is actually the result of many sequential probability decisions, with fluent language emerging from mathematics, not intention or awareness.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-3-tokens-as-sentence.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 3 - Tokens as Sentence</figcaption>
+</figure>
+</div>
+<p><a href="#slide-2">← Prev</a> | <a href="#slide-4">Next →</a></p>
+<hr>
+</section>
+<section id="everything-a-computer-processes-is-a-number" class="level2">
+<h2 class="anchored" data-anchor-id="everything-a-computer-processes-is-a-number"><span id="slide-4">Everything a Computer Processes Is a Number</span></h2>
+<p>A foundational truth of computing is that every piece of information a computer processes - color, sound, image, motion, and language - must first be represented as a number. Whether editing a photo, streaming video, or processing text, the underlying process is always the same: numbers representing numbers representing the world.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-4-computers-as-numbers.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 4 - Computers as Numbers</figcaption>
+</figure>
+</div>
+<p><a href="#slide-3">← Prev</a> | <a href="#slide-5">Next →</a></p>
+<hr>
+</section>
+<section id="words-sentences-and-paragraphs-as-numbers" class="level2">
+<h2 class="anchored" data-anchor-id="words-sentences-and-paragraphs-as-numbers"><span id="slide-5">Words, Sentences, and Paragraphs as Numbers</span></h2>
+<p>Language models map words into a mathematical space using coordinates, similar to the X/Y axis graphing done in high school math - but in dimensions far beyond our simple two-dimensional understanding. This numerical representation of language is what allows models to compute statistical patterns and make predictions about what word is likely to come next.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-5-basic-graphing.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 5 - Basic Graphing</figcaption>
+</figure>
+</div>
+<p><a href="#slide-4">← Prev</a> | <a href="#slide-6">Next →</a></p>
+<hr>
+</section>
+<section id="word-embeddings-distance-as-meaning" class="level2">
+<h2 class="anchored" data-anchor-id="word-embeddings-distance-as-meaning"><span id="slide-6">Word Embeddings: Distance as Meaning</span></h2>
+<p>When words are converted into numbers and plotted in a mathematical space, their distances from one another reflect semantic relationships - “dog” and “puppy” cluster together, while “airplane” lands far away. Distance in this space becomes a stand-in for similarity, allowing models to detect relationships among words purely through geometry.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-6-dog-3D.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 6 - Dog 3D</figcaption>
+</figure>
+</div>
+<p><a href="#slide-5">← Prev</a> | <a href="#slide-7">Next →</a></p>
+<hr>
+</section>
+<section id="embeddings-extended-to-sentences-and-paragraphs" class="level2">
+<h2 class="anchored" data-anchor-id="embeddings-extended-to-sentences-and-paragraphs"><span id="slide-7">Embeddings Extended to Sentences and Paragraphs</span></h2>
+<p>Word embeddings extend beyond individual words to sentences and paragraphs, allowing models to capture richer and more complex linguistic relationships across longer stretches of language. Once words are placed in mathematical space, consistent patterns of difference between words appear as measurable “directions,” giving structure to language itself.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-7-bodega-nyc.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 7 - Bodega NYC</figcaption>
+</figure>
+</div>
+<p><a href="#slide-6">← Prev</a> | <a href="#slide-8">Next →</a></p>
+<hr>
+</section>
+<section id="the-kingqueen-illustration" class="level2">
+<h2 class="anchored" data-anchor-id="the-kingqueen-illustration"><span id="slide-8">The King–Queen Illustration</span></h2>
+<p>Math educator Grant Sanderson (3Blue1Brown) illustrates a remarkable property of embedding spaces: the mathematical “step” from <em>man</em> to <em>woman</em> mirrors the step from <em>king</em> to <em>queen</em>, expressed as E(queen) ≈ E(king) + E(woman) − E(man). This shows that from statistical patterns alone, models can learn stable mathematical transformations that correspond to concepts we recognize as meaningful.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-8-queen-king.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 8 - Queen King</figcaption>
+</figure>
+</div>
+<p><a href="#slide-7">← Prev</a> | <a href="#slide-9">Next →</a></p>
+<hr>
+</section>
+<section id="self-attention-and-the-transformer-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="self-attention-and-the-transformer-architecture"><span id="slide-9">Self-Attention and the Transformer Architecture</span></h2>
+<p>The Transformer architecture, introduced in 2017, solved a critical limitation of earlier sequential language models by introducing “self-attention” - a mechanism that allows each word to simultaneously consider all other words in the sentence at once. This replaced slow, step-by-step processing with a web of parallel connections, dramatically improving both speed and contextual understanding.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-9-sequential-vs-parallel.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 9 - Sequential vs Parallel</figcaption>
+</figure>
+</div>
+<p><a href="#slide-8">← Prev</a> | <a href="#slide-10">Next →</a></p>
+<hr>
+</section>
+<section id="the-trophysuitcase-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-trophysuitcase-problem"><span id="slide-10">The Trophy–Suitcase Problem</span></h2>
+<p>The sentence “The trophy doesn’t fit in the brown suitcase because it is too small” illustrates why self-attention matters: correctly identifying what “it” refers to requires connecting words that are far apart in the sentence. Self-attention solves this by allowing every word to directly compare and link with any other word, regardless of distance, creating a web of relationships across the entire sentence.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-10-trophy-doesnt-fit.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 10 - Trophy Doesn’t Fit</figcaption>
+</figure>
+</div>
+<p><a href="#slide-9">← Prev</a> | <a href="#slide-11">Next →</a></p>
+<hr>
+</section>
+<section id="the-gpu-hardware-that-made-it-possible" class="level2">
+<h2 class="anchored" data-anchor-id="the-gpu-hardware-that-made-it-possible"><span id="slide-11">The GPU: Hardware That Made It Possible</span></h2>
+<p>The Transformer architecture became practical because of advances in GPU (graphics processing unit) hardware - chips originally designed for video game graphics that excel at performing many calculations simultaneously. Unlike traditional CPUs, GPUs can handle the massively parallel computations required by self-attention at the scale and speed that modern AI demands.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-11-GPU.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 11 - GPU</figcaption>
+</figure>
+</div>
+<p><a href="#slide-10">← Prev</a> | <a href="#slide-12">Next →</a></p>
+<hr>
+</section>
+<section id="nvidias-rise-and-the-ai-hardware-boom" class="level2">
+<h2 class="anchored" data-anchor-id="nvidias-rise-and-the-ai-hardware-boom"><span id="slide-12">Nvidia’s Rise and the AI Hardware Boom</span></h2>
+<p>Nvidia’s dramatic stock growth offers a striking financial indicator of just how central GPU hardware has become to the modern AI ecosystem. As demand for AI computation has surged, Nvidia—the leading manufacturer of GPU chips used in large-scale deep learning - has experienced one of the most dramatic Wall Street runs of any major tech company.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-12-nvidia-growth.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 12 - Nvidia Growth</figcaption>
+</figure>
+</div>
+<p><a href="#slide-11">← Prev</a> | <a href="#slide-13">Next →</a></p>
+<hr>
+</section>
+<section id="putting-it-together-words-as-numbers-and-the-transformer" class="level2">
+<h2 class="anchored" data-anchor-id="putting-it-together-words-as-numbers-and-the-transformer"><span id="slide-13">Putting It Together: Words as Numbers and the Transformer</span></h2>
+<p>Embeddings turn words into numbers placed in a mathematical space where distance reflects similarity, while self-attention allows the model to interpret words in context by building a web of relationships across the full sentence. Together, these two ingredients raise an essential question: how does the model learn these structures in the first place - and the answer is training.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-13-how-are-words-numerically-repped.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 13 - How Are Words Numerically Represented</figcaption>
+</figure>
+</div>
+<p><a href="#slide-12">← Prev</a> | <a href="#slide-14">Next →</a></p>
+<hr>
+</section>
+<section id="training-large-language-models" class="level2">
+<h2 class="anchored" data-anchor-id="training-large-language-models"><span id="slide-14">Training Large Language Models</span></h2>
+<p>Training is the long, expensive process by which a language model is exposed to enormous amounts of text and repeatedly practices one task: guessing what comes next in a sequence, then adjusting itself based on whether the guess was correct. This happens not once or a handful of times, but billions and billions of times, making the model extremely adept at predicting statistically plausible language.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-14-wired-article.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 14 - Wired Article</figcaption>
+</figure>
+</div>
+<p><a href="#slide-13">← Prev</a> | <a href="#slide-15">Next →</a></p>
+<hr>
+</section>
+<section id="the-corpus-what-the-model-trains-on" class="level2">
+<h2 class="anchored" data-anchor-id="the-corpus-what-the-model-trains-on"><span id="slide-15">The Corpus: What the Model Trains On</span></h2>
+<p>The vast collection of text an LLM trains on is called a corpus, typically drawn from books, Wikipedia, news articles, websites, and other publicly available writing. A model can only learn from what it has been exposed to, meaning the strengths and weaknesses of any LLM are deeply tied to what its training corpus includes, excludes, and overrepresents.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-15-training.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 15 - Training</figcaption>
+</figure>
+</div>
+<p><a href="#slide-14">← Prev</a> | <a href="#slide-16">Next →</a></p>
+<hr>
+</section>
+<section id="common-public-data-sources-for-llm-training" class="level2">
+<h2 class="anchored" data-anchor-id="common-public-data-sources-for-llm-training"><span id="slide-16">Common Public Data Sources for LLM Training</span></h2>
+<p>Most large language models are trained on a combination of publicly available text: web pages, books, forums, open-access scientific literature, news, Wikipedia, code repositories, and video transcripts. Different models use different mixtures, but the shared goal is broad coverage across writing styles, topics, and forms of human communication.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-16-training-content.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 16 - Training Content</figcaption>
+</figure>
+</div>
+<p><a href="#slide-15">← Prev</a> | <a href="#slide-17">Next →</a></p>
+<hr>
+</section>
+<section id="why-training-takes-enormous-computing-power" class="level2">
+<h2 class="anchored" data-anchor-id="why-training-takes-enormous-computing-power"><span id="slide-17">Why Training Takes Enormous Computing Power</span></h2>
+<p>Training a large language model requires an almost unimaginable amount of computation - equivalent to performing one billion calculations per second for 100 million years. This is why training is only feasible using enormous clusters of specialized GPU hardware running many operations in parallel rather than one at a time.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-17-computation.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 17 - Computation</figcaption>
+</figure>
+</div>
+<p><a href="#slide-16">← Prev</a> | <a href="#slide-18">Next →</a></p>
+<hr>
+</section>
+<section id="why-only-a-few-companies-can-train-frontier-llms" class="level2">
+<h2 class="anchored" data-anchor-id="why-only-a-few-companies-can-train-frontier-llms"><span id="slide-18">Why Only a Few Companies Can Train Frontier LLMs</span></h2>
+<p>Building a frontier LLM is not just a software and algorithm problem - it is an engineering and capital problem requiring high-end GPU clusters, massive storage, fast networking, and teams of highly skilled professionals. As a result, only a handful of major companies have the resources to train the most advanced models from scratch, and their choices about data, design, and policy shape the AI tools much of society uses today.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-18-big-tech.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 18 - Big Tech</figcaption>
+</figure>
+</div>
+<p><a href="#slide-17">← Prev</a> | <a href="#slide-19">Next →</a></p>
+<hr>
+</section>
+<section id="the-frontier-models" class="level2">
+<h2 class="anchored" data-anchor-id="the-frontier-models"><span id="slide-19">The Frontier Models</span></h2>
+<p>Frontier models - including ChatGPT (OpenAI), Gemini (Google), and Claude (Anthropic) - represent the current state of the art in AI, capable of generating fluent text, writing code, analyzing documents, and performing complex reasoning. Their exceptional capabilities stem not just from better algorithms, but from scale: more data, more computing power, and larger model architectures.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-19-fronteir-models.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 19 - Frontier Models</figcaption>
+</figure>
+</div>
+<p><a href="#slide-18">← Prev</a> | <a href="#slide-20">Next →</a></p>
+<hr>
+</section>
+<section id="ai-embedded-in-everyday-academic-tools" class="level2">
+<h2 class="anchored" data-anchor-id="ai-embedded-in-everyday-academic-tools"><span id="slide-20">AI Embedded in Everyday Academic Tools</span></h2>
+<p>Google Gemini is integrated directly into Google Workspace tools - Gmail, Docs, Sheets, and Drive - bringing frontier AI capabilities into the platforms students and faculty already use for academic work. When accessed through institutional accounts, Gemini operates within enterprise privacy frameworks, helping protect academic data while functioning as an embedded assistant rather than a separate tool.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-20-copilot.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 20 - Copilot</figcaption>
+</figure>
+</div>
+<p><a href="#slide-19">← Prev</a> | <a href="#slide-21">Next →</a></p>
+<hr>
+</section>
+<section id="how-do-we-judge-or-compare-language-models" class="level2">
+<h2 class="anchored" data-anchor-id="how-do-we-judge-or-compare-language-models"><span id="slide-21">How Do We Judge or Compare Language Models?</span></h2>
+<p>Because multiple competing language models exist, benchmarking provides a standardized way to evaluate and compare them across tasks such as reasoning, writing quality, math, coding, reading comprehension, and factual accuracy. These benchmarks are a snapshot in time - as models grow more capable, they eventually top out on older tests, forcing the industry to continually develop harder ones.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-21-benchmarks.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 21 - Benchmarks</figcaption>
+</figure>
+</div>
+<p><a href="#slide-20">← Prev</a> | <a href="#slide-22">Next →</a></p>
+<hr>
+</section>
+<section id="tokens-the-basic-unit-of-language-models" class="level2">
+<h2 class="anchored" data-anchor-id="tokens-the-basic-unit-of-language-models"><span id="slide-22">Tokens: The Basic Unit of Language Models</span></h2>
+<p>Language models do not process text as full words or sentences - they break input into smaller units called tokens, which may be whole words, parts of words, or individual characters. Tokens are the fundamental unit of measurement for model billing and capacity, and they determine the size of the model’s context window: the number of tokens it can hold in active working memory at one time.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-22-tokens.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 22 - Tokens</figcaption>
+</figure>
+</div>
+<p><a href="#slide-21">← Prev</a> | <a href="#slide-23">Next →</a></p>
+<hr>
+</section>
+<section id="the-context-window" class="level2">
+<h2 class="anchored" data-anchor-id="the-context-window"><span id="slide-23">The Context Window</span></h2>
+<p>A model’s context window is the total number of tokens it can hold in active working memory while generating a response, encompassing the current prompt, prior conversation, and any provided documents. When this limit is reached, the model does not slow down - it forgets, dropping older information to make room for newer tokens, making efficient use of the context window critical to output quality.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-23-context-window-out.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 23 - Context Window Out</figcaption>
+</figure>
+</div>
+<p><a href="#slide-22">← Prev</a> | <a href="#slide-24">Next →</a></p>
+<hr>
+</section>
+<section id="hallucinations-and-confident-wrongness" class="level2">
+<h2 class="anchored" data-anchor-id="hallucinations-and-confident-wrongness"><span id="slide-24">Hallucinations and “Confident Wrongness”</span></h2>
+<p>One of the most important limitations of LLMs is their tendency to produce answers that sound authoritative even when they are factually incorrect - a phenomenon called “hallucination.” This occurs not because the model is malfunctioning, but because it is optimized to predict statistically plausible language, not to guarantee factual correctness.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-24-hallucination.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 24 - Hallucination</figcaption>
+</figure>
+</div>
+<p><a href="#slide-23">← Prev</a> | <a href="#slide-25">Next →</a></p>
+<hr>
+</section>
+<section id="the-hidden-web-what-models-cant-see" class="level2">
+<h2 class="anchored" data-anchor-id="the-hidden-web-what-models-cant-see"><span id="slide-25">The Hidden Web: What Models Can’t See</span></h2>
+<p>Most people assume AI models have “read the entire internet,” but search engines index only roughly 10–15% of the web, with the remainder - the Hidden Web - remaining inaccessible. AI models are heavily trained on the openly accessible portion of the web, giving them far less exposure to the specialized, paywalled, or institutionally protected knowledge that makes up much of academic scholarship.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-25-hidden-web.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 25 - Hidden Web</figcaption>
+</figure>
+</div>
+<p><a href="#slide-24">← Prev</a> | <a href="#slide-26">Next →</a></p>
+<hr>
+</section>
+<section id="dynamically-generated-web-content" class="level2">
+<h2 class="anchored" data-anchor-id="dynamically-generated-web-content"><span id="slide-26">Dynamically Generated Web Content</span></h2>
+<p>Much web information is inaccessible to AI training because it exists behind dynamic search interfaces - content generated only in response to a user query, without a stable URL that a crawler can index. Examples include court records, government databases, library catalogs, retail inventories, and transit schedules: information that technically exists online but requires interaction to surface.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-26-dynamic-content.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 26 - Dynamic Content</figcaption>
+</figure>
+</div>
+<p><a href="#slide-25">← Prev</a> | <a href="#slide-27">Next →</a></p>
+<hr>
+</section>
+<section id="unique-file-types-knowledge-in-hard-to-learn-forms" class="level2">
+<h2 class="anchored" data-anchor-id="unique-file-types-knowledge-in-hard-to-learn-forms"><span id="slide-27">Unique File Types: Knowledge in Hard-to-Learn Forms</span></h2>
+<p>Even when information is technically online, it may exist in formats difficult for language models to ingest at scale - PDFs, PowerPoint decks, Word documents, spreadsheets, and white papers that are not consistently structured or cleanly indexable. Digitized primary sources such as photographs, oral histories, manuscripts, and archival collections housed in library and museum platforms face similar invisibility to large-scale AI training pipelines.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-27-file-types.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 27 - File Types</figcaption>
+</figure>
+</div>
+<p><a href="#slide-26">← Prev</a> | <a href="#slide-28">Next →</a></p>
+<hr>
+</section>
+<section id="paywalled-journalism-and-high-quality-web-content" class="level2">
+<h2 class="anchored" data-anchor-id="paywalled-journalism-and-high-quality-web-content"><span id="slide-28">Paywalled Journalism and High-Quality Web Content</span></h2>
+<p>Many of the most credible, carefully edited, and professionally fact-checked sources on the web - major newspapers, investigative journalism outlets, and specialized trade publications - are paywalled and therefore absent from most AI training data. When students ask LLMs questions requiring high-quality reporting, models may fill gaps with weaker substitutes, producing confident-sounding answers built from lower-credibility sources.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-28-paywalls.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 28 - Paywalls</figcaption>
+</figure>
+</div>
+<p><a href="#slide-27">← Prev</a> | <a href="#slide-29">Next →</a></p>
+<hr>
+</section>
+<section id="library-databases-essential-scholarship-beyond-the-open-web" class="level2">
+<h2 class="anchored" data-anchor-id="library-databases-essential-scholarship-beyond-the-open-web"><span id="slide-29">Library Databases: Essential Scholarship Beyond the Open Web</span></h2>
+<p>Beyond paywalls, some of the most important scholarship - peer-reviewed journals, legal research platforms, business datasets, and citation indexes - exists only in specialized library databases not part of the open web that AI models train on. This gap means the research forming the backbone of academic work may never have been seen by a language model, making library access to curated scholarly resources critically important.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-29-databases.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 29 - Databases</figcaption>
+</figure>
+</div>
+<p><a href="#slide-28">← Prev</a> | <a href="#slide-30">Next →</a></p>
+<hr>
+</section>
+<section id="bias-and-the-limits-of-training-data" class="level2">
+<h2 class="anchored" data-anchor-id="bias-and-the-limits-of-training-data"><span id="slide-30">Bias and the Limits of Training Data</span></h2>
+<p>Language serves as a repository for human culture and collective bias, and AI systems trained on digitized text absorb the associations present in that data - mathematical proximity encoding historical patterns of representation as statistical fact. This means biases around gender, race, and culture are not incidental errors but structural features baked into the model’s understanding of language, with real-world consequences for how these systems treat and represent people.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-30-bias.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 30 - Bias</figcaption>
+</figure>
+</div>
+<p><a href="#slide-29">← Prev</a> | <a href="#slide-31">Next →</a></p>
+<hr>
+</section>
+<section id="even-the-models-warn-you-about-their-limitations" class="level2">
+<h2 class="anchored" data-anchor-id="even-the-models-warn-you-about-their-limitations"><span id="slide-31">Even the Models Warn You About Their Limitations</span></h2>
+<p>The most prominent frontier LLMs all include explicit warnings not to blindly accept their outputs - an admission that these systems can produce authoritative-sounding answers that are incomplete or simply wrong. As recent research suggests, hallucinations may be an unavoidable feature of statistical language modeling, making it essential to develop responsible workflows for using AI in research and scholarship - the focus of the next workshop.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/session-2/slide-31-hallucinations.jpg" class="img-fluid figure-img"></p>
+<figcaption>Slide 31 - Hallucinations</figcaption>
+</figure>
+</div>
+<p><a href="#slide-30">← Prev</a></p>
+<hr>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
