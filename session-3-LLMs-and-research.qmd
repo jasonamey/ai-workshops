@@ -1,0 +1,270 @@
+---
+title: "Session 3: LLMs and College Research"
+format: html
+---
+
+---
+
+## [Pitch, Rhythm and Musical Mastery]{#slide-1}
+
+Musical mastery is measured by two standards — pitch control (hitting the right note without wavering) and rhythmic precision (landing on the beat at exactly the right moment). When singers or musicians miss these marks, listeners immediately perceive the resulting tonal or timing dissonance.
+
+![Slide 1 - Happy Birthday and We Will Rock You](images/session-3/slide-1-happy-b-day-we-will-rock-you.jpg)
+
+[Next &rarr;](#slide-2)
+
+---
+
+## [The Price of Musical Precision]{#slide-2}
+
+Hitting the right note and landing on the beat consistently require countless hours of dedicated practice to eliminate dissonance and timing inconsistencies. The transition from untrained performance to musical mastery is built through persistent, repetitive effort.
+
+![Slide 2 - Bedroom Practicing](images/session-3/slide-2-bedroom-practicing.jpg){width=70%}
+
+[&larr; Prev](#slide-1) | [Next &rarr;](#slide-3)
+
+---
+
+## [Auto-Tune and Quantization]{#slide-3}
+
+Electronic music embraces digital tools like Auto-Tune (which corrects pitch to the nearest correct note) and quantization (which snaps rhythm to a perfect grid) to solve the challenges of musical precision. 
+
+![Slide 3 - Digital Happy Birthday and Queen](images/session-3/slide-3-digital-happy-b-day-and-queen.jpg){width=70%}
+
+[&larr; Prev](#slide-2) | [Next &rarr;](#slide-4)
+
+---
+
+## [What Software Can Bypass]{#slide-4}
+
+Software solutions like Auto-Tune and quantization allow musicians to potentially bypass the long hours of dedicated practice traditionally required to master pitch and rhythm. Technology can shortcut the disciplined repetition that separates untrained performance from professional musicianship.
+
+![Slide 4 - Bedroom Practicing](images/session-3/slide-4-bedroom-practicing.jpg){width=70%}
+
+[&larr; Prev](#slide-3) | [Next &rarr;](#slide-5)
+
+---
+
+## [Top 30 Electronic Music Records]{#slide-5}
+
+A Music Radar listing of the top 30 electronic albums of the past 30 years demonstrates that electronic music's reliance on digital tools has not prevented it from producing artistically celebrated work. These records raise the question of whether technology diminishes or redefines creativity — and suggest that great art depends on the vision of the artist, not the absence of tools.
+
+![Slide 5 - Top 30 Electronic Music LPs](images/session-3/slide-5-top-30-electronic-music-LPs.jpg){width=80%}
+
+[&larr; Prev](#slide-4) | [Next &rarr;](#slide-6)
+
+---
+
+## [The Tension of Technology vs. Humanity]{#slide-6}
+
+When artists lean too heavily on technology, the resulting work can feel uninspired and stripped of humanity. Daft Punk's 2013 album *Random Access Memories* deliberately stepped away from heavily quantized production to emphasize live musicians and human performance, raising the central question of: "How do we use powerful technology without erasing the human qualities that make art feel alive?"
+
+![Slide 6 - Daft Punk](images/session-3/slide-6-daft-punk.jpg)
+
+[&larr; Prev](#slide-5) | [Next &rarr;](#slide-7)
+
+---
+
+## [AI and the Duality of Technology]{#slide-7}
+
+The same tension that exists between musical technology and musicianship applies directly to AI in academic contexts. Used well, AI can arguably extend and support students' capabilities.  But used as a substitute for careful thinking and practice, it can erode the core skills that education is meant to build. 
+
+![Slide 7 - Duality of Technology](images/session-3/slide-7-duality-of-technology.jpg)
+
+[&larr; Prev](#slide-6) | [Next &rarr;](#slide-8)
+
+---
+
+## [The Scholarly Boundary]{#slide-8}
+
+While general-purpose LLMs have been trained extensively on broadly documented subjects and can be remarkably reliable in those areas, scholarly research demands specialized knowledge developed within specific disciplines, traceable sources, and the ability to verify claims — requirements that LLMs largely cannot fulfill. 
+
+![Slide 8 - Undergraduate Knowledge and LLMs](images/session-3/slide-8-undergraduate-knowledge-LLMs.jpg)
+
+[&larr; Prev](#slide-7) | [Next &rarr;](#slide-9)
+
+---
+
+## [How Many 'R's Are in 'Strawberry'?]{#slide-9}
+
+The famous example of LLMs failing to count the letters in "strawberry" reveals an important truth about these systems — they are token prediction machines, not computation engines, and tasks like character-level counting or precise arithmetic fall outside their core design. 
+
+![Slide 9 - LLM Strawberry Mishap](images/session-3/slide-9-LLM-strawberry-mishap.jpg)
+
+[&larr; Prev](#slide-8) | [Next &rarr;](#slide-10)
+
+---
+
+## [The Static Model Problem]{#slide-10}
+
+Even the most capable LLMs have a fundamental structural limitation: their knowledge is frozen at the point their training ended, making them unable to access proprietary databases, current events, new research, or niche institutional knowledge. 
+
+![Slide 10 - LLMs Ice Cube](images/session-3/slide-10-LLMs-ice-cube.jpg)
+
+[&larr; Prev](#slide-9) | [Next &rarr;](#slide-11)
+
+---
+
+## [Prompt Engineering]{#slide-11}
+
+Prompt engineering is the practice of carefully crafting and structuring the input provided to an LLM to guide it toward more accurate, relevant, and useful outputs. Rather than typing a basic question, effective prompt engineering uses specific instructions to shape the model's reasoning process.
+
+![Slide 11 - LLMs Magic Wand](images/session-3/slide-11-LLMs-magic-wand.jpg){width=70%}
+
+[&larr; Prev](#slide-10) | [Next &rarr;](#slide-12)
+
+---
+
+## [The CoStar Framework]{#slide-12}
+
+The CoStar framework provides a structured method for prompt engineering, covering six key dimensions: Context, Objective, Style, Tone, Audience, and Response format. 
+
+![Slide 12 - CoStar Prompting](images/session-3/slide-12-costar-prompting.jpg){width=80%}
+
+[&larr; Prev](#slide-11) | [Next &rarr;](#slide-13)
+
+---
+
+## [Chain of Thought Prompting]{#slide-13}
+
+Chain of Thought prompting encourages an LLM to break down complex problems into intermediate steps—thinking out loud—before arriving at a final answer, which reduces hallucinations, improves logical reasoning, and keeps the human reviewer able to identify where the reasoning went off track. 
+
+![Slide 13 - Chain of Thought Prompting](images/session-3/slide-13-chain-of-thought-prompting.jpg){width=80%}
+
+[&larr; Prev](#slide-12) | [Next &rarr;](#slide-14)
+
+---
+
+## [The Limits of Prompt Engineering]{#slide-14}
+
+While prompt engineering can meaningfully improve LLM outputs, it cannot compensate for missing data, outdated knowledge, or weak underlying sources - no clever phrasing can produce reliable answers when the model lacks the right information in the first place. 
+
+![Slide 14 - LLMs Magic Wand](images/session-3/slide-14-LLMs-magic-wand.jpg){width=70%}
+
+[&larr; Prev](#slide-13) | [Next &rarr;](#slide-15)
+
+---
+
+## [Context Engineering]{#slide-15}
+
+Context engineering goes beyond prompt engineering by focusing not just on how you instruct an LLM, but on what information you supply to it - curating and structuring the data in the model's prompt window so that responses are grounded in accurate, specific sources rather than statistical guessing. 
+
+![Slide 15 - Context Engineering](images/session-3/slide-15-context-engineering.jpg){width=80%}
+
+[&larr; Prev](#slide-14) | [Next &rarr;](#slide-16)
+
+---
+
+## [The Training Data Gap]{#slide-16}
+
+Frontier LLMs are primarily trained on the open web, leaving a massive gap in their knowledge of peer-reviewed research and high-quality academic facts. This structural limitation means that AI models often lack access to the very sources that define scholarly authority and rigor.
+
+![Slide 16 - Limits of LLMs Again](images/session-3/slide-16-limits-of-LLMs-again.jpg){width=80%}
+
+[&larr; Prev](#slide-15) | [Next &rarr;](#slide-17)
+
+---
+
+## [RAG: Retrieval-Augmented Generation]{#slide-17}
+
+Retrieval-Augmented Generation (RAG) is a sophisticated extension of context engineering that automates the process of feeding an LLM specific, high-quality information that was never part of its original training - retrieving actual documents from databases and placing them directly into the model's active context. 
+
+![Slide 17 - RAG](images/session-3/slide-17-RAG.jpg){width=80%}
+
+[&larr; Prev](#slide-16) | [Next &rarr;](#slide-18)
+
+---
+
+## [Google NotebookLM]{#slide-18}
+
+Google's NotebookLM demonstrates RAG in practice by allowing users to build a private research environment from their own uploaded documents, restricting the AI's responses to those specific sources and providing traceable citations for every claim.  NotebookLM reduces hallucinations by ensuring the model can only draw on materials the user has deliberately provided.
+
+![Slide 18 - NotebookLM](images/session-3/slide-18-NotebookLM.jpg)
+
+[&larr; Prev](#slide-17) | [Next &rarr;](#slide-19)
+
+---
+
+## [Too Many Tabs?]{#slide-19}
+
+Imagine the ability to simultaneously evaluate countless websites and synthesize the findings into a single structured report?
+
+![Slide 19 - Open Tabs](images/session-3/slide-19-open-tabs.jpg)
+
+[&larr; Prev](#slide-18) | [Next &rarr;](#slide-20)
+
+---
+
+## ["Deep Research" vs. The Scholarly Record]{#slide-20}
+
+AI "Deep Research" tools have radically changed information gathering by shifting from instant answers to multi-step research workflows that propose structured plans, scan live websites, and synthesize findings from multiple sources. However, these tools are limited to the open web and exclude essential scholarly databases, subscription journals, and paywalled resources.
+
+![Slide 20 - Deep Research Thinking](images/session-3/slide-20-Deep-Research-thinking.jpg){width=90%}
+
+[&larr; Prev](#slide-19) | [Next &rarr;](#slide-21)
+
+---
+
+## [The Deep Research Report]{#slide-21}
+
+While Deep Research produces impressively formatted, report-like outputs that mirror scholarly rigor in appearance, students should be cautious about treating them as comprehensive research.  The polished appearance of AI-generated reports can create a misleading impression of thoroughness that does not reflect the full scholarly record.
+
+![Slide 21 - Deep Research Report](images/session-3/slide-21-Deep-Research-report.jpg){width=90%}
+
+[&larr; Prev](#slide-20) | [Next &rarr;](#slide-22)
+
+---
+
+## [Where Traditional Search Can Fail]{#slide-22}
+
+Traditional search systems rely on metadata - structured information like titles, authors, and subject tags - to organize and retrieve resources, which creates limitations when images, documents, or ideas lack precise descriptive tags. 
+
+![Slide 22 - Metadata](images/session-3/slide-22-metadata.jpg)
+
+[&larr; Prev](#slide-21) | [Next &rarr;](#slide-23)
+
+---
+
+## [Search Strings and Keyword Creation]{#slide-23}
+
+In library catalogs and most databases, search is driven by lexical matching - exact character-string comparisons between your query and the metadata attached to a resource - which means that a search for "falsely accused" may miss a book titled "Wrongly Convicted" even though the concepts are identical. 
+
+![Slide 23 - Keyword Matching](images/session-3/slide-23-keyword-matching.jpg){width=90%}
+
+[&larr; Prev](#slide-22) | [Next &rarr;](#slide-24)
+
+---
+
+## [AI for Keyword Creation]{#slide-24}
+
+Because most library catalogs and databases still rely on keyword matching rather than semantic search, users can use AI chatbots outside those tools to generate expanded keyword lists and search strings that bridge vocabulary gaps. 
+
+![Slide 24 - Keyword Creation](images/session-3/slide-24-keyword-creation.jpg){width=90%}
+
+[&larr; Prev](#slide-23) | [Next &rarr;](#slide-25)
+
+---
+
+## [Taking Control of Google Search]{#slide-25}
+
+By asking an AI chatbot to generate a Boolean search string using Google's `site:` operator, researchers can bypass algorithmically-ranked results and restrict their search to specific high-quality publications and intellectual forums. 
+
+![Slide 25 - Site Operator Search](images/session-3/slide-25-site-operator-search.jpg)
+
+
+[Let's investigate this search...](https://www.google.com/search?q=climate+change+(site%3Anytimes.com+OR+site%3Awashingtonpost.com+OR+site%3Awsj.com+OR+site%3Atheguardian.com+OR+site%3Aft.com+OR+site%3Atheatlantic.com+OR+site%3Anewyorker.com+OR+site%3Anewyorkmag.com+OR+site%3Aharpers.org+OR+site%3Athenation.com+OR+site%3Anationalreview.com+OR+site%3Aforeignaffairs.com+OR+site%3Aforeignpolicy.com+OR+site%3Alrb.co.uk+OR+site%3Anewstatesman.com+OR+site%3Anplusonemag.com+OR+site%3Aaeon.co+OR+site%3Aprospect.org+OR+site%3Aproject-syndicate.org+OR+site%3Avox.com+OR+site%3Aslate.com+OR+site%3Acommentary.org)&oq=climate+change+(site%3Anytimes.com+OR+site%3Awashingtonpost.com+OR+site%3Awsj.com+OR+site%3Atheguardian.com+OR+site%3Aft.com+OR+site%3Atheatlantic.com+OR+site%3Anewyorker.com+OR+site%3Anewyorkmag.com+OR+site%3Aharpers.org+OR+site%3Athenation.com+OR+site%3Anationalreview.com+OR+site%3Aforeignaffairs.com+OR+site%3Aforeignpolicy.com+OR+site%3Alrb.co.uk+OR+site%3Anewstatesman.com+OR+site%3Anplusonemag.com+OR+site%3Aaeon.co+OR+site%3Aprospect.org+OR+site%3Aproject-syndicate.org+OR+site%3Avox.com+OR+site%3Aslate.com+OR+site%3Acommentary.org)&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDMwMzBqMGo0qAIDsAIB8QUanptnvC-glg&sourceid=chrome&ie=UTF-8)
+
+
+[&larr; Prev](#slide-24) | [Next &rarr;](#slide-26)
+
+---
+
+## [Fine-Tuning]{#slide-26}
+
+Fine-tuning involves further training a pre-trained LLM on a smaller, high-quality, task-specific dataset to make it an expert in a particular domain — like law, medicine, or academic literature — by updating its internal parameters to master specialized vocabulary and disciplinary logic. 
+
+![Slide 26 - Fine-Tuning](images/session-3/slide-26-fine-tuning.jpg)
+
+[&larr; Prev](#slide-25)
+
+---

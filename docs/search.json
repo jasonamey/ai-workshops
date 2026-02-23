@@ -1,5 +1,355 @@
 [
   {
+    "objectID": "session-3-LLMs-and-research.html#pitch-rhythm-and-musical-mastery",
+    "href": "session-3-LLMs-and-research.html#pitch-rhythm-and-musical-mastery",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Pitch, Rhythm and Musical Mastery",
+    "text": "Pitch, Rhythm and Musical Mastery\nMusical mastery is measured by two standards — pitch control (hitting the right note without wavering) and rhythmic precision (landing on the beat at exactly the right moment). When singers or musicians miss these marks, listeners immediately perceive the resulting tonal or timing dissonance.\n\n\n\nSlide 1 - Happy Birthday and We Will Rock You\n\n\nNext →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#the-price-of-musical-precision",
+    "href": "session-3-LLMs-and-research.html#the-price-of-musical-precision",
+    "title": "Session 3: LLMs and College Research",
+    "section": "The Price of Musical Precision",
+    "text": "The Price of Musical Precision\nHitting the right note and landing on the beat consistently require countless hours of dedicated practice to eliminate dissonance and timing inconsistencies. The transition from untrained performance to musical mastery is built through persistent, repetitive effort.\n\n\n\nSlide 2 - Bedroom Practicing\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#auto-tune-and-quantization",
+    "href": "session-3-LLMs-and-research.html#auto-tune-and-quantization",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Auto-Tune and Quantization",
+    "text": "Auto-Tune and Quantization\nElectronic music embraces digital tools like Auto-Tune (which corrects pitch to the nearest correct note) and quantization (which snaps rhythm to a perfect grid) to solve the challenges of musical precision.\n\n\n\nSlide 3 - Digital Happy Birthday and Queen\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#what-software-can-bypass",
+    "href": "session-3-LLMs-and-research.html#what-software-can-bypass",
+    "title": "Session 3: LLMs and College Research",
+    "section": "What Software Can Bypass",
+    "text": "What Software Can Bypass\nSoftware solutions like Auto-Tune and quantization allow musicians to potentially bypass the long hours of dedicated practice traditionally required to master pitch and rhythm. Technology can shortcut the disciplined repetition that separates untrained performance from professional musicianship.\n\n\n\nSlide 4 - Bedroom Practicing\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#top-30-electronic-music-records",
+    "href": "session-3-LLMs-and-research.html#top-30-electronic-music-records",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Top 30 Electronic Music Records",
+    "text": "Top 30 Electronic Music Records\nA Music Radar listing of the top 30 electronic albums of the past 30 years demonstrates that electronic music’s reliance on digital tools has not prevented it from producing artistically celebrated work. These records raise the question of whether technology diminishes or redefines creativity — and suggest that great art depends on the vision of the artist, not the absence of tools.\n\n\n\nSlide 5 - Top 30 Electronic Music LPs\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#the-tension-of-technology-vs.-humanity",
+    "href": "session-3-LLMs-and-research.html#the-tension-of-technology-vs.-humanity",
+    "title": "Session 3: LLMs and College Research",
+    "section": "The Tension of Technology vs. Humanity",
+    "text": "The Tension of Technology vs. Humanity\nWhen artists lean too heavily on technology, the resulting work can feel uninspired and stripped of humanity. Daft Punk’s 2013 album Random Access Memories deliberately stepped away from heavily quantized production to emphasize live musicians and human performance, raising the central question of: “How do we use powerful technology without erasing the human qualities that make art feel alive?”\n\n\n\nSlide 6 - Daft Punk\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#ai-and-the-duality-of-technology",
+    "href": "session-3-LLMs-and-research.html#ai-and-the-duality-of-technology",
+    "title": "Session 3: LLMs and College Research",
+    "section": "AI and the Duality of Technology",
+    "text": "AI and the Duality of Technology\nThe same tension that exists between musical technology and musicianship applies directly to AI in academic contexts. Used well, AI can arguably extend and support students’ capabilities. But used as a substitute for careful thinking and practice, it can erode the core skills that education is meant to build.\n\n\n\nSlide 7 - Duality of Technology\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#the-scholarly-boundary",
+    "href": "session-3-LLMs-and-research.html#the-scholarly-boundary",
+    "title": "Session 3: LLMs and College Research",
+    "section": "The Scholarly Boundary",
+    "text": "The Scholarly Boundary\nWhile general-purpose LLMs have been trained extensively on broadly documented subjects and can be remarkably reliable in those areas, scholarly research demands specialized knowledge developed within specific disciplines, traceable sources, and the ability to verify claims — requirements that LLMs largely cannot fulfill.\n\n\n\nSlide 8 - Undergraduate Knowledge and LLMs\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#how-many-rs-are-in-strawberry",
+    "href": "session-3-LLMs-and-research.html#how-many-rs-are-in-strawberry",
+    "title": "Session 3: LLMs and College Research",
+    "section": "How Many ‘R’s Are in ’Strawberry’?",
+    "text": "How Many ‘R’s Are in ’Strawberry’?\nThe famous example of LLMs failing to count the letters in “strawberry” reveals an important truth about these systems — they are token prediction machines, not computation engines, and tasks like character-level counting or precise arithmetic fall outside their core design.\n\n\n\nSlide 9 - LLM Strawberry Mishap\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#the-static-model-problem",
+    "href": "session-3-LLMs-and-research.html#the-static-model-problem",
+    "title": "Session 3: LLMs and College Research",
+    "section": "The Static Model Problem",
+    "text": "The Static Model Problem\nEven the most capable LLMs have a fundamental structural limitation: their knowledge is frozen at the point their training ended, making them unable to access proprietary databases, current events, new research, or niche institutional knowledge.\n\n\n\nSlide 10 - LLMs Ice Cube\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#prompt-engineering",
+    "href": "session-3-LLMs-and-research.html#prompt-engineering",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Prompt Engineering",
+    "text": "Prompt Engineering\nPrompt engineering is the practice of carefully crafting and structuring the input provided to an LLM to guide it toward more accurate, relevant, and useful outputs. Rather than typing a basic question, effective prompt engineering uses specific instructions to shape the model’s reasoning process.\n\n\n\nSlide 11 - LLMs Magic Wand\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#the-costar-framework",
+    "href": "session-3-LLMs-and-research.html#the-costar-framework",
+    "title": "Session 3: LLMs and College Research",
+    "section": "The CoStar Framework",
+    "text": "The CoStar Framework\nThe CoStar framework provides a structured method for prompt engineering, covering six key dimensions: Context, Objective, Style, Tone, Audience, and Response format.\n\n\n\nSlide 12 - CoStar Prompting\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#chain-of-thought-prompting",
+    "href": "session-3-LLMs-and-research.html#chain-of-thought-prompting",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Chain of Thought Prompting",
+    "text": "Chain of Thought Prompting\nChain of Thought prompting encourages an LLM to break down complex problems into intermediate steps—thinking out loud—before arriving at a final answer, which reduces hallucinations, improves logical reasoning, and keeps the human reviewer able to identify where the reasoning went off track.\n\n\n\nSlide 13 - Chain of Thought Prompting\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#the-limits-of-prompt-engineering",
+    "href": "session-3-LLMs-and-research.html#the-limits-of-prompt-engineering",
+    "title": "Session 3: LLMs and College Research",
+    "section": "The Limits of Prompt Engineering",
+    "text": "The Limits of Prompt Engineering\nWhile prompt engineering can meaningfully improve LLM outputs, it cannot compensate for missing data, outdated knowledge, or weak underlying sources - no clever phrasing can produce reliable answers when the model lacks the right information in the first place.\n\n\n\nSlide 14 - LLMs Magic Wand\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#context-engineering",
+    "href": "session-3-LLMs-and-research.html#context-engineering",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Context Engineering",
+    "text": "Context Engineering\nContext engineering goes beyond prompt engineering by focusing not just on how you instruct an LLM, but on what information you supply to it - curating and structuring the data in the model’s prompt window so that responses are grounded in accurate, specific sources rather than statistical guessing.\n\n\n\nSlide 15 - Context Engineering\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#the-training-data-gap",
+    "href": "session-3-LLMs-and-research.html#the-training-data-gap",
+    "title": "Session 3: LLMs and College Research",
+    "section": "The Training Data Gap",
+    "text": "The Training Data Gap\nFrontier LLMs are primarily trained on the open web, leaving a massive gap in their knowledge of peer-reviewed research and high-quality academic facts. This structural limitation means that AI models often lack access to the very sources that define scholarly authority and rigor.\n\n\n\nSlide 16 - Limits of LLMs Again\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#rag-retrieval-augmented-generation",
+    "href": "session-3-LLMs-and-research.html#rag-retrieval-augmented-generation",
+    "title": "Session 3: LLMs and College Research",
+    "section": "RAG: Retrieval-Augmented Generation",
+    "text": "RAG: Retrieval-Augmented Generation\nRetrieval-Augmented Generation (RAG) is a sophisticated extension of context engineering that automates the process of feeding an LLM specific, high-quality information that was never part of its original training - retrieving actual documents from databases and placing them directly into the model’s active context.\n\n\n\nSlide 17 - RAG\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#google-notebooklm",
+    "href": "session-3-LLMs-and-research.html#google-notebooklm",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Google NotebookLM",
+    "text": "Google NotebookLM\nGoogle’s NotebookLM demonstrates RAG in practice by allowing users to build a private research environment from their own uploaded documents, restricting the AI’s responses to those specific sources and providing traceable citations for every claim. NotebookLM reduces hallucinations by ensuring the model can only draw on materials the user has deliberately provided.\n\n\n\nSlide 18 - NotebookLM\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#too-many-tabs",
+    "href": "session-3-LLMs-and-research.html#too-many-tabs",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Too Many Tabs?",
+    "text": "Too Many Tabs?\nImagine the ability to simultaneously evaluate countless websites and synthesize the findings into a single structured report?\n\n\n\nSlide 19 - Open Tabs\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#deep-research-vs.-the-scholarly-record",
+    "href": "session-3-LLMs-and-research.html#deep-research-vs.-the-scholarly-record",
+    "title": "Session 3: LLMs and College Research",
+    "section": "“Deep Research” vs. The Scholarly Record",
+    "text": "“Deep Research” vs. The Scholarly Record\nAI “Deep Research” tools have radically changed information gathering by shifting from instant answers to multi-step research workflows that propose structured plans, scan live websites, and synthesize findings from multiple sources. However, these tools are limited to the open web and exclude essential scholarly databases, subscription journals, and paywalled resources.\n\n\n\nSlide 20 - Deep Research Thinking\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#the-deep-research-report",
+    "href": "session-3-LLMs-and-research.html#the-deep-research-report",
+    "title": "Session 3: LLMs and College Research",
+    "section": "The Deep Research Report",
+    "text": "The Deep Research Report\nWhile Deep Research produces impressively formatted, report-like outputs that mirror scholarly rigor in appearance, students should be cautious about treating them as comprehensive research. The polished appearance of AI-generated reports can create a misleading impression of thoroughness that does not reflect the full scholarly record.\n\n\n\nSlide 21 - Deep Research Report\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#where-traditional-search-can-fail",
+    "href": "session-3-LLMs-and-research.html#where-traditional-search-can-fail",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Where Traditional Search Can Fail",
+    "text": "Where Traditional Search Can Fail\nTraditional search systems rely on metadata - structured information like titles, authors, and subject tags - to organize and retrieve resources, which creates limitations when images, documents, or ideas lack precise descriptive tags.\n\n\n\nSlide 22 - Metadata\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#search-strings-and-keyword-creation",
+    "href": "session-3-LLMs-and-research.html#search-strings-and-keyword-creation",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Search Strings and Keyword Creation",
+    "text": "Search Strings and Keyword Creation\nIn library catalogs and most databases, search is driven by lexical matching - exact character-string comparisons between your query and the metadata attached to a resource - which means that a search for “falsely accused” may miss a book titled “Wrongly Convicted” even though the concepts are identical.\n\n\n\nSlide 23 - Keyword Matching\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#ai-for-keyword-creation",
+    "href": "session-3-LLMs-and-research.html#ai-for-keyword-creation",
+    "title": "Session 3: LLMs and College Research",
+    "section": "AI for Keyword Creation",
+    "text": "AI for Keyword Creation\nBecause most library catalogs and databases still rely on keyword matching rather than semantic search, users can use AI chatbots outside those tools to generate expanded keyword lists and search strings that bridge vocabulary gaps.\n\n\n\nSlide 24 - Keyword Creation\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#taking-control-of-google-search",
+    "href": "session-3-LLMs-and-research.html#taking-control-of-google-search",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Taking Control of Google Search",
+    "text": "Taking Control of Google Search\nBy asking an AI chatbot to generate a Boolean search string using Google’s site: operator, researchers can bypass algorithmically-ranked results and restrict their search to specific high-quality publications and intellectual forums.\n\n\n\nSlide 25 - Site Operator Search\n\n\nLet’s investigate this search…\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#fine-tuning",
+    "href": "session-3-LLMs-and-research.html#fine-tuning",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Fine-Tuning",
+    "text": "Fine-Tuning\nFine-tuning involves further training a pre-trained LLM on a smaller, high-quality, task-specific dataset to make it an expert in a particular domain — like law, medicine, or academic literature — by updating its internal parameters to master specialized vocabulary and disciplinary logic.\n\n\n\nSlide 26 - Fine-Tuning\n\n\n← Prev"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI Literacy & LLM Workshop Series",
+    "section": "",
+    "text": "Welcome to the AI literacy workshop. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2"
+  },
+  {
+    "objectID": "index.html#workshop-overview",
+    "href": "index.html#workshop-overview",
+    "title": "AI Literacy & LLM Workshop Series",
+    "section": "",
+    "text": "Welcome to the AI literacy workshop. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#ai-in-the-public-eye",
+    "href": "session-1-what-is-AI.html#ai-in-the-public-eye",
+    "title": "Session 1: What is AI?",
+    "section": "AI in the Public Eye",
+    "text": "AI in the Public Eye\nAI is a transformational technology and one of the most heated topics in public life. People encounter it through wildly diverging claims – utopian promises on one side, existential warnings on the other.\n\n\n\nSlide 1 - Pew Polls\n\n\nNext →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#ai-as-a-polarizing-conversation-topic",
+    "href": "session-1-what-is-AI.html#ai-as-a-polarizing-conversation-topic",
+    "title": "Session 1: What is AI?",
+    "section": "AI as a Polarizing Conversation Topic",
+    "text": "AI as a Polarizing Conversation Topic\nPublic conversations about AI are often shaped by heated claims from prominent technology leaders and social media discussions. \n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#context-citizen-instructor-librarian",
+    "href": "session-1-what-is-AI.html#context-citizen-instructor-librarian",
+    "title": "Session 1: What is AI?",
+    "section": "Context – Citizen, Instructor, Librarian",
+    "text": "Context – Citizen, Instructor, Librarian\nA crucial component of college education is the mastery of context - understanding diverse perspectives while evaluating viewpoints.\n\n\n\nSlide 3 - Citizen Teacher Librarian\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#the-purpose-of-college-education",
+    "href": "session-1-what-is-AI.html#the-purpose-of-college-education",
+    "title": "Session 1: What is AI?",
+    "section": "“The Purpose of College Education”",
+    "text": "“The Purpose of College Education”\nHigher education has traditionally been understood as a space for emphasizing intellectual development and critical thinking. At the same time, college is increasingly viewed as a pathway to employment. Discussion of AI can manifest tension between these two views.\n\n\n\nSlide 4 - News Media Purpose of College\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#ai-and-the-liberal-arts-tradition",
+    "href": "session-1-what-is-AI.html#ai-and-the-liberal-arts-tradition",
+    "title": "Session 1: What is AI?",
+    "section": "AI and the Liberal Arts Tradition",
+    "text": "AI and the Liberal Arts Tradition\nCan AI be integrated in ways that support a traditional liberal arts education?\n\n\n\nSlide 5 - News Media AI and Education\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#baruch-colleges-ai-policy",
+    "href": "session-1-what-is-AI.html#baruch-colleges-ai-policy",
+    "title": "Session 1: What is AI?",
+    "section": "Baruch College’s AI Policy",
+    "text": "Baruch College’s AI Policy\nBaruch College’s policies on AI reflect that there is no single, universally agreed-upon stance on the technology.\n\n\n\nSlide 6 - Baruch AI Policy\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#what-is-ai",
+    "href": "session-1-what-is-AI.html#what-is-ai",
+    "title": "Session 1: What is AI?",
+    "section": "What is “AI”?",
+    "text": "What is “AI”?\nUnderstanding AI begins with clarifying terms that seem familiar but carry different meanings in different contexts.\n\n\n\nSlide 7 - What is AI\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#what-is-data-and-the-challenge-of-understanding-technology",
+    "href": "session-1-what-is-AI.html#what-is-data-and-the-challenge-of-understanding-technology",
+    "title": "Session 1: What is AI?",
+    "section": "“What is Data?” and the Challenge of Understanding Technology",
+    "text": "“What is Data?” and the Challenge of Understanding Technology\nJust as “data” has many meanings, “AI” is often treated as a single technology when it actually refers to many different systems and practices.\n\n\n\nSlide 8 - What is Data\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#the-ai-nesting-circles",
+    "href": "session-1-what-is-AI.html#the-ai-nesting-circles",
+    "title": "Session 1: What is AI?",
+    "section": "The AI Nesting Circles",
+    "text": "The AI Nesting Circles\nAI is commonly visualized as a set of nested circles, showing that “Artificial Intelligence” is not one single technology but a broad field with layers of specialization. \n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#artificial-intelligence-the-outer-circle",
+    "href": "session-1-what-is-AI.html#artificial-intelligence-the-outer-circle",
+    "title": "Session 1: What is AI?",
+    "section": "Artificial Intelligence – The Outer Circle",
+    "text": "Artificial Intelligence – The Outer Circle\nAt its broadest level, “Artificial Intelligence” refers to any approach that enables computers to perform tasks that would normally require human intelligence. AI is not a single technology but an umbrella term encompassing many different techniques developed over decades.\n\n\n\nSlide 10 - Nesting Circle AI\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#machine-learning",
+    "href": "session-1-what-is-AI.html#machine-learning",
+    "title": "Session 1: What is AI?",
+    "section": "Machine Learning",
+    "text": "Machine Learning\nMachine learning is a subset of AI in which systems learn patterns from data rather than following explicitly programmed rules. \n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#deep-learning-and-neural-networks",
+    "href": "session-1-what-is-AI.html#deep-learning-and-neural-networks",
+    "title": "Session 1: What is AI?",
+    "section": "Deep Learning and Neural Networks",
+    "text": "Deep Learning and Neural Networks\nDeep learning emerges as a response to the limitations of traditional machine learning when problems become extremely complex.\n\n\n\nSlide 12 - Nesting Circle Deep Learning\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#from-simple-models-to-complex-ones",
+    "href": "session-1-what-is-AI.html#from-simple-models-to-complex-ones",
+    "title": "Session 1: What is AI?",
+    "section": "From Simple Models to Complex Ones",
+    "text": "From Simple Models to Complex Ones\nFor decades, computing has excelled at solving models of low mathematical complexity, like predicting GPA from hours studied using a single transparent line. But real-world problems rarely depend on a single variable, more powerful techniques become necessary to capture the complexity of phenomena like language and behavior.\n\n\n\nSlide 13 - Study vs GPA\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#neural-networks-and-hidden-variables",
+    "href": "session-1-what-is-AI.html#neural-networks-and-hidden-variables",
+    "title": "Session 1: What is AI?",
+    "section": "Neural Networks and Hidden Variables",
+    "text": "Neural Networks and Hidden Variables\nDeep learning models use layered networks of interconnected units where each layer transforms input data in increasingly abstract ways. Unlike transparent linear models, these systems discover “hidden” variables and relationships too subtle for human perception - trading interpretability for massive expressive power. Modern language models like GPT-3 contain approximately 175 billion parameters!\n\n\n\nSlide 14 - Neural Network Illustration\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#generative-ai",
+    "href": "session-1-what-is-AI.html#generative-ai",
+    "title": "Session 1: What is AI?",
+    "section": "Generative AI",
+    "text": "Generative AI\nGenerative AI refers to systems designed not just to analyze or predict outcomes, but to produce new content such as text, images, audio, or code. These models generate responses by predicting what is likely to come next in a given context - they do not retrieve stored answers or “understand” meaning.\n\n\n\nSlide 15 - Gen AI Illustration\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#examples-of-generative-ai",
+    "href": "session-1-what-is-AI.html#examples-of-generative-ai",
+    "title": "Session 1: What is AI?",
+    "section": "Examples of Generative AI",
+    "text": "Examples of Generative AI\nThis workshop focuses specifically on generative AI tools that produce written language. These text-generating tools raise important questions about reliability, authority, and responsible use.\n\n\n\nSlide 16 - Nesting Circle Gen AI\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#ai-as-a-prediction-machine",
+    "href": "session-1-what-is-AI.html#ai-as-a-prediction-machine",
+    "title": "Session 1: What is AI?",
+    "section": "AI as a Prediction Machine",
+    "text": "AI as a Prediction Machine\nAI is best understood as a “prediction machine” - its outputs are not the result of understanding or reasoning, but of statistical prediction based on patterns learned from data. A system trained only on images of dogs and cats will be forced to label a pig as one or the other, revealing the boundaries of its training rather than independent reasoning.\n\n\n\nSlide 17 - Prediction Dog Cat\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#hallucinations-and-training-boundaries",
+    "href": "session-1-what-is-AI.html#hallucinations-and-training-boundaries",
+    "title": "Session 1: What is AI?",
+    "section": "“Hallucinations” and Training Boundaries",
+    "text": "“Hallucinations” and Training Boundaries\nWhen an AI system encounters input outside its training categories, it still produces a confident prediction - this is what is often called a hallucination. The AI is not making things up intentionally - it is doing exactly what it was designed to do. Expanding the training data (adding pigs and horses) increases the system’s range but does not grant general knowledge or awareness.\n\n\n\nSlide 18 - Prediction Dog Cat Pig Horse\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#ai-across-domains",
+    "href": "session-1-what-is-AI.html#ai-across-domains",
+    "title": "Session 1: What is AI?",
+    "section": "AI Across Domains",
+    "text": "AI Across Domains\nPrediction-based AI models now power computer vision, recommendation engines, fraud detection, self-driving cars, and medical diagnostic tools. However, this workshop focuses on AI systems that operate on language - systems that read, summarize, generate, and respond to text - because they most directly shape how students and researchers write, study, and evaluate information.\n\n\n\nSlide 19 - AI Across Domains\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#openai-strategic-framework",
+    "href": "session-1-what-is-AI.html#openai-strategic-framework",
+    "title": "Session 1: What is AI?",
+    "section": "OpenAI Strategic Framework",
+    "text": "OpenAI Strategic Framework\nThis white paper from OpenAI allows us to analyze AI’s impact on campus through specific lenses of “Content Creation”, “Research” and “Ideation.”\n\n\n\nSlide 20 - Open AI Use Cases\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#predicting-words-and-language",
+    "href": "session-1-what-is-AI.html#predicting-words-and-language",
+    "title": "Session 1: What is AI?",
+    "section": "Predicting Words and Language",
+    "text": "Predicting Words and Language\nLike Mr. Burns’ room of monkeys typing on typewriters in The Simpsons, language models do not understand meaning or intention - they produce sequences of symbols. What separates an LLM from random generation is statistical guidance - at every step, the model predicts which word is most likely to come next, keeping output coherent without any underlying understanding.\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-1-what-is-AI.html#from-prediction-machines-to-large-language-models",
+    "href": "session-1-what-is-AI.html#from-prediction-machines-to-large-language-models",
+    "title": "Session 1: What is AI?",
+    "section": "From Prediction Machines to Large Language Models",
+    "text": "From Prediction Machines to Large Language Models\nLarge Language Models (LLMs) are deep learning models trained on vast amounts of text, designed to predict and generate human-like language. LLMs have become consequential on college campuses because academic life is fundamentally text-based - and when students can generate polished paragraphs instantly, it changes how writing is produced, knowledge is evaluated, and learning is assessed.\n ← Prev"
+  },
+  {
     "objectID": "session-2-LLMs.html#how-do-llms-predict-text",
     "href": "session-2-LLMs.html#how-do-llms-predict-text",
     "title": "Session 2: Large Language Models",
@@ -215,173 +565,5 @@
     "title": "Session 2: Large Language Models",
     "section": "Even the Models Warn You About Their Limitations",
     "text": "Even the Models Warn You About Their Limitations\nThe most prominent frontier LLMs all include explicit warnings not to blindly accept their outputs. Hallucinations may be an unavoidable feature of statistical language modeling, making it essential to develop responsible workflows for using AI in research and scholarship - the focus of the next workshop.\n\n\n\nSlide 31 - Hallucinations\n\n\n← Prev"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#ai-in-the-public-eye",
-    "href": "session-1-what-is-AI.html#ai-in-the-public-eye",
-    "title": "Session 1: What is AI?",
-    "section": "AI in the Public Eye",
-    "text": "AI in the Public Eye\nAI is a transformational technology and one of the most heated topics in public life. People encounter it through wildly diverging claims – utopian promises on one side, existential warnings on the other.\n\n\n\nSlide 1 - Pew Polls\n\n\nNext →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#ai-as-a-polarizing-conversation-topic",
-    "href": "session-1-what-is-AI.html#ai-as-a-polarizing-conversation-topic",
-    "title": "Session 1: What is AI?",
-    "section": "AI as a Polarizing Conversation Topic",
-    "text": "AI as a Polarizing Conversation Topic\nPublic conversations about AI are often shaped by heated claims from prominent technology leaders and social media discussions. \n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#context-citizen-instructor-librarian",
-    "href": "session-1-what-is-AI.html#context-citizen-instructor-librarian",
-    "title": "Session 1: What is AI?",
-    "section": "Context – Citizen, Instructor, Librarian",
-    "text": "Context – Citizen, Instructor, Librarian\nA crucial component of college education is the mastery of context - understanding diverse perspectives while evaluating viewpoints.\n\n\n\nSlide 3 - Citizen Teacher Librarian\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#the-purpose-of-college-education",
-    "href": "session-1-what-is-AI.html#the-purpose-of-college-education",
-    "title": "Session 1: What is AI?",
-    "section": "“The Purpose of College Education”",
-    "text": "“The Purpose of College Education”\nHigher education has traditionally been understood as a space for emphasizing intellectual development and critical thinking. At the same time, college is increasingly viewed as a pathway to employment. Discussion of AI can manifest tension between these two views.\n\n\n\nSlide 4 - News Media Purpose of College\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#ai-and-the-liberal-arts-tradition",
-    "href": "session-1-what-is-AI.html#ai-and-the-liberal-arts-tradition",
-    "title": "Session 1: What is AI?",
-    "section": "AI and the Liberal Arts Tradition",
-    "text": "AI and the Liberal Arts Tradition\nCan AI be integrated in ways that support a traditional liberal arts education?\n\n\n\nSlide 5 - News Media AI and Education\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#baruch-colleges-ai-policy",
-    "href": "session-1-what-is-AI.html#baruch-colleges-ai-policy",
-    "title": "Session 1: What is AI?",
-    "section": "Baruch College’s AI Policy",
-    "text": "Baruch College’s AI Policy\nBaruch College’s policies on AI reflect that there is no single, universally agreed-upon stance on the technology.\n\n\n\nSlide 6 - Baruch AI Policy\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#what-is-ai",
-    "href": "session-1-what-is-AI.html#what-is-ai",
-    "title": "Session 1: What is AI?",
-    "section": "What is “AI”?",
-    "text": "What is “AI”?\nUnderstanding AI begins with clarifying terms that seem familiar but carry different meanings in different contexts.\n\n\n\nSlide 7 - What is AI\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#what-is-data-and-the-challenge-of-understanding-technology",
-    "href": "session-1-what-is-AI.html#what-is-data-and-the-challenge-of-understanding-technology",
-    "title": "Session 1: What is AI?",
-    "section": "“What is Data?” and the Challenge of Understanding Technology",
-    "text": "“What is Data?” and the Challenge of Understanding Technology\nJust as “data” has many meanings, “AI” is often treated as a single technology when it actually refers to many different systems and practices.\n\n\n\nSlide 8 - What is Data\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#the-ai-nesting-circles",
-    "href": "session-1-what-is-AI.html#the-ai-nesting-circles",
-    "title": "Session 1: What is AI?",
-    "section": "The AI Nesting Circles",
-    "text": "The AI Nesting Circles\nAI is commonly visualized as a set of nested circles, showing that “Artificial Intelligence” is not one single technology but a broad field with layers of specialization. \n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#artificial-intelligence-the-outer-circle",
-    "href": "session-1-what-is-AI.html#artificial-intelligence-the-outer-circle",
-    "title": "Session 1: What is AI?",
-    "section": "Artificial Intelligence – The Outer Circle",
-    "text": "Artificial Intelligence – The Outer Circle\nAt its broadest level, “Artificial Intelligence” refers to any approach that enables computers to perform tasks that would normally require human intelligence. AI is not a single technology but an umbrella term encompassing many different techniques developed over decades.\n\n\n\nSlide 10 - Nesting Circle AI\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#machine-learning",
-    "href": "session-1-what-is-AI.html#machine-learning",
-    "title": "Session 1: What is AI?",
-    "section": "Machine Learning",
-    "text": "Machine Learning\nMachine learning is a subset of AI in which systems learn patterns from data rather than following explicitly programmed rules. \n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#deep-learning-and-neural-networks",
-    "href": "session-1-what-is-AI.html#deep-learning-and-neural-networks",
-    "title": "Session 1: What is AI?",
-    "section": "Deep Learning and Neural Networks",
-    "text": "Deep Learning and Neural Networks\nDeep learning emerges as a response to the limitations of traditional machine learning when problems become extremely complex.\n\n\n\nSlide 12 - Nesting Circle Deep Learning\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#from-simple-models-to-complex-ones",
-    "href": "session-1-what-is-AI.html#from-simple-models-to-complex-ones",
-    "title": "Session 1: What is AI?",
-    "section": "From Simple Models to Complex Ones",
-    "text": "From Simple Models to Complex Ones\nFor decades, computing has excelled at solving models of low mathematical complexity, like predicting GPA from hours studied using a single transparent line. But real-world problems rarely depend on a single variable, more powerful techniques become necessary to capture the complexity of phenomena like language and behavior.\n\n\n\nSlide 13 - Study vs GPA\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#neural-networks-and-hidden-variables",
-    "href": "session-1-what-is-AI.html#neural-networks-and-hidden-variables",
-    "title": "Session 1: What is AI?",
-    "section": "Neural Networks and Hidden Variables",
-    "text": "Neural Networks and Hidden Variables\nDeep learning models use layered networks of interconnected units where each layer transforms input data in increasingly abstract ways. Unlike transparent linear models, these systems discover “hidden” variables and relationships too subtle for human perception - trading interpretability for massive expressive power. Modern language models like GPT-3 contain approximately 175 billion parameters!\n\n\n\nSlide 14 - Neural Network Illustration\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#generative-ai",
-    "href": "session-1-what-is-AI.html#generative-ai",
-    "title": "Session 1: What is AI?",
-    "section": "Generative AI",
-    "text": "Generative AI\nGenerative AI refers to systems designed not just to analyze or predict outcomes, but to produce new content such as text, images, audio, or code. These models generate responses by predicting what is likely to come next in a given context - they do not retrieve stored answers or “understand” meaning.\n\n\n\nSlide 15 - Gen AI Illustration\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#examples-of-generative-ai",
-    "href": "session-1-what-is-AI.html#examples-of-generative-ai",
-    "title": "Session 1: What is AI?",
-    "section": "Examples of Generative AI",
-    "text": "Examples of Generative AI\nThis workshop focuses specifically on generative AI tools that produce written language. These text-generating tools raise important questions about reliability, authority, and responsible use.\n\n\n\nSlide 16 - Nesting Circle Gen AI\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#ai-as-a-prediction-machine",
-    "href": "session-1-what-is-AI.html#ai-as-a-prediction-machine",
-    "title": "Session 1: What is AI?",
-    "section": "AI as a Prediction Machine",
-    "text": "AI as a Prediction Machine\nAI is best understood as a “prediction machine” - its outputs are not the result of understanding or reasoning, but of statistical prediction based on patterns learned from data. A system trained only on images of dogs and cats will be forced to label a pig as one or the other, revealing the boundaries of its training rather than independent reasoning.\n\n\n\nSlide 17 - Prediction Dog Cat\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#hallucinations-and-training-boundaries",
-    "href": "session-1-what-is-AI.html#hallucinations-and-training-boundaries",
-    "title": "Session 1: What is AI?",
-    "section": "“Hallucinations” and Training Boundaries",
-    "text": "“Hallucinations” and Training Boundaries\nWhen an AI system encounters input outside its training categories, it still produces a confident prediction - this is what is often called a hallucination. The AI is not making things up intentionally - it is doing exactly what it was designed to do. Expanding the training data (adding pigs and horses) increases the system’s range but does not grant general knowledge or awareness.\n\n\n\nSlide 18 - Prediction Dog Cat Pig Horse\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#ai-across-domains",
-    "href": "session-1-what-is-AI.html#ai-across-domains",
-    "title": "Session 1: What is AI?",
-    "section": "AI Across Domains",
-    "text": "AI Across Domains\nPrediction-based AI models now power computer vision, recommendation engines, fraud detection, self-driving cars, and medical diagnostic tools. However, this workshop focuses on AI systems that operate on language - systems that read, summarize, generate, and respond to text - because they most directly shape how students and researchers write, study, and evaluate information.\n\n\n\nSlide 19 - AI Across Domains\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#openai-strategic-framework",
-    "href": "session-1-what-is-AI.html#openai-strategic-framework",
-    "title": "Session 1: What is AI?",
-    "section": "OpenAI Strategic Framework",
-    "text": "OpenAI Strategic Framework\nThis white paper from OpenAI allows us to analyze AI’s impact on campus through specific lenses of “Content Creation”, “Research” and “Ideation.”\n\n\n\nSlide 20 - Open AI Use Cases\n\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#predicting-words-and-language",
-    "href": "session-1-what-is-AI.html#predicting-words-and-language",
-    "title": "Session 1: What is AI?",
-    "section": "Predicting Words and Language",
-    "text": "Predicting Words and Language\nLike Mr. Burns’ room of monkeys typing on typewriters in The Simpsons, language models do not understand meaning or intention - they produce sequences of symbols. What separates an LLM from random generation is statistical guidance - at every step, the model predicts which word is most likely to come next, keeping output coherent without any underlying understanding.\n\n← Prev | Next →"
-  },
-  {
-    "objectID": "session-1-what-is-AI.html#from-prediction-machines-to-large-language-models",
-    "href": "session-1-what-is-AI.html#from-prediction-machines-to-large-language-models",
-    "title": "Session 1: What is AI?",
-    "section": "From Prediction Machines to Large Language Models",
-    "text": "From Prediction Machines to Large Language Models\nLarge Language Models (LLMs) are deep learning models trained on vast amounts of text, designed to predict and generate human-like language. LLMs have become consequential on college campuses because academic life is fundamentally text-based - and when students can generate polished paragraphs instantly, it changes how writing is produced, knowledge is evaluated, and learning is assessed.\n ← Prev"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "AI Literacy & LLM Workshop Series",
-    "section": "",
-    "text": "Welcome to the AI literacy workshop. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2"
-  },
-  {
-    "objectID": "index.html#workshop-overview",
-    "href": "index.html#workshop-overview",
-    "title": "AI Literacy & LLM Workshop Series",
-    "section": "",
-    "text": "Welcome to the AI literacy workshop. This guide provides access to the core sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2"
   }
 ]
