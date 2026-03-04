@@ -147,39 +147,67 @@
     "text": "The Deep Research Report\nWhile Deep Research produces impressively formatted, report-like outputs that mirror scholarly rigor in appearance, students should be cautious about treating them as comprehensive research. The polished appearance of AI-generated reports can create a misleading impression of thoroughness that does not reflect the full scholarly record.\n\n\n\nSlide 21 - Deep Research Report\n\n\n← Prev | Next →"
   },
   {
+    "objectID": "session-3-LLMs-and-research.html#ai-tools-for-literature-reviews",
+    "href": "session-3-LLMs-and-research.html#ai-tools-for-literature-reviews",
+    "title": "Session 3: LLMs and College Research",
+    "section": "AI Tools for Literature Reviews",
+    "text": "AI Tools for Literature Reviews\nSpecialized AI research tools use semantic and vector matching to go beyond simple keywords, surfacing papers about related concepts even when the exact search terms don’t appear.\n\n\n\nSlide 22 - Literature Review\n\n\n← Prev | Next →"
+  },
+  {
     "objectID": "session-3-LLMs-and-research.html#where-traditional-search-can-fail",
     "href": "session-3-LLMs-and-research.html#where-traditional-search-can-fail",
     "title": "Session 3: LLMs and College Research",
     "section": "Where Traditional Search Can Fail",
-    "text": "Where Traditional Search Can Fail\nTraditional search systems rely on metadata - structured information like titles, authors, and subject tags - to organize and retrieve resources, which creates limitations when images, documents, or ideas lack precise descriptive tags.\n\n\n\nSlide 22 - Metadata\n\n\n← Prev | Next →"
+    "text": "Where Traditional Search Can Fail\nTraditional search systems rely on metadata - structured information like titles, authors, and subject tags - to organize and retrieve resources, which creates limitations when images, documents, or ideas lack precise descriptive tags.\n\n\n\nSlide 23 - Metadata\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-3-LLMs-and-research.html#search-strings-and-keyword-creation",
     "href": "session-3-LLMs-and-research.html#search-strings-and-keyword-creation",
     "title": "Session 3: LLMs and College Research",
     "section": "Search Strings and Keyword Creation",
-    "text": "Search Strings and Keyword Creation\nIn library catalogs and most databases, search is driven by lexical matching - exact character-string comparisons between your query and the metadata attached to a resource - which means that a search for “falsely accused” may miss a book titled “Wrongly Convicted” even though the concepts are identical.\n\n\n\nSlide 23 - Keyword Matching\n\n\n← Prev | Next →"
+    "text": "Search Strings and Keyword Creation\nIn library catalogs and most databases, search is driven by lexical matching - exact character-string comparisons between your query and the metadata attached to a resource - which means that a search for “falsely accused” may miss a book titled “Wrongly Convicted” even though the concepts are identical.\n\n\n\nSlide 24 - Keyword Matching\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-3-LLMs-and-research.html#ai-for-keyword-creation",
     "href": "session-3-LLMs-and-research.html#ai-for-keyword-creation",
     "title": "Session 3: LLMs and College Research",
     "section": "AI for Keyword Creation",
-    "text": "AI for Keyword Creation\nBecause most library catalogs and databases still rely on keyword matching rather than semantic search, users can use AI chatbots outside those tools to generate expanded keyword lists and search strings that bridge vocabulary gaps.\n\n\n\nSlide 24 - Keyword Creation\n\n\n← Prev | Next →"
+    "text": "AI for Keyword Creation\nBecause most library catalogs and databases still rely on keyword matching rather than semantic search, users can use AI chatbots outside those tools to generate expanded keyword lists and search strings that bridge vocabulary gaps.\n\n\n\nSlide 25 - Keyword Creation\n\n\n← Prev | Next →"
   },
   {
     "objectID": "session-3-LLMs-and-research.html#taking-control-of-google-search",
     "href": "session-3-LLMs-and-research.html#taking-control-of-google-search",
     "title": "Session 3: LLMs and College Research",
     "section": "Taking Control of Google Search",
-    "text": "Taking Control of Google Search\nBy asking an AI chatbot to generate a Boolean search string using Google’s site: operator, researchers can bypass algorithmically-ranked results and restrict their search to specific high-quality publications and intellectual forums.\n\n\n\nSlide 25 - Site Operator Search\n\n\nLet’s investigate this search…\n← Prev | Next →"
+    "text": "Taking Control of Google Search\nBy asking an AI chatbot to generate a Boolean search string using Google’s site: operator, researchers can bypass algorithmically-ranked results and restrict their search to specific high-quality publications and intellectual forums.\n\n\n\nSlide 26 - Site Operator Search\n\n\nLet’s investigate this search…\n← Prev | Next →"
   },
   {
     "objectID": "session-3-LLMs-and-research.html#fine-tuning",
     "href": "session-3-LLMs-and-research.html#fine-tuning",
     "title": "Session 3: LLMs and College Research",
     "section": "Fine-Tuning",
-    "text": "Fine-Tuning\nFine-tuning involves further training a pre-trained LLM on a smaller, high-quality, task-specific dataset to make it an expert in a particular domain — like law, medicine, or academic literature — by updating its internal parameters to master specialized vocabulary and disciplinary logic.\n\n\n\nSlide 26 - Fine-Tuning\n\n\n← Prev"
+    "text": "Fine-Tuning\nFine-tuning involves further training an LLM on a smaller, task-specific dataset to make it an expert in a particular domain — like law, medicine, or academic literature — by updating its internal parameters to master specialized vocabulary and disciplinary logic.\n\n\n\nSlide 27 - Fine-Tuned Training\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#examples-of-fine-tuning",
+    "href": "session-3-LLMs-and-research.html#examples-of-fine-tuning",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Examples of Fine-Tuning",
+    "text": "Examples of Fine-Tuning\nA model fine-tuned on NBA coaching manuals, analytics columns, and scouting reports absorbs the internal language and professional intuition of basketball analysis.\n\n\n\nSlide 28 - Fine-Tuned Basketball\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#raft-retrieval-augmented-fine-tuning",
+    "href": "session-3-LLMs-and-research.html#raft-retrieval-augmented-fine-tuning",
+    "title": "Session 3: LLMs and College Research",
+    "section": "RAFT: Retrieval-Augmented Fine-Tuning",
+    "text": "RAFT: Retrieval-Augmented Fine-Tuning\nRAFT combines fine-tuning and RAG so that a model has both the domain instincts of a specialist and the ability to retrieve real documents at the moment a question is asked.\n\n\n\nSlide 29 - RAFT\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-3-LLMs-and-research.html#conclusion",
+    "href": "session-3-LLMs-and-research.html#conclusion",
+    "title": "Session 3: LLMs and College Research",
+    "section": "Conclusion",
+    "text": "Conclusion\nBaruch’s academic databases increasingly AI-assisted discovery — and as you enter the workforce you will encounter domain-specific AI tools built for your profession — but true AI literacy means understanding a tool’s limits just as clearly as its strengths, and never outsourcing the judgment that only you can provide.\n\n\n\nSlide 30 - Conclusion\n\n\n← Prev"
   },
   {
     "objectID": "index.html",

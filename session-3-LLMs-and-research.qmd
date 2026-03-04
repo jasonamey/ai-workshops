@@ -215,56 +215,96 @@ While Deep Research produces impressively formatted, report-like outputs that mi
 
 ---
 
-## [Where Traditional Search Can Fail]{#slide-22}
+## [AI Tools for Literature Reviews]{#slide-22}
 
-Traditional search systems rely on metadata - structured information like titles, authors, and subject tags - to organize and retrieve resources, which creates limitations when images, documents, or ideas lack precise descriptive tags. 
+Specialized AI research tools use semantic and vector matching to go beyond simple keywords, surfacing papers about related concepts even when the exact search terms don't appear.
 
-![Slide 22 - Metadata](images/session-3/slide-22-metadata.jpg)
+![Slide 22 - Literature Review](images/session-3/slide-22-literature-review.jpg)
 
 [&larr; Prev](#slide-21) | [Next &rarr;](#slide-23)
 
 ---
 
-## [Search Strings and Keyword Creation]{#slide-23}
+## [Where Traditional Search Can Fail]{#slide-23}
 
-In library catalogs and most databases, search is driven by lexical matching - exact character-string comparisons between your query and the metadata attached to a resource - which means that a search for "falsely accused" may miss a book titled "Wrongly Convicted" even though the concepts are identical. 
+Traditional search systems rely on metadata - structured information like titles, authors, and subject tags - to organize and retrieve resources, which creates limitations when images, documents, or ideas lack precise descriptive tags.
 
-![Slide 23 - Keyword Matching](images/session-3/slide-23-keyword-matching.jpg){width=90%}
+![Slide 23 - Metadata](images/session-3/slide-23-metadata.jpg)
 
 [&larr; Prev](#slide-22) | [Next &rarr;](#slide-24)
 
 ---
 
-## [AI for Keyword Creation]{#slide-24}
+## [Search Strings and Keyword Creation]{#slide-24}
 
-Because most library catalogs and databases still rely on keyword matching rather than semantic search, users can use AI chatbots outside those tools to generate expanded keyword lists and search strings that bridge vocabulary gaps. 
+In library catalogs and most databases, search is driven by lexical matching - exact character-string comparisons between your query and the metadata attached to a resource - which means that a search for "falsely accused" may miss a book titled "Wrongly Convicted" even though the concepts are identical.
 
-![Slide 24 - Keyword Creation](images/session-3/slide-24-keyword-creation.jpg){width=90%}
+![Slide 24 - Keyword Matching](images/session-3/slide-24-keyword-matching.jpg){width=90%}
 
 [&larr; Prev](#slide-23) | [Next &rarr;](#slide-25)
 
 ---
 
-## [Taking Control of Google Search]{#slide-25}
+## [AI for Keyword Creation]{#slide-25}
 
-By asking an AI chatbot to generate a Boolean search string using Google's `site:` operator, researchers can bypass algorithmically-ranked results and restrict their search to specific high-quality publications and intellectual forums. 
+Because most library catalogs and databases still rely on keyword matching rather than semantic search, users can use AI chatbots outside those tools to generate expanded keyword lists and search strings that bridge vocabulary gaps.
 
-![Slide 25 - Site Operator Search](images/session-3/slide-25-site-operator-search.jpg)
-
-
-[Let's investigate this search...](https://www.google.com/search?q=climate+change+(site%3Anytimes.com+OR+site%3Awashingtonpost.com+OR+site%3Awsj.com+OR+site%3Atheguardian.com+OR+site%3Aft.com+OR+site%3Atheatlantic.com+OR+site%3Anewyorker.com+OR+site%3Anewyorkmag.com+OR+site%3Aharpers.org+OR+site%3Athenation.com+OR+site%3Anationalreview.com+OR+site%3Aforeignaffairs.com+OR+site%3Aforeignpolicy.com+OR+site%3Alrb.co.uk+OR+site%3Anewstatesman.com+OR+site%3Anplusonemag.com+OR+site%3Aaeon.co+OR+site%3Aprospect.org+OR+site%3Aproject-syndicate.org+OR+site%3Avox.com+OR+site%3Aslate.com+OR+site%3Acommentary.org)&oq=climate+change+(site%3Anytimes.com+OR+site%3Awashingtonpost.com+OR+site%3Awsj.com+OR+site%3Atheguardian.com+OR+site%3Aft.com+OR+site%3Atheatlantic.com+OR+site%3Anewyorker.com+OR+site%3Anewyorkmag.com+OR+site%3Aharpers.org+OR+site%3Athenation.com+OR+site%3Anationalreview.com+OR+site%3Aforeignaffairs.com+OR+site%3Aforeignpolicy.com+OR+site%3Alrb.co.uk+OR+site%3Anewstatesman.com+OR+site%3Anplusonemag.com+OR+site%3Aaeon.co+OR+site%3Aprospect.org+OR+site%3Aproject-syndicate.org+OR+site%3Avox.com+OR+site%3Aslate.com+OR+site%3Acommentary.org)&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDMwMzBqMGo0qAIDsAIB8QUanptnvC-glg&sourceid=chrome&ie=UTF-8)
-
+![Slide 25 - Keyword Creation](images/session-3/slide-25-keyword-creation.jpg){width=90%}
 
 [&larr; Prev](#slide-24) | [Next &rarr;](#slide-26)
 
 ---
 
-## [Fine-Tuning]{#slide-26}
+## [Taking Control of Google Search]{#slide-26}
 
-Fine-tuning involves further training a pre-trained LLM on a smaller, high-quality, task-specific dataset to make it an expert in a particular domain — like law, medicine, or academic literature — by updating its internal parameters to master specialized vocabulary and disciplinary logic. 
+By asking an AI chatbot to generate a Boolean search string using Google's `site:` operator, researchers can bypass algorithmically-ranked results and restrict their search to specific high-quality publications and intellectual forums.
 
-![Slide 26 - Fine-Tuning](images/session-3/slide-26-fine-tuning.jpg)
+![Slide 26 - Site Operator Search](images/session-3/slide-26-site-operator-search.jpg)
 
-[&larr; Prev](#slide-25)
+
+[Let's investigate this search...](https://www.google.com/search?q=climate+change+(site%3Anytimes.com+OR+site%3Awashingtonpost.com+OR+site%3Awsj.com+OR+site%3Atheguardian.com+OR+site%3Aft.com+OR+site%3Atheatlantic.com+OR+site%3Anewyorker.com+OR+site%3Anewyorkmag.com+OR+site%3Aharpers.org+OR+site%3Athenation.com+OR+site%3Anationalreview.com+OR+site%3Aforeignaffairs.com+OR+site%3Aforeignpolicy.com+OR+site%3Alrb.co.uk+OR+site%3Anewstatesman.com+OR+site%3Anplusonemag.com+OR+site%3Aaeon.co+OR+site%3Aprospect.org+OR+site%3Aproject-syndicate.org+OR+site%3Avox.com+OR+site%3Aslate.com+OR+site%3Acommentary.org)&oq=climate+change+(site%3Anytimes.com+OR+site%3Awashingtonpost.com+OR+site%3Awsj.com+OR+site%3Atheguardian.com+OR+site%3Aft.com+OR+site%3Atheatlantic.com+OR+site%3Anewyorker.com+OR+site%3Anewyorkmag.com+OR+site%3Aharpers.org+OR+site%3Athenation.com+OR+site%3Anationalreview.com+OR+site%3Aforeignaffairs.com+OR+site%3Aforeignpolicy.com+OR+site%3Alrb.co.uk+OR+site%3Anewstatesman.com+OR+site%3Anplusonemag.com+OR+site%3Aaeon.co+OR+site%3Aprospect.org+OR+site%3Aproject-syndicate.org+OR+site%3Avox.com+OR+site%3Aslate.com+OR+site%3Acommentary.org)&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDMwMzBqMGo0qAIDsAIB8QUanptnvC-glg&sourceid=chrome&ie=UTF-8)
+
+
+[&larr; Prev](#slide-25) | [Next &rarr;](#slide-27)
+
+---
+
+## [Fine-Tuning]{#slide-27}
+
+Fine-tuning involves further training an LLM on a smaller, task-specific dataset to make it an expert in a particular domain — like law, medicine, or academic literature — by updating its internal parameters to master specialized vocabulary and disciplinary logic.
+
+![Slide 27 - Fine-Tuned Training](images/session-3/slide-27-fine-tuned-training.jpg)
+
+[&larr; Prev](#slide-26) | [Next &rarr;](#slide-28)
+
+---
+
+## [Examples of Fine-Tuning]{#slide-28}
+
+A model fine-tuned on NBA coaching manuals, analytics columns, and scouting reports absorbs the internal language and professional intuition of basketball analysis.
+
+![Slide 28 - Fine-Tuned Basketball](images/session-3/slide-28-fine-tuned-basketball.jpg)
+
+[&larr; Prev](#slide-27) | [Next &rarr;](#slide-29)
+
+---
+
+## [RAFT: Retrieval-Augmented Fine-Tuning]{#slide-29}
+
+RAFT combines fine-tuning and RAG so that a model has both the domain instincts of a specialist and the ability to retrieve real documents at the moment a question is asked.
+
+![Slide 29 - RAFT](images/session-3/slide-29-RAFT.jpg)
+
+[&larr; Prev](#slide-28) | [Next &rarr;](#slide-30)
+
+---
+
+## [Conclusion]{#slide-30}
+
+Baruch's academic databases increasingly AI-assisted discovery — and as you enter the workforce you will encounter domain-specific AI tools built for your profession — but true AI literacy means understanding a tool's limits just as clearly as its strengths, and never outsourcing the judgment that only you can provide.
+
+![Slide 30 - Conclusion](images/session-3/slide-30-conclusion.jpg)
+
+[&larr; Prev](#slide-29)
 
 ---
