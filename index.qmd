@@ -30,3 +30,10 @@ Welcome to the AI literacy workshop. This guide provides access to the sessions 
 ### Session 3: Large Language Models and Research
 
 * [**Session 3**](session-3-LLMs-and-research.html)
+
+
+---
+
+### Session 4: Issues and Questions with AI Use
+
+* [**Session 4**](session-4-issues-and-questions.html)

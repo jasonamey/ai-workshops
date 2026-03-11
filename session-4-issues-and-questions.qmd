@@ -1,0 +1,256 @@
+---
+title: "Session 4: Issues and Questions with AI Use"
+format: html
+---
+
+---
+
+## [The Training vs. Inference Divide]{#slide-1}
+
+AI systems consume energy at two distinct stages: training, which happens once and requires enormous computational power, and inference, the ongoing cost of answering every prompt. 
+
+![Slide 1 - Training Inference 1](images/session-4/slide-1-training-inference-1.png)
+
+[Next &rarr;](#slide-2)
+
+---
+
+## [Scale and the Cost of Inference]{#slide-2}
+
+While training a model is a massive one-time event, inference — running the model at scale across millions of daily queries — represents a continuous and growing energy demand. 
+
+![Slide 2 - Training Inference 2](images/session-4/slide-2-training-inference-2.png)
+
+[&larr; Prev](#slide-1) | [Next &rarr;](#slide-3)
+
+---
+
+## [AI's Environmental Footprint]{#slide-3}
+
+A January 2025 MIT News article by Adam Zewe documents the scale of AI's energy demands: training clusters for generative AI consume seven to eight times more energy than typical computing workloads, and data centers already consume as much electricity annually as the entire country of Saudi Arabia. 
+
+![Slide 3 - AI Environment MIT](images/session-4/slide-3-ai-environment-MIT.png)
+
+[&larr; Prev](#slide-2) | [Next &rarr;](#slide-4)
+
+---
+
+## [Modeling AI's Growth]{#slide-4}
+
+Researchers at Cornell, publishing in Nature Sustainability, modeled five scenarios for US AI server expansion through 2030, all of which dramatically exceed prior forecasts for the entire US data center market. Even under optimal conditions, the study concludes that the industry's net-zero pledges will require reliance on carbon offsets whose verification mechanisms do not yet exist.
+
+![Slide 4 - AI Environment Nature Sustainability](images/session-4/slide-4-ai-environment-nature-sustainability.png)
+
+[&larr; Prev](#slide-3) | [Next &rarr;](#slide-5)
+
+---
+
+## [Data Center Power Demand]{#slide-5}
+
+Goldman Sachs research projects a 160% increase in global data center power demand by 2030, potentially reaching over 1,000 terawatt-hours annually. AI is projected to account for 19% of all data center power demand by 2028.
+
+![Slide 5 - Goldman Sachs AI Energy Increase](images/session-4/slide-5-goldman-sachs-ai-energy-increase.png)
+
+[&larr; Prev](#slide-4) | [Next &rarr;](#slide-6)
+
+---
+
+## [Energy Use by Model and Task]{#slide-6}
+
+Not all AI models or tasks carry the same environmental cost. This raises the question of whether responsible AI use should include awareness of the ecological cost of different models and tasks.
+
+![Slide 6 - AI Energy Use By Model](images/session-4/slide-6-ai-energy-use-by-model.png)
+
+[&larr; Prev](#slide-5) | [Next &rarr;](#slide-7)
+
+---
+
+## [The Industry's Green Claims?]{#slide-7}
+
+The AI industry has pushed back, citing genuine efficiency gains: Google reported a 33-fold reduction in per-prompt energy consumption in a single year, and AI educator Andrew Ng argues that large modern data centers — running on cleaner energy with superior efficiency ratings — are better for the environment than the fragmented fossil-fuel infrastructure they replace. 
+
+![Slide 7 - Industry Green Claims](images/session-4/slide-7-industry-green-claims.png)
+
+[&larr; Prev](#slide-6) | [Next &rarr;](#slide-8)
+
+---
+
+## [AI Remains Polluting]{#slide-8}
+
+Despite the efficiency arguments, the actual emissions data is sobering. 
+
+![Slide 8 - AI Remains Polluting](images/session-4/slide-8-AI-remains-polluting.png)
+
+[&larr; Prev](#slide-7) | [Next &rarr;](#slide-9)
+
+---
+
+## [AI and Copyright]{#slide-9}
+
+One of the most contested legal questions in AI centers on whether scraping books, articles, and artwork to train models without permission constitutes copyright infringement. AI companies argue that training is transformative — the model extracts statistical patterns, not copies — while authors, artists, and news organizations call it systematic theft. 
+
+![Slide 9 - AI Copyright](images/session-4/slide-9-ai-copyright.png)
+
+[&larr; Prev](#slide-8) | [Next &rarr;](#slide-10)
+
+---
+
+## [AI Output and Similarity]{#slide-10}
+
+Even if training on copyrighted data is deemed fair use, a second legal front concerns what AI models produce. Copyright law's "substantial similarity" standard can apply when AI output is virtually identical to a source work.
+
+![Slide 10 - AI Copyright 2](images/session-4/slide-10-ai-copyright-2.png)
+
+[&larr; Prev](#slide-9) | [Next &rarr;](#slide-11)
+
+---
+
+## [The Emerging AI Licensing Economy?]{#slide-11}
+
+High-profile licensing deals suggest the early formation of a new licensing economy around AI training data. But the deeper question is who gets to negotiate these deals: large institutions with lawyers and leverage, while individual creators whose work is already in training datasets have no equivalent recourse.
+
+![Slide 11 - Copyright 3](images/session-4/slide-11-copyright-3.png)
+
+[&larr; Prev](#slide-10) | [Next &rarr;](#slide-12)
+
+---
+
+## [AI and Cognitive Load]{#slide-12}
+
+An MIT-led study monitoring brain activity found that participants using ChatGPT to write SAT essays showed the lowest cognitive engagement of any group. This finding is part of a growing body of research suggesting that heavy AI reliance reduces cognitive engagement.
+
+![Slide 12 - AI Cognitive Load](images/session-4/slide-12-ai-cognitive-load.png)
+
+[&larr; Prev](#slide-11) | [Next &rarr;](#slide-13)
+
+---
+
+## [AI and Your Gym Assistant Robot]{#slide-13}
+
+AI's genuine promise as a learning tool is its ability to remove organizational and logistical friction - in the same way a robot assistant who teleports you to the gym would make working out more accessible. But what you get out of it still depends on the cognitive work you put in once you arrive — and that part cannot be outsourced.
+
+![Slide 13 - AI Robot Helper](images/session-4/slide-13-ai-robot-helper.png)
+
+[&larr; Prev](#slide-12) | [Next &rarr;](#slide-14)
+
+---
+
+## [Congratulations?]{#slide-14}
+
+A viral moment from a commencement ceremony — a graduating student holding up a laptop displaying ChatGPT to celebrate completing their schoolwork — garnered millions of views and raises a pointed question: at some point in that student's career, the student will be expected to demonstrate what they actually know.
+
+![Slide 14 - Commencement](images/session-4/slide-14-commencement.png)
+
+[&larr; Prev](#slide-13) | [Next &rarr;](#slide-15)
+
+---
+
+## [What You Want to Hear]{#slide-15}
+
+Sycophancy — praising those in power to gain their approval — has been identified as an active problem in AI systems. Too often AI can prioritize making users feel good over being truthful.
+
+![Slide 15 - AI Sycophancy](images/session-4/slide-15-ai-sycophancy.png)
+
+[&larr; Prev](#slide-14) | [Next &rarr;](#slide-16)
+
+---
+
+## [When Sycophancy Becomes Tragic]{#slide-16}
+
+New York Times investigation points to troubling, tragic consequences from AI systems that generate agreeable and accommodating responses over honest ones. Commercial incentives can lead AI tools to favor engagement at-all-costs, since flattery can keep users interacting longer - and that sustained engagement will ultimately drives revenues.
+
+![Slide 16 - NYTimes Mental Health](images/session-4/slide-16-nytimes-mental-health.png)
+
+[&larr; Prev](#slide-15) | [Next &rarr;](#slide-17)
+
+---
+
+## [Player Piano]{#slide-17}
+
+Kurt Vonnegut's 1952 novel *Player Piano* imagined a near-future America where machines had displaced not just factory workers but also engineers and managers rendered purposeless by automation.  Written over seventy years ago, it remains one of the most prescient explorations of what happens to human identity and social structure when technology outpaces society's ability to adapt.
+
+![Slide 17 - Player Piano](images/session-4/slide-17-player-piano.png)
+
+[&larr; Prev](#slide-16) | [Next &rarr;](#slide-18)
+
+---
+
+## [AI, Job Loss(?) and Universal Basic Income]{#slide-18}
+
+Atlantic writer Derek Thompson argues that AI is displacing entry-level white-collar work through which college graduates historically built expertise.  If the apprenticeship layer of the economy disappears, traditional safety nets designed for temporary unemployment are insufficient — which is what's pushing Universal Basic Income from the policy fringes into serious discussion.
+
+![Slide 18 - UBI](images/session-4/slide-18-ubi.png)
+
+[&larr; Prev](#slide-17) | [Next &rarr;](#slide-19)
+
+---
+
+## [The Magnificent Seven and the Concentration of AI Power]{#slide-19}
+
+Seven American companies are now worth more than the entire stock markets of most major economies, representing $13.22 trillion concentrated in seven corporate entities. Training a frontier AI model is not a software problem but a capital problem of almost incomprehensible scale — which means the companies that already dominate our digital lives are the same companies that will likely dominate our AI future.
+
+![Slide 19 - Mag 7](images/session-4/slide-19-mag-7.png)
+
+[&larr; Prev](#slide-18) | [Next &rarr;](#slide-20)
+
+---
+
+## [AI Overviews and the Information Ecosystem]{#slide-20}
+
+The web's sustainability has always depended on a simple bargain: Google rewards quality content with prominent rankings, users click through, and that traffic sustains the infrastructure of credible information online. AI Overviews are breaking that bargain.
+
+![Slide 20 - Google Internet Publishing](images/session-4/slide-20-google-internet-publishing.png)
+
+[&larr; Prev](#slide-19) | [Next &rarr;](#slide-21)
+
+---
+
+## [AI Slop]{#slide-21}
+
+AI models are statistical re-combination engines: they have no connection to reality or lived experience, only to what has come before. Every output is a pattern-match of the past - predicting the next pixel or the next word. The result is a digital morass many call "slop."
+
+![Slide 21 - Slop](images/session-4/slide-21-slop.png)
+
+[&larr; Prev](#slide-20) | [Next &rarr;](#slide-22)
+
+---
+
+## [Artificial General Intelligence]{#slide-22}
+
+Artificial General Intelligence — traditionally defined as the ability to match human versatility by performing unfamiliar tasks across many domains without specific prior training — is currently in what Ars Technica calls "definitional chaos."  Until an AI can solve the "never before encountered" without depending on the "previously seen," AGI will remain unrealized rather than scientific reality.
+
+![Slide 22 - AGI](images/session-4/slide-22-AGI.png)
+
+[&larr; Prev](#slide-21) | [Next &rarr;](#slide-23)
+
+---
+
+## [The Scaling Hypothesis vs. The Brick Wall]{#slide-23}
+
+Two clashing philosophies define the debate over AI's future. The Scaling Hypothesis holds that larger models will eventually bridge the gap to AGI. Against this, some skeptics argue that LLMs are fundamentally predictive engines that cannot reason about cause and effect, and cannot learn from few examples as a human child does.
+
+![Slide 23 - LLMs Scaling](images/session-4/slide-23-LLMs-scaling.png)
+
+[&larr; Prev](#slide-22) | [Next &rarr;](#slide-24)
+
+---
+
+## [Final Questions]{#slide-24}
+
+After four sessions exploring what AI is, how LLMs work, how they intersect with research, and the broader issues they raise — the most important questions are yours to ask. 
+
+![Slide 24 - Final Questions](images/session-4/slide-24-final-questions.png)
+
+[&larr; Prev](#slide-23) | [Next &rarr;](#slide-25)
+
+---
+
+## [You're a Baruch Professor]{#slide-25}
+
+You now have the foundational knowledge to think critically about AI in your academic and professional life: its capabilities, its costs, its complexities and its potential consequences. 
+
+![Slide 25 - You're a Baruch Professor](images/session-4/slide-25-youre-a-baruch-professor.png)
+
+[&larr; Prev](#slide-24)
+
+---

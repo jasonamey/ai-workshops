@@ -214,14 +214,14 @@
     "href": "index.html",
     "title": "AI Literacy & LLM Workshop Series",
     "section": "",
-    "text": "Welcome to the AI literacy workshop. This guide provides access to the sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2\n\n\n\n\n\n\nSession 3"
+    "text": "Welcome to the AI literacy workshop. This guide provides access to the sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2\n\n\n\n\n\n\nSession 3\n\n\n\n\n\n\nSession 4"
   },
   {
     "objectID": "index.html#workshop-overview",
     "href": "index.html#workshop-overview",
     "title": "AI Literacy & LLM Workshop Series",
     "section": "",
-    "text": "Welcome to the AI literacy workshop. This guide provides access to the sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2\n\n\n\n\n\n\nSession 3"
+    "text": "Welcome to the AI literacy workshop. This guide provides access to the sessions and materials.\n\n\n\n\nSession 1\n\n\n\n\n\n\nSession 2\n\n\n\n\n\n\nSession 3\n\n\n\n\n\n\nSession 4"
   },
   {
     "objectID": "session-1-what-is-AI.html#ai-in-the-public-eye",
@@ -376,6 +376,181 @@
     "title": "Session 1: What is AI?",
     "section": "From Prediction Machines to Large Language Models",
     "text": "From Prediction Machines to Large Language Models\nLarge Language Models (LLMs) are deep learning models trained on vast amounts of text, designed to predict and generate human-like language. LLMs have become consequential on college campuses because academic life is fundamentally text-based - and when students can generate polished paragraphs instantly, it changes how writing is produced, knowledge is evaluated, and learning is assessed.\n ← Prev"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#the-training-vs.-inference-divide",
+    "href": "session-4-issues-and-questions.html#the-training-vs.-inference-divide",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "The Training vs. Inference Divide",
+    "text": "The Training vs. Inference Divide\nAI systems consume energy at two distinct stages: training, which happens once and requires enormous computational power, and inference, the ongoing cost of answering every prompt.\n\n\n\nSlide 1 - Training Inference 1\n\n\nNext →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#scale-and-the-cost-of-inference",
+    "href": "session-4-issues-and-questions.html#scale-and-the-cost-of-inference",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "Scale and the Cost of Inference",
+    "text": "Scale and the Cost of Inference\nWhile training a model is a massive one-time event, inference — running the model at scale across millions of daily queries — represents a continuous and growing energy demand.\n\n\n\nSlide 2 - Training Inference 2\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#ais-environmental-footprint",
+    "href": "session-4-issues-and-questions.html#ais-environmental-footprint",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "AI’s Environmental Footprint",
+    "text": "AI’s Environmental Footprint\nA January 2025 MIT News article by Adam Zewe documents the scale of AI’s energy demands: training clusters for generative AI consume seven to eight times more energy than typical computing workloads, and data centers already consume as much electricity annually as the entire country of Saudi Arabia.\n\n\n\nSlide 3 - AI Environment MIT\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#modeling-ais-growth",
+    "href": "session-4-issues-and-questions.html#modeling-ais-growth",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "Modeling AI’s Growth",
+    "text": "Modeling AI’s Growth\nResearchers at Cornell, publishing in Nature Sustainability, modeled five scenarios for US AI server expansion through 2030, all of which dramatically exceed prior forecasts for the entire US data center market. Even under optimal conditions, the study concludes that the industry’s net-zero pledges will require reliance on carbon offsets whose verification mechanisms do not yet exist.\n\n\n\nSlide 4 - AI Environment Nature Sustainability\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#data-center-power-demand",
+    "href": "session-4-issues-and-questions.html#data-center-power-demand",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "Data Center Power Demand",
+    "text": "Data Center Power Demand\nGoldman Sachs research projects a 160% increase in global data center power demand by 2030, potentially reaching over 1,000 terawatt-hours annually. AI is projected to account for 19% of all data center power demand by 2028.\n\n\n\nSlide 5 - Goldman Sachs AI Energy Increase\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#energy-use-by-model-and-task",
+    "href": "session-4-issues-and-questions.html#energy-use-by-model-and-task",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "Energy Use by Model and Task",
+    "text": "Energy Use by Model and Task\nNot all AI models or tasks carry the same environmental cost. This raises the question of whether responsible AI use should include awareness of the ecological cost of different models and tasks.\n\n\n\nSlide 6 - AI Energy Use By Model\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#the-industrys-green-claims",
+    "href": "session-4-issues-and-questions.html#the-industrys-green-claims",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "The Industry’s Green Claims?",
+    "text": "The Industry’s Green Claims?\nThe AI industry has pushed back, citing genuine efficiency gains: Google reported a 33-fold reduction in per-prompt energy consumption in a single year, and AI educator Andrew Ng argues that large modern data centers — running on cleaner energy with superior efficiency ratings — are better for the environment than the fragmented fossil-fuel infrastructure they replace.\n\n\n\nSlide 7 - Industry Green Claims\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#ai-remains-polluting",
+    "href": "session-4-issues-and-questions.html#ai-remains-polluting",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "AI Remains Polluting",
+    "text": "AI Remains Polluting\nDespite the efficiency arguments, the actual emissions data is sobering.\n\n\n\nSlide 8 - AI Remains Polluting\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#ai-and-copyright",
+    "href": "session-4-issues-and-questions.html#ai-and-copyright",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "AI and Copyright",
+    "text": "AI and Copyright\nOne of the most contested legal questions in AI centers on whether scraping books, articles, and artwork to train models without permission constitutes copyright infringement. AI companies argue that training is transformative — the model extracts statistical patterns, not copies — while authors, artists, and news organizations call it systematic theft.\n\n\n\nSlide 9 - AI Copyright\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#ai-output-and-similarity",
+    "href": "session-4-issues-and-questions.html#ai-output-and-similarity",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "AI Output and Similarity",
+    "text": "AI Output and Similarity\nEven if training on copyrighted data is deemed fair use, a second legal front concerns what AI models produce. Copyright law’s “substantial similarity” standard can apply when AI output is virtually identical to a source work.\n\n\n\nSlide 10 - AI Copyright 2\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#the-emerging-ai-licensing-economy",
+    "href": "session-4-issues-and-questions.html#the-emerging-ai-licensing-economy",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "The Emerging AI Licensing Economy?",
+    "text": "The Emerging AI Licensing Economy?\nHigh-profile licensing deals suggest the early formation of a new licensing economy around AI training data. But the deeper question is who gets to negotiate these deals: large institutions with lawyers and leverage, while individual creators whose work is already in training datasets have no equivalent recourse.\n\n\n\nSlide 11 - Copyright 3\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#ai-and-cognitive-load",
+    "href": "session-4-issues-and-questions.html#ai-and-cognitive-load",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "AI and Cognitive Load",
+    "text": "AI and Cognitive Load\nAn MIT-led study monitoring brain activity found that participants using ChatGPT to write SAT essays showed the lowest cognitive engagement of any group. This finding is part of a growing body of research suggesting that heavy AI reliance reduces cognitive engagement.\n\n\n\nSlide 12 - AI Cognitive Load\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#ai-and-your-gym-assistant-robot",
+    "href": "session-4-issues-and-questions.html#ai-and-your-gym-assistant-robot",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "AI and Your Gym Assistant Robot",
+    "text": "AI and Your Gym Assistant Robot\nAI’s genuine promise as a learning tool is its ability to remove organizational and logistical friction - in the same way a robot assistant who teleports you to the gym would make working out more accessible. But what you get out of it still depends on the cognitive work you put in once you arrive — and that part cannot be outsourced.\n\n\n\nSlide 13 - AI Robot Helper\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#congratulations",
+    "href": "session-4-issues-and-questions.html#congratulations",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "Congratulations?",
+    "text": "Congratulations?\nA viral moment from a commencement ceremony — a graduating student holding up a laptop displaying ChatGPT to celebrate completing their schoolwork — garnered millions of views and raises a pointed question: at some point in that student’s career, the student will be expected to demonstrate what they actually know.\n\n\n\nSlide 14 - Commencement\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#what-you-want-to-hear",
+    "href": "session-4-issues-and-questions.html#what-you-want-to-hear",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "What You Want to Hear",
+    "text": "What You Want to Hear\nSycophancy — praising those in power to gain their approval — has been identified as an active problem in AI systems. Too often AI can prioritize making users feel good over being truthful.\n\n\n\nSlide 15 - AI Sycophancy\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#when-sycophancy-becomes-tragic",
+    "href": "session-4-issues-and-questions.html#when-sycophancy-becomes-tragic",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "When Sycophancy Becomes Tragic",
+    "text": "When Sycophancy Becomes Tragic\nNew York Times investigation points to troubling, tragic consequences from AI systems that generate agreeable and accommodating responses over honest ones. Commercial incentives can lead AI tools to favor engagement at-all-costs, since flattery can keep users interacting longer - and that sustained engagement will ultimately drives revenues.\n\n\n\nSlide 16 - NYTimes Mental Health\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#player-piano",
+    "href": "session-4-issues-and-questions.html#player-piano",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "Player Piano",
+    "text": "Player Piano\nKurt Vonnegut’s 1952 novel Player Piano imagined a near-future America where machines had displaced not just factory workers but also engineers and managers rendered purposeless by automation. Written over seventy years ago, it remains one of the most prescient explorations of what happens to human identity and social structure when technology outpaces society’s ability to adapt.\n\n\n\nSlide 17 - Player Piano\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#ai-job-loss-and-universal-basic-income",
+    "href": "session-4-issues-and-questions.html#ai-job-loss-and-universal-basic-income",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "AI, Job Loss(?) and Universal Basic Income",
+    "text": "AI, Job Loss(?) and Universal Basic Income\nAtlantic writer Derek Thompson argues that AI is displacing entry-level white-collar work through which college graduates historically built expertise. If the apprenticeship layer of the economy disappears, traditional safety nets designed for temporary unemployment are insufficient — which is what’s pushing Universal Basic Income from the policy fringes into serious discussion.\n\n\n\nSlide 18 - UBI\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#the-magnificent-seven-and-the-concentration-of-ai-power",
+    "href": "session-4-issues-and-questions.html#the-magnificent-seven-and-the-concentration-of-ai-power",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "The Magnificent Seven and the Concentration of AI Power",
+    "text": "The Magnificent Seven and the Concentration of AI Power\nSeven American companies are now worth more than the entire stock markets of most major economies, representing $13.22 trillion concentrated in seven corporate entities. Training a frontier AI model is not a software problem but a capital problem of almost incomprehensible scale — which means the companies that already dominate our digital lives are the same companies that will likely dominate our AI future.\n\n\n\nSlide 19 - Mag 7\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#ai-overviews-and-the-information-ecosystem",
+    "href": "session-4-issues-and-questions.html#ai-overviews-and-the-information-ecosystem",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "AI Overviews and the Information Ecosystem",
+    "text": "AI Overviews and the Information Ecosystem\nThe web’s sustainability has always depended on a simple bargain: Google rewards quality content with prominent rankings, users click through, and that traffic sustains the infrastructure of credible information online. AI Overviews are breaking that bargain.\n\n\n\nSlide 20 - Google Internet Publishing\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#ai-slop",
+    "href": "session-4-issues-and-questions.html#ai-slop",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "AI Slop",
+    "text": "AI Slop\nAI models are statistical re-combination engines: they have no connection to reality or lived experience, only to what has come before. Every output is a pattern-match of the past - predicting the next pixel or the next word. The result is a digital morass many call “slop.”\n\n\n\nSlide 21 - Slop\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#artificial-general-intelligence",
+    "href": "session-4-issues-and-questions.html#artificial-general-intelligence",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "Artificial General Intelligence",
+    "text": "Artificial General Intelligence\nArtificial General Intelligence — traditionally defined as the ability to match human versatility by performing unfamiliar tasks across many domains without specific prior training — is currently in what Ars Technica calls “definitional chaos.” Until an AI can solve the “never before encountered” without depending on the “previously seen,” AGI will remain unrealized rather than scientific reality.\n\n\n\nSlide 22 - AGI\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#the-scaling-hypothesis-vs.-the-brick-wall",
+    "href": "session-4-issues-and-questions.html#the-scaling-hypothesis-vs.-the-brick-wall",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "The Scaling Hypothesis vs. The Brick Wall",
+    "text": "The Scaling Hypothesis vs. The Brick Wall\nTwo clashing philosophies define the debate over AI’s future. The Scaling Hypothesis holds that larger models will eventually bridge the gap to AGI. Against this, some skeptics argue that LLMs are fundamentally predictive engines that cannot reason about cause and effect, and cannot learn from few examples as a human child does.\n\n\n\nSlide 23 - LLMs Scaling\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#final-questions",
+    "href": "session-4-issues-and-questions.html#final-questions",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "Final Questions",
+    "text": "Final Questions\nAfter four sessions exploring what AI is, how LLMs work, how they intersect with research, and the broader issues they raise — the most important questions are yours to ask.\n\n\n\nSlide 24 - Final Questions\n\n\n← Prev | Next →"
+  },
+  {
+    "objectID": "session-4-issues-and-questions.html#youre-a-baruch-professor",
+    "href": "session-4-issues-and-questions.html#youre-a-baruch-professor",
+    "title": "Session 4: Issues and Questions with AI Use",
+    "section": "You’re a Baruch Professor",
+    "text": "You’re a Baruch Professor\nYou now have the foundational knowledge to think critically about AI in your academic and professional life: its capabilities, its costs, its complexities and its potential consequences.\n\n\n\nSlide 25 - You’re a Baruch Professor\n\n\n← Prev"
   },
   {
     "objectID": "session-2-LLMs.html#how-do-llms-predict-text",
